@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: cae04706-21ac-41aa-9dd6-8f2e509ddb3a
+entity_type: media
+bundle: image
+base_fields:
+  name: yale-brick-in-wall-detail.jpg
+  created: '1691755627'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-08/yale-brick-in-wall-detail.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/yale-brick-in-wall-detail.jpg'
+      alt: 'brick wall with YALE carved into one of the bricks'
+      title: ''

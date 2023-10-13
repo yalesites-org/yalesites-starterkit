@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 2f7a6873-9f2f-4d28-89bb-a0e4a451139f
+entity_type: media
+bundle: image
+base_fields:
+  name: wrought-iron-fence-snake-close-up.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/wrought-iron-fence-snake-close-up.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/wrought-iron-fence-snake-close-up.jpg'
+      alt: 'A wrought iron fence features serpents wrapped around a staff, representing the caduceus'

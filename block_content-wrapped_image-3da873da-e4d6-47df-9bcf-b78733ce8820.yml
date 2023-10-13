@@ -1,0 +1,45 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 3da873da-e4d6-47df-9bcf-b78733ce8820
+entity_type: block_content
+bundle: wrapped_image
+base_fields:
+  info: 'example post - wrapped image'
+  reusable: false
+  langcode: en
+  block_revision_id: '42'
+  enforce_new_revision: true
+custom_fields:
+  field_caption:
+    -
+      value: "<p>We positioned this photo so the statue's gaze faces our copy, reinforcing the visual flow of our Post.</p>\r\n"
+      format: restricted_html
+  field_instructions:
+    -
+      markup: null
+  field_media:
+    -
+      uuid: b53c2c3a-a820-411f-9a11-0980f973863e
+      entity_type: media
+      bundle: image
+      base_fields:
+        name: gargoyle-old-campus_andrew-hurley.jpg
+        created: '1691598171'
+        status: true
+        langcode: en
+      custom_fields:
+        field_media_image:
+          -
+            uri: 'public://starterkit/gargoyle-old-campus_andrew-hurley.jpg'
+            url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/gargoyle-old-campus_andrew-hurley.jpg'
+            alt: 'A lion-headed gargoyle watches over Old Campus'
+            title: ''
+  field_style_position:
+    -
+      value: right
+  field_style_variation:
+    -
+      value: offset
+  field_text:
+    -
+      value: "<p>The <strong>Wrapped Image Block</strong> is another excellent choice when adding images to your Post. Text wraps around the image, creating a cohesive flow for readers as they move down the page. By adjusting the settings, you can change the position and presentation of your image. This is especially useful when publishing long-form pieces, as you can alternate the alignment of your images or offset a photo to grab the audience's attention.</p>\r\n\r\n<p>After saving your Post, the <strong>Editoria11y accessibility checker</strong> will analyze your content to identify potential accessibility issues and guide you through implementing any necessary improvements. While Editoria11y will catch errors and guide you through correcting any mistakes, the best way to ensure your content is accessible is to review Yale's <a href=\"https://usability.yale.edu/web-accessibility/articles\">web accessibility best practices</a>, so you can head off problems before they arise.</p>\r\n"
+      format: basic_html

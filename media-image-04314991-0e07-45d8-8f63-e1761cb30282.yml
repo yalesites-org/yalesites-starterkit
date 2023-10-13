@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 04314991-0e07-45d8-8f63-e1761cb30282
+entity_type: media
+bundle: image
+base_fields:
+  name: harkness-tower-light-pole_nune-garipian.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/harkness-tower-light-pole_nune-garipian.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-light-pole_nune-garipian.jpg'
+      alt: 'A lamp shines in the darkness as the sun sets on Yale''s campus'

@@ -1,0 +1,11 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: dc9d8568-80a0-4e52-b829-a21f49bd938d
+entity_type: taxonomy_term
+bundle: post_category
+base_fields:
+  name: Alumni
+  weight: 0
+  langcode: en
+  description: null
+  parent: 0
+custom_fields: {  }

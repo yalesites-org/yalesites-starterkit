@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: b7103556-2f77-429a-b2f9-159617684731
+entity_type: media
+bundle: image
+base_fields:
+  name: students-cross-campus_anna-zhang.jpg
+  created: '1693934413'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-09/students-cross-campus_anna-zhang.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-cross-campus_anna-zhang.jpg'
+      alt: 'students enjoy the vibrancy of Yale''s campus scenery'
+      title: ''

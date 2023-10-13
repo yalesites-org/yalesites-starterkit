@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: e21e92ef-442b-4ade-9073-f65e24ac3994
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'example post - teasers explainer'
+  reusable: false
+  langcode: en
+  block_revision_id: '106'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_text:
+    -
+      value: "<h2>Tease out the details</h2>\r\n\r\n<p>Published Posts can be dynamically added to your site using either the <strong>Post Feed</strong> or <strong>View Block</strong>. At a minimum, your feed will display an article's publish date and title, which is perfectly suited to sharing simple announcements and updates.</p>\r\n\r\n<p>Your <strong>Teaser details</strong> display in feeds, Views, search engine result pages, and social sharing cards. By including Teaser details, you increase the chances of capturing your audience's attention so they engage with your content.</p>\r\n\r\n<ul>\r\n\t<li><strong>Teaser Title:</strong> a succinct, scannable version of your title. The full title will be shown when someone views this content.</li>\r\n\t<li><strong>Teaser Text: </strong>summary text to pique your audience’s interest so they want to know more. Avoid repeating details that are included in your title.</li>\r\n\t<li><strong>Teaser Media:</strong> a supporting thumbnail image that helps illustrate the main idea or topic of your content.</li>\r\n</ul>\r\n"
+      format: basic_html

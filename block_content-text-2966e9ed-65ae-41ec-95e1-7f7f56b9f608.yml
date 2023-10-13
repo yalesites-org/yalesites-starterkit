@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 2966e9ed-65ae-41ec-95e1-7f7f56b9f608
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'past events explainer - using view'
+  reusable: false
+  langcode: en
+  block_revision_id: '99'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_text:
+    -
+      value: "<h2>Create an events archive</h2>\r\n\r\n<p>Use the <strong>View Block</strong> to create an events archive for your site. By adjusting the \"Event Time Period,\" you can display all events in a View or create a View dedicated to Past Events. Select the option that best aligns with your goals and objectives.</p>\r\n"
+      format: basic_html

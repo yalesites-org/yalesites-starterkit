@@ -1,0 +1,94 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 1685d49f-cc12-4b57-a933-9c70e1dcf3f1
+entity_type: menu_link_content
+bundle: utility-navigation
+base_fields:
+  title: Events
+  enabled: true
+  expanded: false
+  langcode: en
+  menu_name: utility-navigation
+  description: null
+  link:
+    -
+      uri: 'entity:node/2941c316-1540-4c01-9aff-02e99d27544f'
+      title: ''
+      options: {  }
+      entity:
+        uuid: 2941c316-1540-4c01-9aff-02e99d27544f
+        entity_type: node
+        bundle: page
+        base_fields:
+          title: Events
+          status: true
+          langcode: en
+          created: '1691766541'
+          author: sebastianna.skalisky@yale.edu
+          url: /events
+          revision_log_message: null
+          revision_uid: '2'
+        custom_fields:
+          field_login_required:
+            -
+              value: '0'
+          field_metatags: null
+          field_tags: null
+          field_teaser_media:
+            -
+              uuid: 02f24af5-88b3-485c-a37c-f93e977067e4
+              entity_type: media
+              base_fields:
+                name: yale-university-art-gallery-interior_elizabeth-felicella.jpg
+                created: '1691598171'
+                status: true
+                langcode: en
+              bundle: image
+          field_teaser_text:
+            -
+              value: "<p>Showcase and promote your events using the powerful publishing tools available on YaleSites.</p>\r\n"
+              format: heading_html
+          field_teaser_title:
+            -
+              value: 'Attend an Event'
+          layout_builder__layout:
+            sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE2OiJ5c19sYXlvdXRfYmFubmVyIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE0OiJCYW5uZXIgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YTowOnt9czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjQ6e2k6NTtpOjU7aTo2O2k6NjtpOjc7aTo3O2k6ODtpOjg7fX19fXxPOjI5OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbiI6NDp7czoxMToiACoAbGF5b3V0SWQiO3M6MTk6InlzX2xheW91dF9wYWdlX21ldGEiO3M6MTc6IgAqAGxheW91dFNldHRpbmdzIjthOjI6e3M6NToibGFiZWwiO3M6MTg6IlRpdGxlIGFuZCBNZXRhZGF0YSI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiJiYjFkYWUwMy0xMDczLTRjOTktYTkxNC1hOGEyZjVmMGE4YzQiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImJiMWRhZTAzLTEwNzMtNGM5OS1hOTE0LWE4YTJmNWYwYThjNCI7czo5OiIAKgByZWdpb24iO3M6OToicGFnZV9tZXRhIjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjY6e3M6MjoiaWQiO3M6MTU6InBhZ2VfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNToiUGFnZSBNZXRhIEJsb2NrIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtzOjA6IiI7czo4OiJwcm92aWRlciI7czoxMDoieXNfbGF5b3V0cyI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e31zOjE4OiJwYWdlX3RpdGxlX2Rpc3BsYXkiO3M6NzoidmlzaWJsZSI7fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Nzp7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjI6e3M6MzY6IjhmOTIxMzdlLTkxMDEtNGEzNC1hZWU2LWQ5ZGY2MWY5OTljZiI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiOGY5MjEzN2UtOTEwMS00YTM0LWFlZTYtZDlkZjYxZjk5OWNmIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjI0OiJldmVudHMgcGFnZSAtIGludHJvIHRleHQiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MjoiMzYiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MDtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiMGJlOTg4ZjItZGZiYy00M2NhLTg0OTctYzllNjBhNDY2NjVjIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiIwYmU5ODhmMi1kZmJjLTQzY2EtODQ5Ny1jOWU2MGE0NjY2NWMiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoyMzoiaW5saW5lX2Jsb2NrOmV2ZW50X2xpc3QiO3M6NToibGFiZWwiO3M6Mjc6ImV2ZW50cyBwYWdlIC0gY2FsZW5kYXIgbGlzdCI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiIxNiI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToxO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjA6e319
+            blocks:
+              -
+                uuid: 7e7130ee-fd6c-44cc-8996-3563acdc0656
+                entity_type: block_content
+                bundle: text
+                base_fields:
+                  info: 'events page - intro text'
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '36'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_instructions:
+                    -
+                      markup: null
+                  field_text:
+                    -
+                      value: "<p>Use the <strong>Calendar List Block</strong> to add a dynamic events feed to your site with the push of a button. Once an event ends, it's automatically removed from your feed. By categorizing your events, visitors can quickly filter your feed to find what they're looking for.</p>\r\n\r\n<p>If maintaining an events archive is part of your content strategy, you can add a <strong>View Block</strong> to your page and opt to show past events.</p>\r\n"
+                      format: basic_html
+              -
+                uuid: d9210c1e-fc84-42bd-8be6-4904a6ebc1fa
+                entity_type: block_content
+                bundle: event_list
+                base_fields:
+                  info: 'events page - calendar list'
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '16'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_heading:
+                    -
+                      value: 'Upcoming Events'
+                      format: heading_html
+                  field_instructions:
+                    -
+                      markup: null
+  weight: 1
+  parent: ''
+custom_fields: {  }

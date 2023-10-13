@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: a0a9f93c-1400-40c8-8b95-ac0591944f39
+entity_type: media
+bundle: image
+base_fields:
+  name: central-campus-aerial-sunset_paul-coco.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/central-campus-aerial-sunset_paul-coco.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
+      alt: 'Sprawling aerial view of Central Campus''s gothic architecture at sunset'
+      title: ''

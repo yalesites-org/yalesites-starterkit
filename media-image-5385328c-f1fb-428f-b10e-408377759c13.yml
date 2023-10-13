@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 5385328c-f1fb-428f-b10e-408377759c13
+entity_type: media
+bundle: image
+base_fields:
+  name: beinecke-library-exterior-close-up.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/beinecke-library-exterior-close-up.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/beinecke-library-exterior-close-up.jpg'
+      alt: 'Exterior of the Beinecke Library features powerful stone geometry and marble panes'

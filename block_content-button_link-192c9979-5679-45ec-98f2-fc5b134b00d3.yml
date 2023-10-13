@@ -1,0 +1,20 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 192c9979-5679-45ec-98f2-fc5b134b00d3
+entity_type: block_content
+bundle: button_link
+base_fields:
+  info: 'text only - Button Link'
+  reusable: false
+  langcode: en
+  block_revision_id: '25'
+  enforce_new_revision: true
+custom_fields:
+  field_button_link:
+    -
+      uri: 'internal:/'
+      title: 'Button One'
+      options: {  }
+    -
+      uri: 'internal:/'
+      title: 'Button Two'
+      options: {  }

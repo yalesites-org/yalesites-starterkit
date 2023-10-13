@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 7fe86737-588e-4e6b-b393-2aebee282ebe
+entity_type: media
+bundle: image
+base_fields:
+  name: branford-windows-through-trees.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/branford-windows-through-trees.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/branford-windows-through-trees.jpg'
+      alt: 'The gothic windows of Branford peek through tree branches '

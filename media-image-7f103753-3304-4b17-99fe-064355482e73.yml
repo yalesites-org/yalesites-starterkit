@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 7f103753-3304-4b17-99fe-064355482e73
+entity_type: media
+bundle: image
+base_fields:
+  name: gothic-windows-spring.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/gothic-windows-spring.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/gothic-windows-spring.jpg'
+      alt: 'Intricate gothic windows in spring'

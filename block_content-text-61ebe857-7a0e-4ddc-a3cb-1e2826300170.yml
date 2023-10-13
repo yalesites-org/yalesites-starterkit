@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 61ebe857-7a0e-4ddc-a3cb-1e2826300170
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'landing page - intro text'
+  reusable: false
+  langcode: en
+  block_revision_id: '64'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_text:
+    -
+      value: "<p>Quickly build dynamic landing pages to help your users navigate and engage with sections of your website by using the <strong>View Block</strong>.</p>\r\n"
+      format: basic_html

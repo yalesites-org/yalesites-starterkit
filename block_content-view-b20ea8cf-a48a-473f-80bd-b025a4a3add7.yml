@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: b20ea8cf-a48a-473f-80bd-b025a4a3add7
+entity_type: block_content
+bundle: view
+base_fields:
+  info: 'landing page - view - pages'
+  reusable: false
+  langcode: en
+  block_revision_id: '57'
+  enforce_new_revision: true
+custom_fields:
+  field_heading:
+    -
+      value: 'View of pages'
+      format: heading_html
+  field_instructions:
+    -
+      markup: null
+  field_view_params:
+    -
+      params: '{"view_mode":"card","filters":{"types":["page"],"terms_include":null,"terms_exclude":{"28":"28"},"event_time_period":"future"},"operator":"+","sort_by":"title:ASC","display":"all","limit":10}'

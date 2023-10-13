@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: fd1f7319-620d-48ae-a3ee-2b85bb7f850c
+entity_type: media
+bundle: image
+base_fields:
+  name: stained-glass-don-quixote-hall-graduate-studies_michael-marsland.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/stained-glass-don-quixote-hall-graduate-studies_michael-marsland.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stained-glass-don-quixote-hall-graduate-studies_michael-marsland.jpg'
+      alt: 'Detailed and dramatic stained glass depiction of Don Quixote'

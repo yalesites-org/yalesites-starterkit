@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 9fc207e9-68a7-47b0-9c1c-320b6c95150c
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'example event - intro text'
+  reusable: false
+  langcode: en
+  block_revision_id: '81'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_text:
+    -
+      value: "<p>Published events can be dynamically fed into your site using the <strong>Calendar List</strong> or <strong>View Block</strong>. At a minimum, these feeds will display your event's date and title, but by including Teaser Details, you can add a thumbnail image and summary text to help your audience understand what your event is and why they should attend.</p>\r\n"
+      format: basic_html

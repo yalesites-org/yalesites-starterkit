@@ -1,0 +1,51 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: bb053080-f7af-4cb7-a34a-8b5d11041264
+entity_type: block_content
+bundle: cta_banner
+base_fields:
+  info: 'homepage action banner'
+  reusable: false
+  langcode: en
+  block_revision_id: '91'
+  enforce_new_revision: true
+custom_fields:
+  field_heading:
+    -
+      value: 'Encourage users to take action'
+      format: heading_html
+  field_heading_level: null
+  field_instructions:
+    -
+      markup: null
+  field_link:
+    -
+      uri: 'internal:/text-only-page#cta'
+      title: 'Call to Action'
+      options: {  }
+  field_media:
+    -
+      uuid: b7103556-2f77-429a-b2f9-159617684731
+      entity_type: media
+      bundle: image
+      base_fields:
+        name: students-cross-campus_anna-zhang.jpg
+        created: '1693934413'
+        status: true
+        langcode: en
+      custom_fields:
+        field_media_image:
+          -
+            uri: 'public://2023-09/students-cross-campus_anna-zhang.jpg'
+            url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-cross-campus_anna-zhang.jpg'
+            alt: 'students enjoy the vibrancy of Yale''s campus scenery'
+            title: ''
+  field_style_color:
+    -
+      value: one
+  field_style_position:
+    -
+      value: right
+  field_text:
+    -
+      value: "<p>Feature your most important call to action in an eye-catching banner.</p>\r\n"
+      format: heading_html

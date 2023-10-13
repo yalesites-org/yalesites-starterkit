@@ -1,0 +1,20 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 4ed89980-49ee-44a6-a4fb-dc2c22e0b6fa
+entity_type: block_content
+bundle: divider
+base_fields:
+  info: divider
+  reusable: false
+  langcode: en
+  block_revision_id: '43'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_position:
+    -
+      value: center
+  field_style_width:
+    -
+      value: 75%

@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 97396d24-0c7e-4da3-90fa-e4b2de4d48b2
+entity_type: media
+bundle: image
+base_fields:
+  name: sterling-memorial-library-stacks_jack-devlin.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-09/sterling-memorial-library-stacks_jack-devlin.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/sterling-memorial-library-stacks_jack-devlin.jpg'
+      alt: 'two wooden chairs in an aisle between shelves of books in Sterling Memorial Library'
+      title: ''

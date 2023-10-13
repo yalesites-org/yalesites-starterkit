@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 98ba28f7-ce00-464c-89e1-e48e806c2bf8
+entity_type: media
+bundle: image
+base_fields:
+  name: students-relaxing-cross-campus_anna-zhang.jpg
+  created: '1693930847'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-09/students-relaxing-cross-campus_anna-zhang.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-relaxing-cross-campus_anna-zhang.jpg'
+      alt: 'students gather outside to enjoy the beauty of Yale''s campus'
+      title: ''

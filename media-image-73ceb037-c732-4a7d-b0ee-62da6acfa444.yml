@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 73ceb037-c732-4a7d-b0ee-62da6acfa444
+entity_type: media
+bundle: image
+base_fields:
+  name: harkness-memorial-gate-close-up.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/harkness-memorial-gate-close-up.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-memorial-gate-close-up.jpg'
+      alt: 'The intricate, wrought iron gate of the Memorial Quadrangle features the Yale motto Lux et Veritas and coat of arms'

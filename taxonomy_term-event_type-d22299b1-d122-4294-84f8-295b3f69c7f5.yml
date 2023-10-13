@@ -1,0 +1,11 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: d22299b1-d122-4294-84f8-295b3f69c7f5
+entity_type: taxonomy_term
+bundle: event_type
+base_fields:
+  name: Online
+  weight: 0
+  langcode: en
+  description: null
+  parent: 0
+custom_fields: {  }
