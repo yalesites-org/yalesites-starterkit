@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: f02c30ba-1f08-4c07-abe7-ed29fea66f2e
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'centering inclusivity post intro'
+  reusable: false
+  langcode: en
+  block_revision_id: '105'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_text:
+    -
+      value: "<p>As part of Yale's mission, we are committed to \"the free exchange of ideas in an ethical, interdependent, and diverse community.\" That diversity includes all people regardless of ability or disability.</p>\r\n\r\n<p>We took great care to ensure YaleSites is a robust platform that empowers you to create, publish, and maintain federally accessible and compliant websites with confidence and ease.</p>\r\n\r\n<h2>Introducing Editoria11y</h2>\r\n\r\n<p>When you save your page, Editoria11y will analyze your content, identify potential issues, and provide suggestions for improvements.</p>\r\n\r\n<p>The most common issues introduced by content creators include:</p>\r\n\r\n<ul>\r\n\t<li>Neglecting to provide alternative text (\"alt text\") for images.</li>\r\n\t<li>Using vague and uninformative link text, such as \"click here.\"</li>\r\n\t<li>Applying headings out of order or neglecting to include headings.</li>\r\n\t<li>Adding tables without including headers.</li>\r\n</ul>\r\n\r\n<p>While Editora11y will catch these errors and guide you through correcting any mistakes, the best way to ensure your content is accessible is to learn about web accessibility best practices so you can head off problems before they arise.</p>\r\n\r\n<p>Review our <a href=\"https://usability.yale.edu/web-accessibility/articles\">accessibility best practice articles</a> to learn more about how you can help ensure Yale fulfills its commitment to providing equal access to all individuals.</p>\r\n"
+      format: basic_html

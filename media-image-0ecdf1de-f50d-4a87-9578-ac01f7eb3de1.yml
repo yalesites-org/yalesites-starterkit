@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 0ecdf1de-f50d-4a87-9578-ac01f7eb3de1
+entity_type: media
+bundle: image
+base_fields:
+  name: stained-glass-linsly-chittenden-hall_michael-marsland.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/stained-glass-linsly-chittenden-hall_michael-marsland.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stained-glass-linsly-chittenden-hall_michael-marsland.jpg'
+      alt: 'Detail of the Mary Hartwell Lusk Memorial Window'

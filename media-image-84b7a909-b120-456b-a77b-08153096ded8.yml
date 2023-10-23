@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 84b7a909-b120-456b-a77b-08153096ded8
+entity_type: media
+bundle: image
+base_fields:
+  name: stone-carving-sterling-memorial-library_michael-marsland.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
+      alt: 'Stone carving of a mythical man-bull with wings'

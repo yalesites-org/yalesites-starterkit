@@ -1,0 +1,253 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 591a19e9-aba5-4836-afb6-ce48499b1903
+entity_type: menu_link_content
+bundle: main
+base_fields:
+  title: 'About Us'
+  enabled: true
+  expanded: false
+  langcode: en
+  menu_name: main
+  description: null
+  link:
+    -
+      uri: 'entity:node/05a7cfd3-833a-4576-b454-8fbae0e8e237'
+      title: null
+      options: {  }
+      entity:
+        uuid: 05a7cfd3-833a-4576-b454-8fbae0e8e237
+        entity_type: node
+        bundle: page
+        base_fields:
+          title: About
+          status: true
+          langcode: en
+          created: '1691757101'
+          author: sebastianna.skalisky@yale.edu
+          url: /about
+          revision_log_message: null
+          revision_uid: '2'
+        custom_fields:
+          field_login_required:
+            -
+              value: '0'
+          field_metatags: null
+          field_tags: null
+          field_teaser_media:
+            -
+              uuid: a0a9f93c-1400-40c8-8b95-ac0591944f39
+              entity_type: media
+              base_fields:
+                name: central-campus-aerial-sunset_paul-coco.jpg
+                created: '1691598171'
+                status: true
+                langcode: en
+              bundle: image
+          field_teaser_text:
+            -
+              value: "<p>Summarize your history, highlight your mission statement, or reinforce the services you provide to the Yale community.</p>\r\n"
+              format: heading_html
+          field_teaser_title:
+            -
+              value: 'About Us'
+          layout_builder__layout:
+            sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE2OiJ5c19sYXlvdXRfYmFubmVyIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE0OiJCYW5uZXIgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YTowOnt9czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjQ6e2k6NTtpOjU7aTo2O2k6NjtpOjc7aTo3O2k6ODtpOjg7fX19fXxPOjI5OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbiI6NDp7czoxMToiACoAbGF5b3V0SWQiO3M6MTk6InlzX2xheW91dF9wYWdlX21ldGEiO3M6MTc6IgAqAGxheW91dFNldHRpbmdzIjthOjI6e3M6NToibGFiZWwiO3M6MTg6IlRpdGxlIGFuZCBNZXRhZGF0YSI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiJiYjFkYWUwMy0xMDczLTRjOTktYTkxNC1hOGEyZjVmMGE4YzQiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImJiMWRhZTAzLTEwNzMtNGM5OS1hOTE0LWE4YTJmNWYwYThjNCI7czo5OiIAKgByZWdpb24iO3M6OToicGFnZV9tZXRhIjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjY6e3M6MjoiaWQiO3M6MTU6InBhZ2VfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNToiUGFnZSBNZXRhIEJsb2NrIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtzOjA6IiI7czo4OiJwcm92aWRlciI7czoxMDoieXNfbGF5b3V0cyI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e31zOjE4OiJwYWdlX3RpdGxlX2Rpc3BsYXkiO3M6NzoidmlzaWJsZSI7fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Nzp7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjc6e3M6MzY6ImFlMmU5OTc4LTM0MTMtNDI4Mi1hYzlkLTMzYTFlNWVhN2ZjMiI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYWUyZTk5NzgtMzQxMy00MjgyLWFjOWQtMzNhMWU1ZWE3ZmMyIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjMwOiJhYm91dCBwYWdlIC0gaW50cm9kdWN0b3J5IHRleHQiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MToiOCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiIwN2ViMzMxYi1lNzRjLTQ3MDgtYjhhZS0xNWZkNWQ1ZGNmMjEiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjA3ZWIzMzFiLWU3NGMtNDcwOC1iOGFlLTE1ZmQ1ZDVkY2YyMSI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjI2OiJpbmxpbmVfYmxvY2s6d3JhcHBlZF9pbWFnZSI7czo1OiJsYWJlbCI7czo0NzoiYWJvdXQgcGFnZSAtIGJ1aWxkaW5nIHdpdGggYmxvY2tzIHdyYXBwZWQgaW1hZ2UiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MjoiMTAiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MjtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiZTUwODY1ZWItZTM3Mi00NjhhLWFmNGMtNWIzMzg3YzJlOGIxIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJlNTA4NjVlYi1lMzcyLTQ2OGEtYWY0Yy01YjMzODdjMmU4YjEiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MzY6ImFib3V0IHBhZ2UgLSBjcmVhdGUgYXQgYSBmYXN0ZXIgcGFjZSI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI1MyI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo2O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI5ZTVlYmRlOC0zMGJlLTQ4OTItYTAyNy1hYmFmNjVkM2NmMjMiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjllNWViZGU4LTMwYmUtNDg5Mi1hMDI3LWFiYWY2NWQzY2YyMyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIwOiJpbmxpbmVfYmxvY2s6Y2FsbG91dCI7czo1OiJsYWJlbCI7czoyNjoiYWJvdXQgcGFnZSAtIGNhbGxvdXQgYmxvY2siO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MjoiNDciO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MztzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiNTI0ZmNlZjEtNzU1Ni00Y2Q0LWE3ZGYtNmFkNWMyNGNkZGViIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI1MjRmY2VmMS03NTU2LTRjZDQtYTdkZi02YWQ1YzI0Y2RkZWIiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6Mjc6ImFib3V0IHBhZ2UgLSBjYWxsIHRvIGFjdGlvbiI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI0OCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo0O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiIyMjdmNjRkMS00M2U2LTQ4M2UtOGI4Yy04MjY5YjYzZmJiY2IiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjIyN2Y2NGQxLTQzZTYtNDgzZS04YjhjLTgyNjliNjNmYmJjYiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIwOiJpbmxpbmVfYmxvY2s6ZGl2aWRlciI7czo1OiJsYWJlbCI7czo3OiJkaXZpZGVyIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjUxIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjE7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjAzODRkOGRiLTk4MDMtNDcwOS1iMGY0LTg3YmNjNGFiZTQ3MSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiMDM4NGQ4ZGItOTgwMy00NzA5LWIwZjQtODdiY2M0YWJlNDcxIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjA6ImlubGluZV9ibG9jazpkaXZpZGVyIjtzOjU6ImxhYmVsIjtzOjc6ImRpdmlkZXIiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MjoiNTQiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6NTtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319fXM6MjE6IgAqAHRoaXJkUGFydHlTZXR0aW5ncyI7YTowOnt9fQ==
+            blocks:
+              -
+                uuid: 054ec1ce-7bbf-4329-8027-1777dd20928c
+                entity_type: block_content
+                bundle: text
+                base_fields:
+                  info: 'about page - introductory text'
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '8'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_instructions:
+                    -
+                      markup: null
+                  field_text:
+                    -
+                      value: "<p>Your About page provides an opportunity for your audience to learn more about you and what your YaleSite has to offer. This is the perfect space to summarize your history, highlight your mission statement, or reinforce the services you provide to the Yale community.</p>\r\n\r\n<p>Before building your About page, determine what purpose this page should serve for your users and how it will support your goals. This, in turn, helps you make appropriate choices when selecting the <strong>Blocks</strong> you use to build the page. Ensuring you have useful, usable, well-structured content is vital to creating a good user experience on your website.</p>\r\n"
+                      format: basic_html
+              -
+                uuid: 3b0d6ec7-db89-4740-b6ce-4ef4f1b848a6
+                entity_type: block_content
+                bundle: wrapped_image
+                base_fields:
+                  info: 'about page - building with blocks wrapped image'
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '10'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_caption:
+                    -
+                      value: "<p>Think of each Block as a specific kind of content brick used to build a solid, high-quality website.</p>\r\n"
+                      format: restricted_html
+                  field_instructions:
+                    -
+                      markup: null
+                  field_media:
+                    -
+                      uuid: cae04706-21ac-41aa-9dd6-8f2e509ddb3a
+                      entity_type: media
+                      base_fields:
+                        name: yale-brick-in-wall-detail.jpg
+                        created: '1691755627'
+                        status: true
+                        langcode: en
+                      bundle: image
+                  field_style_position:
+                    -
+                      value: right
+                  field_style_variation:
+                    -
+                      value: offset
+                  field_text:
+                    -
+                      value: "<h2 id=\"blocks\">Building with Blocks</h2>\r\n\r\n<p><strong>Blocks</strong> are robust, pre-designed components used to display and customize the content on your website. We typically break web pages into sections, such as the header, body, and footer. Blocks extend this by breaking your <em>content</em> into individual, self-contained pieces. A heading and paragraph become a Text Block, a photo becomes an Image Block, and so on. Embracing this new approach empowers editors to shift their focus to content rather than creating and maintaining code.</p>\r\n\r\n<p>Before, adjusting the position or style of content like this <strong>Wrapped Image Block</strong> might require an editor to cut and paste code, leading to frustrating formatting issues or broken pages. Now, the image and text are contained within a single Block. Change the position or outset of the image by adjusting the Block's settings, or drag and drop the Block to move it to another section of your page.</p>\r\n"
+                      format: basic_html
+              -
+                uuid: 361ae501-1934-43fb-8ae5-ff4f4c038008
+                entity_type: block_content
+                bundle: text
+                base_fields:
+                  info: 'about page - create at a faster pace'
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '53'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_instructions:
+                    -
+                      markup: null
+                  field_text:
+                    -
+                      value: "<h2>Create at a faster pace</h2>\r\n\r\n<p>Duplicate your Pages, Posts, and other content types using the <strong>Clone option</strong>. This time-saving feature is a great way to experiment with different layouts or compare Block choices. If one of our example pages fits your content needs, we encourage you to clone and customize it to jump-start your creation process.</p>\r\n\r\n<p>An easy way to speed up your build process is to review and outline your content in advance. Knowing what your content needs to accomplish will help you select the best Block for the task.</p>\r\n\r\n<p>You should also consider where to break your materials down into individual Blocks. For example, we've used multiple Text Blocks on this page. This means our content is structured to support adding new Blocks between sections of text, like <strong>Buttons</strong> or a <strong>Divider</strong>. We can also rearrange our page by moving Blocks around without worry.</p>\r\n"
+                      format: basic_html
+              -
+                uuid: cf4984c5-1ae0-4271-9caf-2a66ad6298dd
+                entity_type: block_content
+                bundle: callout
+                base_fields:
+                  info: 'about page - callout block'
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '47'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_callout:
+                    -
+                      uuid: 7802afdc-f8e5-4f66-800a-f546ea4efa94
+                      entity_type: paragraph
+                      bundle: callout_item
+                      base_fields:
+                        status: true
+                        langcode: en
+                        created: '1692028051'
+                      custom_fields:
+                        field_heading:
+                          -
+                            value: 'Guide your users'
+                            format: heading_html
+                        field_link:
+                          -
+                            uri: 'https://yalesites.yale.edu/building-blocks'
+                            title: 'Resource: Building with Blocks'
+                            options: {  }
+                        field_text:
+                          -
+                            value: "<p>Use the <strong>Callout Block</strong> to highlight important information or guide your users toward specific features or opportunities.</p>\r\n"
+                            format: heading_html
+                    -
+                      uuid: dcf834b7-d11d-4b64-9d4d-c021cc4cf8ab
+                      entity_type: paragraph
+                      bundle: callout_item
+                      base_fields:
+                        status: true
+                        langcode: en
+                        created: '1692028107'
+                      custom_fields:
+                        field_heading:
+                          -
+                            value: 'Pair Callouts as needed'
+                            format: heading_html
+                        field_link:
+                          -
+                            uri: 'https://yalesites.yale.edu/community-trainings'
+                            title: 'YaleSites Community Trainings'
+                            options: {  }
+                        field_text:
+                          -
+                            value: "<p><strong>Callouts</strong> can contain either one or two items. We recommend using this Block only once per page to keep pathways clear for your users.</p>\r\n"
+                            format: heading_html
+                  field_instructions:
+                    -
+                      markup: null
+                  field_style_color:
+                    -
+                      value: one
+              -
+                uuid: d377a89d-315f-4614-9d16-729375e0811d
+                entity_type: block_content
+                bundle: text
+                base_fields:
+                  info: 'about page - call to action'
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '48'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_instructions:
+                    -
+                      markup: null
+                  field_text:
+                    -
+                      value: "<h2>Prompt your users to take action</h2>\r\n\r\n<p>Research shows that people are more likely to complete an action when prompted to do so. This prompt is referred to as a <strong>call to action</strong>. Calls to action can take many forms, from a simple text link to a full-width banner. Whatever your approach, you dramatically increase the likelihood of your audience understanding what next steps you'd like them to take when the process is easy and obvious.</p>\r\n\r\n<p>We designed YaleSites' Blocks to make adding and maintaining visually engaging calls to action as easy as possible, whether you have images or not. In fact, the <strong>Callout Block</strong> used on this page is an excellent text-based approach for promoting your page's call to action.</p>\r\n"
+                      format: basic_html
+              -
+                uuid: 4f15e94b-991e-4022-a8f5-e33b890f7c46
+                entity_type: block_content
+                bundle: divider
+                base_fields:
+                  info: divider
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '51'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_instructions:
+                    -
+                      markup: null
+                  field_style_position:
+                    -
+                      value: left
+                  field_style_width:
+                    -
+                      value: 75%
+              -
+                uuid: f3aee92d-79ce-4f3d-a4f3-c5361f39292e
+                entity_type: block_content
+                bundle: divider
+                base_fields:
+                  info: divider
+                  reusable: false
+                  langcode: en
+                  block_revision_id: '54'
+                  enforce_new_revision: true
+                custom_fields:
+                  field_instructions:
+                    -
+                      markup: null
+                  field_style_position:
+                    -
+                      value: left
+                  field_style_width:
+                    -
+                      value: 50%
+  weight: 0
+  parent: ''
+custom_fields:
+  field_menu_top_level_link_cta: null

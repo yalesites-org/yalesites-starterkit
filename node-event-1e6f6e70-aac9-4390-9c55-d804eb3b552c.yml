@@ -1,0 +1,167 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 1e6f6e70-aac9-4390-9c55-d804eb3b552c
+entity_type: node
+bundle: event
+base_fields:
+  title: 'Revitalize past events'
+  status: true
+  langcode: en
+  created: '1693938894'
+  author: sebastianna.skalisky@yale.edu
+  url: /events/2026-08-01-revitalize-past-events
+  revision_log_message: null
+  revision_uid: '2'
+custom_fields:
+  field_category:
+    -
+      uuid: 70d75f0a-dbfc-40f8-8805-5f1bd79be5cb
+      entity_type: taxonomy_term
+      bundle: event_category
+      base_fields:
+        name: 'Arts & Humanities'
+        weight: 0
+        langcode: en
+        description: null
+        parent: 0
+      custom_fields: {  }
+  field_event_cta: null
+  field_event_date:
+    -
+      value: '1785592800'
+      end_value: '1798761600'
+      duration: '219480'
+      rrule: null
+      rrule_index: null
+      timezone: ''
+  field_event_format: null
+  field_event_type:
+    -
+      uuid: feec4703-3cd2-4877-8e3d-3a62cbb4463d
+      entity_type: taxonomy_term
+      bundle: event_type
+      base_fields:
+        name: In-person
+        weight: 0
+        langcode: en
+        description: null
+        parent: 0
+      custom_fields: {  }
+  field_login_required:
+    -
+      value: '0'
+  field_metatags: null
+  field_tags: null
+  field_teaser_media:
+    -
+      uuid: 98ba28f7-ce00-464c-89e1-e48e806c2bf8
+      entity_type: media
+      base_fields:
+        name: students-relaxing-cross-campus_anna-zhang.jpg
+        created: '1693930847'
+        status: true
+        langcode: en
+      bundle: image
+  field_teaser_text:
+    -
+      value: "<p>Revisit past events to include content that builds excitement and encourages attendance.</p>\r\n"
+      format: heading_html
+  field_teaser_title: null
+  layout_builder__layout:
+    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE4OiJUaXRsZSBhbmQgTWV0YWRhdGEiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6MTp7czozNjoiYzkyODc1NjYtNTg3NS00NDNmLThiNmMtN2M3NmRkMWE2MGQ0IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJjOTI4NzU2Ni01ODc1LTQ0M2YtOGI2Yy03Yzc2ZGQxYTYwZDQiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6NTp7czoyOiJpZCI7czoxNjoiZXZlbnRfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNjoiRXZlbnQgTWV0YSBCbG9jayI7czoxMzoibGFiZWxfZGlzcGxheSI7czowOiIiO3M6ODoicHJvdmlkZXIiO3M6MTA6InlzX2xheW91dHMiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6ODp7aToxO2k6MTtpOjI7aToyO2k6MztpOjM7aTo0O2k6NDtpOjU7aTo1O2k6NjtpOjY7aTo3O2k6NztpOjg7aTo4O319fX18TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToxOntzOjU6ImxhYmVsIjtzOjA6IiI7fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6Mzp7czozNjoiNjcxYjdjMjMtYmJkMi00NWY1LTg0YTEtOWNkMTk3ODBlYzdlIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI2NzFiN2MyMy1iYmQyLTQ1ZjUtODRhMS05Y2QxOTc4MGVjN2UiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MjE6InBhc3QgZXZlbnRzIGV4cGxhaW5lciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI5NSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI0NGQwZmZjNS01MjQ0LTQ4ZGUtYjBkMS0zMWM3NzQ0OTk4NmIiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjQ0ZDBmZmM1LTUyNDQtNDhkZS1iMGQxLTMxYzc3NDQ5OTg2YiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dGV4dCI7czo1OiJsYWJlbCI7czozNDoicGFzdCBldmVudHMgZXhwbGFpbmVyIC0gdXNpbmcgdmlldyI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI5OSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToyO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJjYjQxNmMyOS0xNzExLTQ4ZDMtYTc5Mi03Y2M5M2MyYzkyNDciO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImNiNDE2YzI5LTE3MTEtNDhkMy1hNzkyLTdjYzkzYzJjOTI0NyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIzOiJpbmxpbmVfYmxvY2s6bWVkaWFfZ3JpZCI7czo1OiJsYWJlbCI7czoyNDoicGFzdCBldmVudHMgLSBtZWRpYSBncmlkIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6Ijk4IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjE7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Mjp7aTo2O2k6NjtpOjc7aTo3O319fX0=
+    blocks:
+      -
+        uuid: 72ac2feb-a9df-470d-bfed-6731dacbb067
+        entity_type: block_content
+        bundle: text
+        base_fields:
+          info: 'past events explainer'
+          reusable: false
+          langcode: en
+          block_revision_id: '95'
+          enforce_new_revision: true
+        custom_fields:
+          field_instructions:
+            -
+              markup: null
+          field_text:
+            -
+              value: "<p>If including past events is part of your strategy, consider revisiting your content to ensure it continues to provide value. By offering potential attendees a glimpse into what they missed while showing them what they can expect from your events, you can generate excitement and encourage visitors to attend in the future.</p>\r\n\r\n<p>You might add a video, update your summary, share a collection of images, or include a call to action that connects visitors to an article or blog post recap.</p>\r\n\r\n<p>Whatever your approach, we encourage you to maintain your content in a way that supports your goals as well as your audience's needs.</p>\r\n"
+              format: basic_html
+      -
+        uuid: 2966e9ed-65ae-41ec-95e1-7f7f56b9f608
+        entity_type: block_content
+        bundle: text
+        base_fields:
+          info: 'past events explainer - using view'
+          reusable: false
+          langcode: en
+          block_revision_id: '99'
+          enforce_new_revision: true
+        custom_fields:
+          field_instructions:
+            -
+              markup: null
+          field_text:
+            -
+              value: "<h2>Create an events archive</h2>\r\n\r\n<p>Use the <strong>View Block</strong> to create an events archive for your site. By adjusting the \"Event Time Period,\" you can display all events in a View or create a View dedicated to Past Events. Select the option that best aligns with your goals and objectives.</p>\r\n"
+              format: basic_html
+      -
+        uuid: d99925bd-56dc-44dd-b89a-6292247f04fb
+        entity_type: block_content
+        bundle: media_grid
+        base_fields:
+          info: 'past events - media grid'
+          reusable: false
+          langcode: en
+          block_revision_id: '98'
+          enforce_new_revision: true
+        custom_fields:
+          field_heading: null
+          field_instructions:
+            -
+              markup: null
+          field_media_grid_items:
+            -
+              uuid: 64c1ab80-7848-4614-a870-985b04e8072b
+              entity_type: paragraph
+              bundle: media_grid_item
+              base_fields:
+                status: true
+                langcode: en
+                created: '1693940156'
+              custom_fields:
+                field_media:
+                  -
+                    uuid: 84b7a909-b120-456b-a77b-08153096ded8
+                    entity_type: media
+                    bundle: image
+                    base_fields:
+                      name: stone-carving-sterling-memorial-library_michael-marsland.jpg
+                      created: '1691598171'
+                      status: true
+                      langcode: en
+                    custom_fields:
+                      field_media_image:
+                        -
+                          uri: 'public://starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
+                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
+                          alt: 'Stone carving of a mythical man-bull with wings'
+            -
+              uuid: 53a13999-9ae7-4769-8643-21a1e8d8658e
+              entity_type: paragraph
+              bundle: media_grid_item
+              base_fields:
+                status: true
+                langcode: en
+                created: '1693940030'
+              custom_fields:
+                field_media:
+                  -
+                    uuid: b53c2c3a-a820-411f-9a11-0980f973863e
+                    entity_type: media
+                    base_fields:
+                      name: gargoyle-old-campus_andrew-hurley.jpg
+                      created: '1691598171'
+                      status: true
+                      langcode: en
+                    bundle: image

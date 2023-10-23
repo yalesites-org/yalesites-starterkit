@@ -1,0 +1,75 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 6a208a42-d069-4b68-b1be-304793b601c4
+entity_type: node
+bundle: post
+base_fields:
+  title: 'Share timely updates'
+  status: true
+  langcode: en
+  created: '1693935903'
+  author: sebastianna.skalisky@yale.edu
+  url: /posts/2023-07-31-share-timely-updates
+  revision_log_message: null
+  revision_uid: '2'
+custom_fields:
+  field_author:
+    -
+      value: 'YaleSites Example Author'
+  field_category:
+    -
+      uuid: e73fa386-f693-43f5-8454-130e2fdc924f
+      entity_type: taxonomy_term
+      bundle: post_category
+      base_fields:
+        name: Business
+        weight: 0
+        langcode: en
+        description: null
+        parent: 0
+      custom_fields: {  }
+  field_login_required:
+    -
+      value: '0'
+  field_metatags: null
+  field_publish_date:
+    -
+      value: '2023-07-31'
+  field_tags: null
+  field_teaser_media:
+    -
+      uuid: ab5a9f0b-d182-4e8d-b377-dddc8e93359d
+      entity_type: media
+      base_fields:
+        name: aerial-yale-divinity-school_michael-marsland.jpg
+        created: '1691598171'
+        status: true
+        langcode: en
+      bundle: image
+  field_teaser_text:
+    -
+      value: "<p>We've taken great care to ensure Yale's typefaces are perfectly balanced, so even text-only content shines when you use the platform.</p>\r\n"
+      format: heading_html
+  field_teaser_title:
+    -
+      value: 'Text-Only Announcement'
+  layout_builder__layout:
+    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE4OiJUaXRsZSBhbmQgTWV0YWRhdGEiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6MTp7czozNjoiNmFiZjZhMGMtYWUzZC00N2Y4LWJmMzAtMDhlMzgyYzkwMTI0IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI2YWJmNmEwYy1hZTNkLTQ3ZjgtYmYzMC0wOGUzODJjOTAxMjQiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6NTp7czoyOiJpZCI7czoxNToicG9zdF9tZXRhX2Jsb2NrIjtzOjU6ImxhYmVsIjtzOjE1OiJQb3N0IE1ldGEgQmxvY2siO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO3M6MDoiIjtzOjg6InByb3ZpZGVyIjtzOjEwOiJ5c19sYXlvdXRzIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjg6e2k6MTtpOjE7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjE6e3M6MzY6IjEwNmIyNTk3LTg1N2EtNDhlMi1iYjMzLTkyZDBkYjgwMDhlNSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiMTA2YjI1OTctODU3YS00OGUyLWJiMzMtOTJkMGRiODAwOGU1IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjE2OiJ0ZXh0IHBvc3QgLSBjb3B5IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjEwMCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjI6e2k6NjtpOjY7aTo3O2k6Nzt9fX19
+    blocks:
+      -
+        uuid: 4c23e81b-8bcf-4a98-98e2-92b78fdecabc
+        entity_type: block_content
+        bundle: text
+        base_fields:
+          info: 'text post - copy'
+          reusable: false
+          langcode: en
+          block_revision_id: '100'
+          enforce_new_revision: true
+        custom_fields:
+          field_instructions:
+            -
+              markup: null
+          field_text:
+            -
+              value: "<p>YaleSites' <strong>Posts</strong> present content creators with a flexible, feature-rich approach to composing editorial pieces. Posts are versatile enough to support everything from sharing simple, text-only announcements to crafting visually engaging, magazine-style articles.</p>\r\n\r\n<h2>No photos? No problem!</h2>\r\n\r\n<p>Though Posts support including media-rich content like videos, galleries, and banners, there are times when simple text is the better choice for your website. By leveraging Yale's typographical legacy, we've built a design system that ensures your text-only pages, posts, and events shine when you use the platform.</p>\r\n\r\n<h3>Help your users with headings</h3>\r\n\r\n<p>Whether including media or relying on text alone, the structure of your content will significantly impact whether users can find what they're looking for and accomplish tasks.</p>\r\n\r\n<p>Use headings to organize your content. This makes it easier for the reader to understand and navigate the information you share. To use headings effectively, consider your content's overall structure and hierarchy, and then divide it into sections and sub-sections using headings and nested subheadings.</p>\r\n\r\n<p>Do not skip heading ranks. For example, heading 2 should not be followed directly by heading 4. That being said, it is appropriate to skip ranks when \"closing\" subsections; heading 2 logically follows heading 4 when you're beginning a new section.</p>\r\n"
+              format: basic_html

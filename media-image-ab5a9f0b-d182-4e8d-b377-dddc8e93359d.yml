@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: ab5a9f0b-d182-4e8d-b377-dddc8e93359d
+entity_type: media
+bundle: image
+base_fields:
+  name: aerial-yale-divinity-school_michael-marsland.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-09/aerial-yale-divinity-school_michael-marsland.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/aerial-yale-divinity-school_michael-marsland.jpg'
+      alt: 'aerial view of the Yale Divinty School'
+      title: ''

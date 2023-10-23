@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: e71dcae9-cbef-4d95-b342-2708d9ec0d9e
+entity_type: media
+bundle: image
+base_fields:
+  name: rose-walk-cross-campus_dan-renzetti.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/rose-walk-cross-campus_dan-renzetti.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/rose-walk-cross-campus_dan-renzetti.jpg'
+      alt: 'Sunlight pours through a canopy of trees along the Rose Walk on Yale''s campus'

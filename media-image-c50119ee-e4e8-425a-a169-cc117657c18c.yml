@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: c50119ee-e4e8-425a-a169-cc117657c18c
+entity_type: media
+bundle: image
+base_fields:
+  name: staircase-street-hall_michael-marsland.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-09/staircase-street-hall_michael-marsland.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/staircase-street-hall_michael-marsland.jpg'
+      alt: 'looking down on a spiral staircase with students walking up'
+      title: ''

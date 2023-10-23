@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: bc4bb6e8-11b4-49ac-9814-26f9c48d84b4
+entity_type: media
+bundle: image
+base_fields:
+  name: yale-outdoor-education-center_andrew-hurley.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/yale-outdoor-education-center_andrew-hurley.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/yale-outdoor-education-center_andrew-hurley.jpg'
+      alt: 'Sunshine glimmers across a lake framed by the lush greenery of Yale''s Outdoor Education Center'

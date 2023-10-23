@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: a142f3b3-acf7-4705-abd0-e9e5ff6046c5
+entity_type: media
+bundle: image
+base_fields:
+  name: sculpture-covered-in-snow_michael-marsland.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-09/sculpture-covered-in-snow_michael-marsland.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/sculpture-covered-in-snow_michael-marsland.jpg'
+      alt: 'red, yellow, and white sculpture against a wintery background'
+      title: ''

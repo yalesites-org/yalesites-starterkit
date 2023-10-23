@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 7e2c62d5-400a-4168-8ab6-c8e6e408beb4
+entity_type: media
+bundle: image
+base_fields:
+  name: handsome-dan-ben-franklin.jpg
+  created: '1691755440'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-08/handsome-dan-ben-franklin.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
+      alt: 'Handsome Dan sitting next to Ben Franklin statue with paws on Franklin''s thigh'
+      title: ''

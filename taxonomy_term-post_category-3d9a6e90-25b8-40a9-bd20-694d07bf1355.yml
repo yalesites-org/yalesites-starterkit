@@ -1,0 +1,11 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 3d9a6e90-25b8-40a9-bd20-694d07bf1355
+entity_type: taxonomy_term
+bundle: post_category
+base_fields:
+  name: 'Social Sciences'
+  weight: 0
+  langcode: en
+  description: null
+  parent: 0
+custom_fields: {  }

@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: b9065fb6-1886-4612-91f2-589c3695793b
+entity_type: media
+bundle: image
+base_fields:
+  name: illuminated-stacks-sterling-memorial-library_jack-devlin.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
+      alt: 'the setting sun spills through an arched window into a dark aisle, illuminating the library stacks'
+      title: ''

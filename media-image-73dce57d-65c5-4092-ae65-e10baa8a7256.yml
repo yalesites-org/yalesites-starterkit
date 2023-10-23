@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 73dce57d-65c5-4092-ae65-e10baa8a7256
+entity_type: media
+bundle: image
+base_fields:
+  name: dwight-hall-memorial-chapel-rooftop-towers.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
+      alt: 'Dramatic view of the towers on Yale University''s historic Dwight Hall'

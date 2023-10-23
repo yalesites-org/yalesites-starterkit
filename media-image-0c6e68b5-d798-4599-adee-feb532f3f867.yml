@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 0c6e68b5-d798-4599-adee-feb532f3f867
+entity_type: media
+bundle: image
+base_fields:
+  name: maya-lin-womens-table-close-up.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/maya-lin-womens-table-close-up.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/maya-lin-womens-table-close-up.jpg'
+      alt: 'Detail of numbers carved into Maya Lin''s Women''s Table sculpture'

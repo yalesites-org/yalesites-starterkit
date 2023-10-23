@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: d9210c1e-fc84-42bd-8be6-4904a6ebc1fa
+entity_type: block_content
+bundle: event_list
+base_fields:
+  info: 'events page - calendar list'
+  reusable: false
+  langcode: en
+  block_revision_id: '16'
+  enforce_new_revision: true
+custom_fields:
+  field_heading:
+    -
+      value: 'Upcoming Events'
+      format: heading_html
+  field_instructions:
+    -
+      markup: null

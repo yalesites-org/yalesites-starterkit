@@ -1,0 +1,16 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 13dce3bc-d16a-4dc5-bc4f-664f7adb0bc7
+entity_type: media
+bundle: image
+base_fields:
+  name: biking-paths-yale-campus_jack-devlin.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://2023-09/biking-paths-yale-campus_jack-devlin.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/biking-paths-yale-campus_jack-devlin.jpg'
+      alt: 'pathway on Yale campus amongst bushes, fall trees, and a bike path'
+      title: ''

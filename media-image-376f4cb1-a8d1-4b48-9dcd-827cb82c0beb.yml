@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 376f4cb1-a8d1-4b48-9dcd-827cb82c0beb
+entity_type: media
+bundle: image
+base_fields:
+  name: stained-glass-detail-sterling-memorial-library_michael-marsland.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/stained-glass-detail-sterling-memorial-library_michael-marsland.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stained-glass-detail-sterling-memorial-library_michael-marsland.jpg'
+      alt: 'Stained glass window depicts a printer removing a page from a printing press while another inks text-blocks'

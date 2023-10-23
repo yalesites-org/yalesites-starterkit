@@ -1,0 +1,11 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: b1e19674-f4ff-44f8-93de-8c1b20865c79
+entity_type: taxonomy_term
+bundle: event_category
+base_fields:
+  name: 'Yale & New Haven'
+  weight: 0
+  langcode: en
+  description: null
+  parent: 0
+custom_fields: {  }

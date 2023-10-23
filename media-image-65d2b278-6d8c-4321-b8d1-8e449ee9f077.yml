@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 65d2b278-6d8c-4321-b8d1-8e449ee9f077
+entity_type: media
+bundle: image
+base_fields:
+  name: woolsey-hall-dome.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/woolsey-hall-dome.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/woolsey-hall-dome.jpg'
+      alt: 'The dome of Woolsey Hall behind delicate tree branches adorned with spring buds'

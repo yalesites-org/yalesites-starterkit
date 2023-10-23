@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: d377a89d-315f-4614-9d16-729375e0811d
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'about page - call to action'
+  reusable: false
+  langcode: en
+  block_revision_id: '48'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_text:
+    -
+      value: "<h2>Prompt your users to take action</h2>\r\n\r\n<p>Research shows that people are more likely to complete an action when prompted to do so. This prompt is referred to as a <strong>call to action</strong>. Calls to action can take many forms, from a simple text link to a full-width banner. Whatever your approach, you dramatically increase the likelihood of your audience understanding what next steps you'd like them to take when the process is easy and obvious.</p>\r\n\r\n<p>We designed YaleSites' Blocks to make adding and maintaining visually engaging calls to action as easy as possible, whether you have images or not. In fact, the <strong>Callout Block</strong> used on this page is an excellent text-based approach for promoting your page's call to action.</p>\r\n"
+      format: basic_html

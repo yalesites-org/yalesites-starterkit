@@ -1,0 +1,11 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: a80c9cc3-faac-48f5-8484-3c7513ceadf8
+entity_type: taxonomy_term
+bundle: event_category
+base_fields:
+  name: 'Academic Calendar'
+  weight: 0
+  langcode: en
+  description: null
+  parent: 0
+custom_fields: {  }

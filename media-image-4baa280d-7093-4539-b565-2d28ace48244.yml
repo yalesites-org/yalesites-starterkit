@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 4baa280d-7093-4539-b565-2d28ace48244
+entity_type: media
+bundle: image
+base_fields:
+  name: woolsey-hall-interior-staricase_nune-garipian.jpg
+  created: '1691598171'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
+      alt: 'Overhead shot of the Woolsey Hall marble staircase'

@@ -1,0 +1,116 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 2f4616ff-a955-43c2-8bab-e3a51ac9b30a
+entity_type: node
+bundle: page
+base_fields:
+  title: Posts
+  status: true
+  langcode: en
+  created: '1691763640'
+  author: sebastianna.skalisky@yale.edu
+  url: /posts
+  revision_log_message: null
+  revision_uid: '2'
+custom_fields:
+  field_login_required:
+    -
+      value: '0'
+  field_metatags: null
+  field_tags: null
+  field_teaser_media:
+    -
+      uuid: 7e2c62d5-400a-4168-8ab6-c8e6e408beb4
+      entity_type: media
+      base_fields:
+        name: handsome-dan-ben-franklin.jpg
+        created: '1691755440'
+        status: true
+        langcode: en
+      bundle: image
+  field_teaser_text:
+    -
+      value: "<p>YaleSites simplifies featuring news articles, blog posts, or announcements on your site in an easy-to-scan, visually engaging way.</p>\r\n"
+      format: heading_html
+  field_teaser_title:
+    -
+      value: 'News & Announcements'
+  layout_builder__layout:
+    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE2OiJ5c19sYXlvdXRfYmFubmVyIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE0OiJCYW5uZXIgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiJmYjY1ZmZmYS00MzdjLTQyZTQtODI4Ni00MzRkYzNjMWEzNWEiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImZiNjVmZmZhLTQzN2MtNDJlNC04Mjg2LTQzNGRjM2MxYTM1YSI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIzOiJpbmxpbmVfYmxvY2s6Y3RhX2Jhbm5lciI7czo1OiJsYWJlbCI7czoyMToicG9zdHMgLSBhY3Rpb24gYmFubmVyIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6Ijg3IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6NDp7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxOToieXNfbGF5b3V0X3BhZ2VfbWV0YSI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxODoiVGl0bGUgYW5kIE1ldGFkYXRhIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjE6e3M6MzY6ImJiMWRhZTAzLTEwNzMtNGM5OS1hOTE0LWE4YTJmNWYwYThjNCI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYmIxZGFlMDMtMTA3My00Yzk5LWE5MTQtYThhMmY1ZjBhOGM0IjtzOjk6IgAqAHJlZ2lvbiI7czo5OiJwYWdlX21ldGEiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6Njp7czoyOiJpZCI7czoxNToicGFnZV9tZXRhX2Jsb2NrIjtzOjU6ImxhYmVsIjtzOjE1OiJQYWdlIE1ldGEgQmxvY2siO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO3M6MDoiIjtzOjg6InByb3ZpZGVyIjtzOjEwOiJ5c19sYXlvdXRzIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fXM6MTg6InBhZ2VfdGl0bGVfZGlzcGxheSI7czo3OiJ2aXNpYmxlIjt9czo5OiIAKgB3ZWlnaHQiO2k6MDtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319fXM6MjE6IgAqAHRoaXJkUGFydHlTZXR0aW5ncyI7YToxOntzOjE5OiJsYXlvdXRfYnVpbGRlcl9sb2NrIjthOjE6e3M6NDoibG9jayI7YTo3OntpOjI7aToyO2k6MztpOjM7aTo0O2k6NDtpOjU7aTo1O2k6NjtpOjY7aTo3O2k6NztpOjg7aTo4O319fX18TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE1OiJDb250ZW50IFNlY3Rpb24iO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6Mjp7czozNjoiOTFlMmFiZmUtNjZkYy00NmEyLWJkY2UtNWI3OWY0OGU1ZGViIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI5MWUyYWJmZS02NmRjLTQ2YTItYmRjZS01Yjc5ZjQ4ZTVkZWIiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoyMjoiaW5saW5lX2Jsb2NrOnBvc3RfbGlzdCI7czo1OiJsYWJlbCI7czoxODoicG9zdHMgLSBwb3N0cyBmZWVkIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjEzIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjU7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImMyMzc5MDU0LTQ3MzYtNDg0NS05NjhkLTkzNzgyNmRlMTE0MiI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYzIzNzkwNTQtNDczNi00ODQ1LTk2OGQtOTM3ODI2ZGUxMTQyIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjE4OiJwb3N0cyAtIGludHJvIHRleHQiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MjoiMTQiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6NDtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319fXM6MjE6IgAqAHRoaXJkUGFydHlTZXR0aW5ncyI7YTowOnt9fQ==
+    blocks:
+      -
+        uuid: aca0f420-736d-4fc9-ab8c-e3d440d36157
+        entity_type: block_content
+        bundle: cta_banner
+        base_fields:
+          info: 'posts - action banner'
+          reusable: false
+          langcode: en
+          block_revision_id: '87'
+          enforce_new_revision: true
+        custom_fields:
+          field_heading:
+            -
+              value: 'Never miss an update'
+              format: heading_html
+          field_heading_level: null
+          field_instructions:
+            -
+              markup: null
+          field_link:
+            -
+              uri: 'internal:/'
+              title: 'Subscribe to our Newsletter'
+              options: {  }
+          field_media:
+            -
+              uuid: 7e2c62d5-400a-4168-8ab6-c8e6e408beb4
+              entity_type: media
+              base_fields:
+                name: handsome-dan-ben-franklin.jpg
+                created: '1691755440'
+                status: true
+                langcode: en
+              bundle: image
+          field_style_color:
+            -
+              value: three
+          field_style_position:
+            -
+              value: left
+          field_text:
+            -
+              value: "<p>You can use the <strong>Action Banner</strong> to showcase your page's primary call to action.</p>\r\n"
+              format: heading_html
+      -
+        uuid: 0d5667f5-f0ab-4511-ba22-e40b411e9059
+        entity_type: block_content
+        bundle: post_list
+        base_fields:
+          info: 'posts - posts feed'
+          reusable: false
+          langcode: en
+          block_revision_id: '13'
+          enforce_new_revision: true
+        custom_fields:
+          field_heading: null
+          field_instructions:
+            -
+              markup: null
+      -
+        uuid: f7562bc7-4651-4f67-84b1-3fdac22efa3f
+        entity_type: block_content
+        bundle: text
+        base_fields:
+          info: 'posts - intro text'
+          reusable: false
+          langcode: en
+          block_revision_id: '14'
+          enforce_new_revision: true
+        custom_fields:
+          field_instructions:
+            -
+              markup: null
+          field_text:
+            -
+              value: "<p>YaleSites simplifies featuring news articles, blog posts, or announcements on your site in an easy-to-scan, visually engaging way.</p>\r\n\r\n<p>Use the <strong>Post Feed Block</strong> to create a dynamic feed with the push of a button. Your feed will automatically update whenever you publish a new Post, and your visitors can use the built-in category filter to engage with ease.</p>\r\n\r\n<p>When creating your Posts, use <strong>Teaser details </strong>to add a thumbnail image and summary text to give your listings more flair.</p>\r\n"
+              format: basic_html

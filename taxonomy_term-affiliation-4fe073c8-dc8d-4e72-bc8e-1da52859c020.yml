@@ -1,0 +1,11 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 4fe073c8-dc8d-4e72-bc8e-1da52859c020
+entity_type: taxonomy_term
+bundle: affiliation
+base_fields:
+  name: Staff
+  weight: 0
+  langcode: en
+  description: null
+  parent: 0
+custom_fields: {  }

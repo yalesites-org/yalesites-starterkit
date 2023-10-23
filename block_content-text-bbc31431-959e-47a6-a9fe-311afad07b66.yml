@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: bbc31431-959e-47a6-a9fe-311afad07b66
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'example event - including images'
+  reusable: false
+  langcode: en
+  block_revision_id: '79'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_text:
+    -
+      value: "<p>If you need to share a collection of images, like when promoting an exhibition, use <strong>Image Grid Block</strong> or <strong>Gallery Block</strong>. Select the Gallery block when you'd like visitors to be able to view larger versions of your images or when you need to provide captions and image attribution.</p>\r\n"
+      format: basic_html
