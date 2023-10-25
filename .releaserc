@@ -6,14 +6,13 @@
     ["@semantic-release/exec", {
       "prepareCmd": "./.github/scripts/release.sh"
     }],
-    "@semantic-release/github",
-      {
-        "assets": [
-          {
-            "path": "tmp/starterkit.zip",
-            "label": "Yalesites Starterkit Content"
-          }
-        ]
-      }
+    ["@semantic-release/github", {
+      "assets": [
+        {
+          "path": "tmp/starterkit.zip",
+          "label": "Starterkit Content"
+        }
+      ]
+    }]
   ]
 }
