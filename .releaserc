@@ -10,8 +10,11 @@
       "assets": [
         {
           "path": "tmp/starterkit.zip",
-          "label": "Starterkit Content"
+          "label": "starterkit.zip"
         }
+      ],
+      "releases": [
+        { "assets": "*", "label": "Source Code" }
       ]
     }]
   ]
