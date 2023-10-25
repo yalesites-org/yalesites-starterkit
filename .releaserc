@@ -12,9 +12,6 @@
           "path": "tmp/starterkit.zip",
           "label": "starterkit.zip"
         }
-      ],
-      "releases": [
-        { "assets": "*", "label": "Source Code" }
       ]
     }]
   ]
