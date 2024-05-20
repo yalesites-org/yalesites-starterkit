@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/harkness-tower-dusk.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-dusk.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/harkness-tower-dusk.jpg'
       alt: 'Harkness Tower rises dramatically into the darkening sky at dusk'
+  field_tags: null

@@ -6,7 +6,7 @@ base_fields:
   info: 'about page - callout block'
   reusable: false
   langcode: en
-  block_revision_id: '47'
+  block_revision_id: '138'
   enforce_new_revision: true
 custom_fields:
   field_callout:
@@ -18,6 +18,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1692028051'
+        behavior_settings: {  }
       custom_fields:
         field_heading:
           -
@@ -40,6 +41,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1692028107'
+        behavior_settings: {  }
       custom_fields:
         field_heading:
           -
@@ -57,6 +59,7 @@ custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_alignment: null
   field_style_color:
     -
       value: one

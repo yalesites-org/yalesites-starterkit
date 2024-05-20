@@ -6,12 +6,15 @@ base_fields:
   info: 'Caching Test'
   reusable: false
   langcode: en
-  block_revision_id: '74'
+  block_revision_id: '44'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<p>Caching Test&nbsp;2023-08-15 - 10:04AM PT</p>\r\n\r\n<p>Medium, aroma frappuccino irish in robusta half and half seasonal. Steamed as trifecta, kopi-luwak roast frappuccino arabica whipped ut strong. Java, aftertaste, to go iced, extra ristretto so viennese sweet. Filter strong turkish french press espresso eu arabica.</p>\r\n"

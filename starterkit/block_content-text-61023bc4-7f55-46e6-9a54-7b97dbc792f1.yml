@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 61023bc4-7f55-46e6-9a54-7b97dbc792f1
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'about page - create at a faster pace'
+  reusable: false
+  langcode: en
+  block_revision_id: '70'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: default
+  field_text:
+    -
+      value: "<h2>Create at a faster pace</h2>\r\n\r\n<p>Duplicate your Pages, Posts, and other content types using the <strong>Clone option</strong>. This time-saving feature is a great way to experiment with different layouts or compare Block choices. If one of our example pages fits your content needs, we encourage you to clone and customize it to jump-start your creation process.</p>\r\n\r\n<p>An easy way to speed up your build process is to review and outline your content in advance. Knowing what your content needs to accomplish will help you select the best Block for the task.</p>\r\n\r\n<p>You should also consider where to break your materials down into individual Blocks. For example, we've used multiple Text Blocks on this page. This means our content is structured to support adding new Blocks between sections of text, like <strong>Buttons</strong> or a <strong>Divider</strong>. We can also rearrange our page by moving Blocks around without worry.</p>\r\n"
+      format: basic_html

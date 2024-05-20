@@ -11,6 +11,7 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://2023-08/handsome-dan-ben-franklin.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
-      alt: 'Handsome Dan sitting next to Ben Franklin statue with paws on Franklin''s thigh'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
+      alt: "Handsome Dan sitting next to Ben Franklin statue with paws on Franklin's thigh"
       title: ''
+  field_tags: null

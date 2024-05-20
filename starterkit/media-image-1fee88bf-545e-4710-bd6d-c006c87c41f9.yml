@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/illustration-buildings-of-yale-college_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/illustration-buildings-of-yale-college_michael-marsland.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/illustration-buildings-of-yale-college_michael-marsland.jpg'
       alt: 'An illustration from 1807 depicts a view of the buildings of Yale College'
+  field_tags: null

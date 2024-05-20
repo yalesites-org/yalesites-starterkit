@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 96346409-ee2f-4c4c-9a99-616a8063358d
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'text only - intro text'
+  reusable: false
+  langcode: en
+  block_revision_id: '98'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: default
+  field_text:
+    -
+      value: "<p>Depending on your goals and users' needs, a text-only page may be the best choice for your content. We've crafted this example to demonstrate how YaleSites Blocks shine, whether you have multimedia assets or not.</p>\r\n"
+      format: basic_html

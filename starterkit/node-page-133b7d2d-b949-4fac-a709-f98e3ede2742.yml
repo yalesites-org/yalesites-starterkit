@@ -7,11 +7,13 @@ base_fields:
   status: true
   langcode: en
   created: '1691612683'
-  author: sebastianna.skalisky@yale.edu
+  author: null
   url: /homepage
   revision_log_message: null
-  revision_uid: '2'
+  revision_uid: '0'
+  moderation_state: published
 custom_fields:
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -45,17 +47,17 @@ custom_fields:
     -
       value: 'Example Homepage'
   layout_builder__layout:
-    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE2OiJ5c19sYXlvdXRfYmFubmVyIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE0OiJCYW5uZXIgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiI4NzE3N2U5YS04NWUyLTQyNTYtOWIzOS05ZWU3ZmNjZjdjYTMiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6Ijg3MTc3ZTlhLTg1ZTItNDI1Ni05YjM5LTllZTdmY2NmN2NhMyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIzOiJpbmxpbmVfYmxvY2s6Y3RhX2Jhbm5lciI7czo1OiJsYWJlbCI7czoyMjoiaG9tZXBhZ2UgYWN0aW9uIGJhbm5lciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI5MSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjQ6e2k6NTtpOjU7aTo2O2k6NjtpOjc7aTo3O2k6ODtpOjg7fX19fXxPOjI5OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbiI6NDp7czoxMToiACoAbGF5b3V0SWQiO3M6MTk6InlzX2xheW91dF9wYWdlX21ldGEiO3M6MTc6IgAqAGxheW91dFNldHRpbmdzIjthOjI6e3M6NToibGFiZWwiO3M6MTg6IlRpdGxlIGFuZCBNZXRhZGF0YSI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiJiYjFkYWUwMy0xMDczLTRjOTktYTkxNC1hOGEyZjVmMGE4YzQiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImJiMWRhZTAzLTEwNzMtNGM5OS1hOTE0LWE4YTJmNWYwYThjNCI7czo5OiIAKgByZWdpb24iO3M6OToicGFnZV9tZXRhIjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjY6e3M6MjoiaWQiO3M6MTU6InBhZ2VfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNToiUGFnZSBNZXRhIEJsb2NrIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtzOjA6IiI7czo4OiJwcm92aWRlciI7czoxMDoieXNfbGF5b3V0cyI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e31zOjE4OiJwYWdlX3RpdGxlX2Rpc3BsYXkiO3M6NzoidmlzaWJsZSI7fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Nzp7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjg6e3M6MzY6IjdkZjdkN2M2LWM4ZWUtNGFhMy04MDY2LTcyMzU4ZjYwNWVmZSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiN2RmN2Q3YzYtYzhlZS00YWEzLTgwNjYtNzIzNThmNjA1ZWZlIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjI2OiJob21lcGFnZSBpbnRyb2R1Y3Rpb24gY29weSI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoxOiIyIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjZiNDk1YjIzLTc5ZDctNDVmZi05M2MzLTUwZjE1N2ZkYWZiMyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNmI0OTViMjMtNzlkNy00NWZmLTkzYzMtNTBmMTU3ZmRhZmIzIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjU6ImlubGluZV9ibG9jazpjdXN0b21fY2FyZHMiO3M6NToibGFiZWwiO3M6MjY6ImhvbWVwYWdlIHNlcnZpY2VzIHBhdGh3YXlzIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjcxIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjE7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6Ijc2ZDExNDdlLTJjOWQtNDlmZi05ZDhhLTE4MGVjZDk0MDVlZSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNzZkMTE0N2UtMmM5ZC00OWZmLTlkOGEtMTgwZWNkOTQwNWVlIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MzA6ImlubGluZV9ibG9jazpjb250ZW50X3Nwb3RsaWdodCI7czo1OiJsYWJlbCI7czozOToiaG9tZXBhZ2UgYnVpbGRpbmcgd2l0aCBibG9ja3Mgc3BvdGxpZ2h0IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjQ1IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjM7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjVmMzZmZTI4LWU2NDItNDFiNC1hMmE0LTZhMWY0N2Y1NmY5NyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNWYzNmZlMjgtZTY0Mi00MWI0LWEyYTQtNmExZjQ3ZjU2Zjk3IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjMwOiJob21lcGFnZSBwb3N0cyB2aWV3IGludHJvIHRleHQiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MToiNiI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo1O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI2ZjE5MWViYy05MGUzLTQ2NTUtOTFhMS1lZWNjNzkzNjE3ZDEiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjZmMTkxZWJjLTkwZTMtNDY1NS05MWExLWVlY2M3OTM2MTdkMSI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dmlldyI7czo1OiJsYWJlbCI7czoxOToiaG9tZXBhZ2UgcG9zdHMgdmlldyI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxMDciO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6NjtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiODhiYjVjMzItMWM2NS00NjlhLTkzZmEtYWJkZmJiM2IzYTg1IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI4OGJiNWMzMi0xYzY1LTQ2OWEtOTNmYS1hYmRmYmIzYjNhODUiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoyMDoiaW5saW5lX2Jsb2NrOmRpdmlkZXIiO3M6NToibGFiZWwiO3M6NzoiZGl2aWRlciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI0MyI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo0O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJiMjNkNjNkOS1jZjE4LTQ1YjAtYjdhMi00MWNhOGFiMzFjMTgiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImIyM2Q2M2Q5LWNmMTgtNDViMC1iN2EyLTQxY2E4YWIzMWMxOCI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIwOiJpbmxpbmVfYmxvY2s6ZGl2aWRlciI7czo1OiJsYWJlbCI7czo3OiJkaXZpZGVyIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjQ0IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjI7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjRiNGY5YTgxLTQ0NjYtNDE0Yy05YTRjLWEyYjQ2OWFmOWFhMiI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNGI0ZjlhODEtNDQ2Ni00MTRjLTlhNGMtYTJiNDY5YWY5YWEyIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjQ6ImlubGluZV9ibG9jazpidXR0b25fbGluayI7czo1OiJsYWJlbCI7czozNjoiaG9tZXBhZ2UgbW9yZSBuZXdzIGFuZCBldmVudHMgYnV0dG9uIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjEwMSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo3O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjA6e319
+    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE2OiJ5c19sYXlvdXRfYmFubmVyIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE0OiJCYW5uZXIgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiI4NzE3N2U5YS04NWUyLTQyNTYtOWIzOS05ZWU3ZmNjZjdjYTMiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6Ijg3MTc3ZTlhLTg1ZTItNDI1Ni05YjM5LTllZTdmY2NmN2NhMyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIzOiJpbmxpbmVfYmxvY2s6Y3RhX2Jhbm5lciI7czo1OiJsYWJlbCI7czoyMjoiaG9tZXBhZ2UgYWN0aW9uIGJhbm5lciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxMjYiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MDtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319fXM6MjE6IgAqAHRoaXJkUGFydHlTZXR0aW5ncyI7YToxOntzOjE5OiJsYXlvdXRfYnVpbGRlcl9sb2NrIjthOjE6e3M6NDoibG9jayI7YTo0OntpOjU7aTo1O2k6NjtpOjY7aTo3O2k6NztpOjg7aTo4O319fX18TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE5OiJ5c19sYXlvdXRfcGFnZV9tZXRhIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE4OiJUaXRsZSBhbmQgTWV0YWRhdGEiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6MTp7czozNjoiYmIxZGFlMDMtMTA3My00Yzk5LWE5MTQtYThhMmY1ZjBhOGM0IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJiYjFkYWUwMy0xMDczLTRjOTktYTkxNC1hOGEyZjVmMGE4YzQiO3M6OToiACoAcmVnaW9uIjtzOjk6InBhZ2VfbWV0YSI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo2OntzOjI6ImlkIjtzOjE1OiJwYWdlX21ldGFfYmxvY2siO3M6NToibGFiZWwiO3M6MTU6IlBhZ2UgTWV0YSBCbG9jayI7czoxMzoibGFiZWxfZGlzcGxheSI7czowOiIiO3M6ODoicHJvdmlkZXIiO3M6MTA6InlzX2xheW91dHMiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9czoxODoicGFnZV90aXRsZV9kaXNwbGF5IjtzOjc6InZpc2libGUiO31zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjc6e2k6MjtpOjI7aTozO2k6MztpOjQ7aTo0O2k6NTtpOjU7aTo2O2k6NjtpOjc7aTo3O2k6ODtpOjg7fX19fXxPOjI5OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbiI6NDp7czoxMToiACoAbGF5b3V0SWQiO3M6MTM6ImxheW91dF9vbmVjb2wiO3M6MTc6IgAqAGxheW91dFNldHRpbmdzIjthOjI6e3M6NToibGFiZWwiO3M6MTU6IkNvbnRlbnQgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YTo4OntzOjM2OiI3ZGY3ZDdjNi1jOGVlLTRhYTMtODA2Ni03MjM1OGY2MDVlZmUiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjdkZjdkN2M2LWM4ZWUtNGFhMy04MDY2LTcyMzU4ZjYwNWVmZSI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dGV4dCI7czo1OiJsYWJlbCI7czoyNjoiaG9tZXBhZ2UgaW50cm9kdWN0aW9uIGNvcHkiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTI3IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjZiNDk1YjIzLTc5ZDctNDVmZi05M2MzLTUwZjE1N2ZkYWZiMyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNmI0OTViMjMtNzlkNy00NWZmLTkzYzMtNTBmMTU3ZmRhZmIzIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjU6ImlubGluZV9ibG9jazpjdXN0b21fY2FyZHMiO3M6NToibGFiZWwiO3M6MjY6ImhvbWVwYWdlIHNlcnZpY2VzIHBhdGh3YXlzIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjEyOCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToxO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI3NmQxMTQ3ZS0yYzlkLTQ5ZmYtOWQ4YS0xODBlY2Q5NDA1ZWUiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6Ijc2ZDExNDdlLTJjOWQtNDlmZi05ZDhhLTE4MGVjZDk0MDVlZSI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjMwOiJpbmxpbmVfYmxvY2s6Y29udGVudF9zcG90bGlnaHQiO3M6NToibGFiZWwiO3M6Mzk6ImhvbWVwYWdlIGJ1aWxkaW5nIHdpdGggYmxvY2tzIHNwb3RsaWdodCI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxMjkiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MztzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiNWYzNmZlMjgtZTY0Mi00MWI0LWEyYTQtNmExZjQ3ZjU2Zjk3IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI1ZjM2ZmUyOC1lNjQyLTQxYjQtYTJhNC02YTFmNDdmNTZmOTciO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MzA6ImhvbWVwYWdlIHBvc3RzIHZpZXcgaW50cm8gdGV4dCI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxMzAiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6NTtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiNmYxOTFlYmMtOTBlMy00NjU1LTkxYTEtZWVjYzc5MzYxN2QxIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI2ZjE5MWViYy05MGUzLTQ2NTUtOTFhMS1lZWNjNzkzNjE3ZDEiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnZpZXciO3M6NToibGFiZWwiO3M6MTk6ImhvbWVwYWdlIHBvc3RzIHZpZXciO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTMxIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjY7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6Ijg4YmI1YzMyLTFjNjUtNDY5YS05M2ZhLWFiZGZiYjNiM2E4NSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiODhiYjVjMzItMWM2NS00NjlhLTkzZmEtYWJkZmJiM2IzYTg1IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjA6ImlubGluZV9ibG9jazpkaXZpZGVyIjtzOjU6ImxhYmVsIjtzOjc6ImRpdmlkZXIiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTMyIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjQ7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImIyM2Q2M2Q5LWNmMTgtNDViMC1iN2EyLTQxY2E4YWIzMWMxOCI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYjIzZDYzZDktY2YxOC00NWIwLWI3YTItNDFjYThhYjMxYzE4IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjA6ImlubGluZV9ibG9jazpkaXZpZGVyIjtzOjU6ImxhYmVsIjtzOjc6ImRpdmlkZXIiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTMzIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjI7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjRiNGY5YTgxLTQ0NjYtNDE0Yy05YTRjLWEyYjQ2OWFmOWFhMiI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNGI0ZjlhODEtNDQ2Ni00MTRjLTlhNGMtYTJiNDY5YWY5YWEyIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjQ6ImlubGluZV9ibG9jazpidXR0b25fbGluayI7czo1OiJsYWJlbCI7czozNjoiaG9tZXBhZ2UgbW9yZSBuZXdzIGFuZCBldmVudHMgYnV0dG9uIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjEzNCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo3O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjA6e319
     blocks:
       -
-        uuid: bb053080-f7af-4cb7-a34a-8b5d11041264
+        uuid: 4f3b7c7d-b54f-439e-a667-392958cd07d4
         entity_type: block_content
         bundle: cta_banner
         base_fields:
           info: 'homepage action banner'
           reusable: false
           langcode: en
-          block_revision_id: '91'
+          block_revision_id: '126'
           enforce_new_revision: true
         custom_fields:
           field_heading:
@@ -71,23 +73,17 @@ custom_fields:
               uri: 'internal:/text-only-page#cta'
               title: 'Call to Action'
               options: {  }
+          field_link_two: null
           field_media:
             -
               uuid: b7103556-2f77-429a-b2f9-159617684731
               entity_type: media
-              bundle: image
               base_fields:
                 name: students-cross-campus_anna-zhang.jpg
                 created: '1693934413'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://2023-09/students-cross-campus_anna-zhang.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-cross-campus_anna-zhang.jpg'
-                    alt: 'students enjoy the vibrancy of Yale''s campus scenery'
-                    title: ''
+              bundle: image
           field_style_color:
             -
               value: one
@@ -99,32 +95,35 @@ custom_fields:
               value: "<p>Feature your most important call to action in an eye-catching banner.</p>\r\n"
               format: heading_html
       -
-        uuid: c5872fe6-25c3-4f34-9ed2-c881e263c07c
+        uuid: 38d69e87-0664-4b4f-9a3f-64f7780de25e
         entity_type: block_content
         bundle: text
         base_fields:
           info: 'homepage introduction copy'
           reusable: false
           langcode: en
-          block_revision_id: '2'
+          block_revision_id: '127'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>Powered by a flexible design system and our intuitive Block editor, YaleSites makes it easy to create accessible, high-quality, on-brand websites in a fast, fun, and efficient way.</p>\r\n\r\n<p>Looking to connect with prospective students, highlight your department’s research and scholarship, or promote an event? Whatever your objectives, YaleSites gives you the building blocks you need to create content that supports your users and helps you achieve your goals.</p>\r\n"
               format: basic_html
       -
-        uuid: 377828ab-2e40-4213-9207-604c3db83a1a
+        uuid: b5b47a1f-9d9f-4282-a719-971a2f9456a2
         entity_type: block_content
         bundle: custom_cards
         base_fields:
           info: 'homepage services pathways'
           reusable: false
           langcode: en
-          block_revision_id: '71'
+          block_revision_id: '128'
           enforce_new_revision: true
         custom_fields:
           field_cards:
@@ -136,6 +135,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1691700102'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -155,9 +155,10 @@ custom_fields:
                       field_media_image:
                         -
                           uri: 'public://starterkit/central-campus-aerial-sunset_paul-coco.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
-                          alt: 'Sprawling aerial view of Central Campus''s gothic architecture at sunset'
+                          url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
+                          alt: "Sprawling aerial view of Central Campus's gothic architecture at sunset"
                           title: ''
+                      field_tags: null
                 field_link:
                   -
                     uri: 'entity:node/8'
@@ -175,6 +176,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1691700226'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -194,8 +196,9 @@ custom_fields:
                       field_media_image:
                         -
                           uri: 'public://starterkit/branford-windows-through-trees.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/branford-windows-through-trees.jpg'
+                          url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/branford-windows-through-trees.jpg'
                           alt: 'The gothic windows of Branford peek through tree branches '
+                      field_tags: null
                 field_link:
                   -
                     uri: 'entity:node/12'
@@ -213,6 +216,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1692102352'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -232,8 +236,9 @@ custom_fields:
                       field_media_image:
                         -
                           uri: 'public://starterkit/harkness-tower-clock_andrew-hurley.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
+                          url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
                           alt: 'Detailed view of the beauty and grandeur of one of the clocks of Harkness Tower'
+                      field_tags: null
                 field_link:
                   -
                     uri: 'entity:node/13'
@@ -251,6 +256,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1691700425'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -270,9 +276,10 @@ custom_fields:
                       field_media_image:
                         -
                           uri: 'public://2023-08/handsome-dan-ben-franklin.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
-                          alt: 'Handsome Dan sitting next to Ben Franklin statue with paws on Franklin''s thigh'
+                          url: 'https://yalesites-platform.lndo.site/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
+                          alt: "Handsome Dan sitting next to Ben Franklin statue with paws on Franklin's thigh"
                           title: ''
+                      field_tags: null
                 field_link:
                   -
                     uri: 'entity:node/9'
@@ -290,14 +297,14 @@ custom_fields:
             -
               markup: null
       -
-        uuid: 07fcb59d-8153-4789-9c59-b681dfc28b79
+        uuid: 6596a39f-9f5e-4016-b1eb-2c2422a5c3a0
         entity_type: block_content
         bundle: content_spotlight
         base_fields:
           info: 'homepage building with blocks spotlight'
           reusable: false
           langcode: en
-          block_revision_id: '45'
+          block_revision_id: '129'
           enforce_new_revision: true
         custom_fields:
           field_heading:
@@ -316,19 +323,13 @@ custom_fields:
             -
               uuid: cae04706-21ac-41aa-9dd6-8f2e509ddb3a
               entity_type: media
-              bundle: image
               base_fields:
                 name: yale-brick-in-wall-detail.jpg
                 created: '1691755627'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://2023-08/yale-brick-in-wall-detail.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/yale-brick-in-wall-detail.jpg'
-                    alt: 'brick wall with YALE carved into one of the bricks'
-                    title: ''
+              bundle: image
+          field_style_color: null
           field_style_position:
             -
               value: image-left
@@ -347,32 +348,35 @@ custom_fields:
               value: "<p><strong>Blocks</strong> are like specialized content \"bricks\" you'll use to build a solid, well-designed site. Beautifully branded and accessible by default, Blocks are precoded, so you can focus on perfecting your content.</p>\r\n\r\n<p>The <strong>Content Spotlight Block</strong> in this example pairs a call-to-action with a supporting image, making it an ideal combination for a homepage feature. Keep and customize it for your own site, or swap in another Block that better supports your content goals.</p>\r\n"
               format: restricted_html
       -
-        uuid: f676d3d3-0bc3-43b2-ae02-eb4801ab5137
+        uuid: 16a1826d-66c6-436d-913e-e7608a7f5bbc
         entity_type: block_content
         bundle: text
         base_fields:
           info: 'homepage posts view intro text'
           reusable: false
           langcode: en
-          block_revision_id: '6'
+          block_revision_id: '130'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2>Share your stories</h2>\r\n\r\n<p>You can use the <strong>View Block</strong> to curate a feed of <strong>Posts</strong> on your website. We adjusted our View to show only our most recent Post to ensure our homepage's content remains focused.</p>\r\n"
               format: basic_html
       -
-        uuid: fcbb5f94-5348-4e3a-91cb-5edff5b2c773
+        uuid: 19d14f6e-a891-4fef-9ede-33738ceea134
         entity_type: block_content
         bundle: view
         base_fields:
           info: 'homepage posts view'
           reusable: false
           langcode: en
-          block_revision_id: '107'
+          block_revision_id: '131'
           enforce_new_revision: true
         custom_fields:
           field_heading: null
@@ -383,14 +387,14 @@ custom_fields:
             -
               params: '{"view_mode":"list_item","filters":{"types":["post"],"terms_include":null,"terms_exclude":null,"event_time_period":"future"},"operator":"+","sort_by":"field_publish_date:DESC","display":"limit","limit":1}'
       -
-        uuid: 4ed89980-49ee-44a6-a4fb-dc2c22e0b6fa
+        uuid: 2777fa13-4a09-4ad2-bc0d-f61dbaa06d70
         entity_type: block_content
         bundle: divider
         base_fields:
           info: divider
           reusable: false
           langcode: en
-          block_revision_id: '43'
+          block_revision_id: '132'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
@@ -403,14 +407,14 @@ custom_fields:
             -
               value: 75%
       -
-        uuid: b888034e-db98-45c0-a09b-15e03f0eec3f
+        uuid: 2c8e67dc-6173-4451-b2b3-958b2c64f091
         entity_type: block_content
         bundle: divider
         base_fields:
           info: divider
           reusable: false
           langcode: en
-          block_revision_id: '44'
+          block_revision_id: '133'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
@@ -423,14 +427,14 @@ custom_fields:
             -
               value: 75%
       -
-        uuid: 1cd3e4f8-d928-4b9d-9561-4cbbe8d9c6bc
+        uuid: 3e3e77fc-da09-4837-bd36-c633ece36d72
         entity_type: block_content
         bundle: button_link
         base_fields:
           info: 'homepage more news and events button'
           reusable: false
           langcode: en
-          block_revision_id: '101'
+          block_revision_id: '134'
           enforce_new_revision: true
         custom_fields:
           field_button_link:

@@ -6,7 +6,7 @@ base_fields:
   info: 'past events - media grid'
   reusable: false
   langcode: en
-  block_revision_id: '98'
+  block_revision_id: '185'
   enforce_new_revision: true
 custom_fields:
   field_heading: null
@@ -22,6 +22,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1693940156'
+        behavior_settings: {  }
       custom_fields:
         field_media:
           -
@@ -37,8 +38,9 @@ custom_fields:
               field_media_image:
                 -
                   uri: 'public://starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
-                  url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
+                  url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
                   alt: 'Stone carving of a mythical man-bull with wings'
+              field_tags: null
     -
       uuid: 53a13999-9ae7-4769-8643-21a1e8d8658e
       entity_type: paragraph
@@ -47,6 +49,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1693940030'
+        behavior_settings: {  }
       custom_fields:
         field_media:
           -

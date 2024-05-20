@@ -1,0 +1,25 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 39bee0c5-06e3-49be-a312-4244514ab80d
+entity_type: block_content
+bundle: pull_quote
+base_fields:
+  info: 'example post - quote'
+  reusable: false
+  langcode: en
+  block_revision_id: '173'
+  enforce_new_revision: true
+custom_fields:
+  field_caption:
+    -
+      value: "<p>The Dean of Themes</p>\r\n"
+      format: heading_html
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: quote-left
+  field_text:
+    -
+      value: "<p>Use the <strong>Quote Block</strong> to highlight a memorable phrase or key point from your article. Quotes are perfect for interviews or lengthy articles, as they help break up long blocks of text and guide the reader down the page.</p>\r\n"
+      format: heading_html

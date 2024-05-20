@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/stained-glass-detail-sterling-memorial-library_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stained-glass-detail-sterling-memorial-library_michael-marsland.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/stained-glass-detail-sterling-memorial-library_michael-marsland.jpg'
       alt: 'Stained glass window depicts a printer removing a page from a printing press while another inks text-blocks'
+  field_tags: null

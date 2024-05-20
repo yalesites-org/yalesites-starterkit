@@ -11,6 +11,7 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://2023-09/beinecke-library-rare-books-stacks_jack-devlin.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/beinecke-library-rare-books-stacks_jack-devlin.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/2023-09/beinecke-library-rare-books-stacks_jack-devlin.jpg'
       alt: 'towering shelves of books in Beinecke Library'
       title: ''
+  field_tags: null

@@ -6,12 +6,15 @@ base_fields:
   info: 'example event - past events'
   reusable: false
   langcode: en
-  block_revision_id: '85'
+  block_revision_id: '49'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<h2>Revitalize past events</h2>\r\n\r\n<p>If including past events is part of your strategy, consider revisiting your content to ensure it continues to provide value. By offering potential attendees a glimpse into what they missed while showing them what they can expect from your events, you can generate excitement and encourage visitors to attend in the future.</p>\r\n\r\n<p>You might add a video, update your summary, share a collection of images, or include a call to action that connects visitors to an article or blog post recap.</p>\r\n\r\n<p>Whatever your approach, we encourage you to maintain your content in a way that supports your goals as well as your audience's needs.</p>\r\n"

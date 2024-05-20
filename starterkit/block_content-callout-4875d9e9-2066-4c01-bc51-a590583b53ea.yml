@@ -1,0 +1,42 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 4875d9e9-2066-4c01-bc51-a590583b53ea
+entity_type: block_content
+bundle: callout
+base_fields:
+  info: 'landing page - taxonomy callout'
+  reusable: false
+  langcode: en
+  block_revision_id: '116'
+  enforce_new_revision: true
+custom_fields:
+  field_callout:
+    -
+      uuid: ec330bb9-deec-45ca-b971-fe1baa6c28d2
+      entity_type: paragraph
+      bundle: callout_item
+      base_fields:
+        status: true
+        langcode: en
+        created: '1692102212'
+        behavior_settings: {  }
+      custom_fields:
+        field_heading:
+          -
+            value: 'Tags and categories'
+            format: heading_html
+        field_link:
+          -
+            uri: 'internal:/admin/structure/taxonomy'
+            title: 'Manage Taxonomy'
+            options: {  }
+        field_text:
+          -
+            value: "<p>YaleSites includes a selection of commonly used taxonomy terms to help get you started, but you can add your own at any time.</p>\r\n"
+            format: heading_html
+  field_instructions:
+    -
+      markup: null
+  field_style_alignment: null
+  field_style_color:
+    -
+      value: two

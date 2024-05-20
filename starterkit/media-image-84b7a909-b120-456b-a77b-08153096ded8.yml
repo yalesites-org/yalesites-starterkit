@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
       alt: 'Stone carving of a mythical man-bull with wings'
+  field_tags: null

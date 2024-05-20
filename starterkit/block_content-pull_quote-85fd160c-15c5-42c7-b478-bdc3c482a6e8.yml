@@ -6,7 +6,7 @@ base_fields:
   info: quote
   reusable: false
   langcode: en
-  block_revision_id: '72'
+  block_revision_id: '43'
   enforce_new_revision: true
 custom_fields:
   field_caption:

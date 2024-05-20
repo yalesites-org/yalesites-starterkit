@@ -11,6 +11,7 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://2023-09/handsome-dan-sterling-memorial-library_dan-renzetti.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/handsome-dan-sterling-memorial-library_dan-renzetti.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/2023-09/handsome-dan-sterling-memorial-library_dan-renzetti.jpg'
       alt: 'Yale’s mascot, an Olde English Bulldog, sitting in a crown-shaped dog bed in a cathedral-like room'
       title: ''
+  field_tags: null

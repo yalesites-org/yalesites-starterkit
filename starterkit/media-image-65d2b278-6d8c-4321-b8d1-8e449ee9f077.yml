@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/woolsey-hall-dome.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/woolsey-hall-dome.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/woolsey-hall-dome.jpg'
       alt: 'The dome of Woolsey Hall behind delicate tree branches adorned with spring buds'
+  field_tags: null

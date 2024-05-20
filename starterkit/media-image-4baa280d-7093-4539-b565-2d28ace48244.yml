@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
       alt: 'Overhead shot of the Woolsey Hall marble staircase'
+  field_tags: null

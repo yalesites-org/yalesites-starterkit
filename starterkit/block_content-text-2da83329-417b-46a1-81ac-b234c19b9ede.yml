@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 2da83329-417b-46a1-81ac-b234c19b9ede
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'about page - introductory text'
+  reusable: false
+  langcode: en
+  block_revision_id: '68'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: default
+  field_text:
+    -
+      value: "<p>Your About page provides an opportunity for your audience to learn more about you and what your YaleSite has to offer. This is the perfect space to summarize your history, highlight your mission statement, or reinforce the services you provide to the Yale community.</p>\r\n\r\n<p>Before building your About page, determine what purpose this page should serve for your users and how it will support your goals. This, in turn, helps you make appropriate choices when selecting the <strong>Blocks</strong> you use to build the page. Ensuring you have useful, usable, well-structured content is vital to creating a good user experience on your website.</p>\r\n"
+      format: basic_html

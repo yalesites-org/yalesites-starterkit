@@ -6,12 +6,15 @@ base_fields:
   info: 'example event - including images'
   reusable: false
   langcode: en
-  block_revision_id: '79'
+  block_revision_id: '47'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<p>If you need to share a collection of images, like when promoting an exhibition, use <strong>Image Grid Block</strong> or <strong>Gallery Block</strong>. Select the Gallery block when you'd like visitors to be able to view larger versions of your images or when you need to provide captions and image attribution.</p>\r\n"

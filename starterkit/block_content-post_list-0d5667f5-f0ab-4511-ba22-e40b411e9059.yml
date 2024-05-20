@@ -6,7 +6,7 @@ base_fields:
   info: 'posts - posts feed'
   reusable: false
   langcode: en
-  block_revision_id: '13'
+  block_revision_id: '143'
   enforce_new_revision: true
 custom_fields:
   field_heading: null

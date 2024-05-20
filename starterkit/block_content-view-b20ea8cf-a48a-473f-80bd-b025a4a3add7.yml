@@ -6,7 +6,7 @@ base_fields:
   info: 'landing page - view - pages'
   reusable: false
   langcode: en
-  block_revision_id: '57'
+  block_revision_id: '177'
   enforce_new_revision: true
 custom_fields:
   field_heading:

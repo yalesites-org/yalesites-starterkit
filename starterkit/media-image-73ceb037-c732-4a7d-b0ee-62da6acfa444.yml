@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/harkness-memorial-gate-close-up.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-memorial-gate-close-up.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/harkness-memorial-gate-close-up.jpg'
       alt: 'The intricate, wrought iron gate of the Memorial Quadrangle features the Yale motto Lux et Veritas and coat of arms'
+  field_tags: null

@@ -6,12 +6,15 @@ base_fields:
   info: 'example event - intro text'
   reusable: false
   langcode: en
-  block_revision_id: '81'
+  block_revision_id: '147'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<p>Published events can be dynamically fed into your site using the <strong>Calendar List</strong> or <strong>View Block</strong>. At a minimum, these feeds will display your event's date and title, but by including Teaser Details, you can add a thumbnail image and summary text to help your audience understand what your event is and why they should attend.</p>\r\n"

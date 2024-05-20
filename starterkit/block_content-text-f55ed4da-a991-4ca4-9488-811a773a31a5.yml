@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: f55ed4da-a991-4ca4-9488-811a773a31a5
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'example post - intro text'
+  reusable: false
+  langcode: en
+  block_revision_id: '170'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: default
+  field_text:
+    -
+      value: "<p>The <strong>Post Content Type</strong> provides content creators with a flexible, feature-rich approach to composing editorial pieces. Posts are versatile enough to support sharing everything from simple, text-only announcements to crafting visually engaging, full-length magazine-style articles.</p>\r\n"
+      format: basic_html

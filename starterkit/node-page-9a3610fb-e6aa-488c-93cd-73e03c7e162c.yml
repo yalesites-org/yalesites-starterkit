@@ -7,11 +7,13 @@ base_fields:
   status: true
   langcode: en
   created: '1692019851'
-  author: sebastianna.skalisky@yale.edu
+  author: null
   url: /text-only-page
   revision_log_message: null
-  revision_uid: '2'
+  revision_uid: '0'
+  moderation_state: published
 custom_fields:
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -35,7 +37,7 @@ custom_fields:
     -
       value: 'Text-Only Page'
   layout_builder__layout:
-    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE2OiJ5c19sYXlvdXRfYmFubmVyIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE0OiJCYW5uZXIgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YTowOnt9czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjQ6e2k6NTtpOjU7aTo2O2k6NjtpOjc7aTo3O2k6ODtpOjg7fX19fXxPOjI5OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbiI6NDp7czoxMToiACoAbGF5b3V0SWQiO3M6MTk6InlzX2xheW91dF9wYWdlX21ldGEiO3M6MTc6IgAqAGxheW91dFNldHRpbmdzIjthOjI6e3M6NToibGFiZWwiO3M6MTg6IlRpdGxlIGFuZCBNZXRhZGF0YSI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiJiYjFkYWUwMy0xMDczLTRjOTktYTkxNC1hOGEyZjVmMGE4YzQiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImJiMWRhZTAzLTEwNzMtNGM5OS1hOTE0LWE4YTJmNWYwYThjNCI7czo5OiIAKgByZWdpb24iO3M6OToicGFnZV9tZXRhIjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjY6e3M6MjoiaWQiO3M6MTU6InBhZ2VfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNToiUGFnZSBNZXRhIEJsb2NrIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtzOjA6IiI7czo4OiJwcm92aWRlciI7czoxMDoieXNfbGF5b3V0cyI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e31zOjE4OiJwYWdlX3RpdGxlX2Rpc3BsYXkiO3M6NzoidmlzaWJsZSI7fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Nzp7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjk6e3M6MzY6ImZlYzFkYzIzLTcxMWQtNGVjOC05OTdjLTZlNTI0M2NhODg1YyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiZmVjMWRjMjMtNzExZC00ZWM4LTk5N2MtNmU1MjQzY2E4ODVjIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjIyOiJ0ZXh0IG9ubHkgLSBpbnRybyB0ZXh0IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjIxIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjQwMjE3Njg5LTVmYTctNGNmMi1hZTQ0LTIyYzc0YmNiMTM0YyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNDAyMTc2ODktNWZhNy00Y2YyLWFlNDQtMjJjNzRiY2IxMzRjIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjMyOiJ0ZXh0IG9ubHkgLSBhYm91dCB0aGUgVGV4dCBCbG9jayI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiIyMyI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToyO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJjY2RlZjM5Ni0zNjk1LTQwM2MtODgyMy0xMjFmZWY1MTYyMjMiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImNjZGVmMzk2LTM2OTUtNDAzYy04ODIzLTEyMWZlZjUxNjIyMyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dGV4dCI7czo1OiJsYWJlbCI7czozMToidGV4dCBvbmx5IC0gY2FsbCB0byBhY3Rpb24gdGV4dCI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI2OSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo0O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJjMzJiNGE1ZC01ZDRhLTRmYTQtYTM2Zi1mMGQ0MmJjZTA4NmIiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImMzMmI0YTVkLTVkNGEtNGZhNC1hMzZmLWYwZDQyYmNlMDg2YiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjI0OiJpbmxpbmVfYmxvY2s6YnV0dG9uX2xpbmsiO3M6NToibGFiZWwiO3M6MjM6InRleHQgb25seSAtIEJ1dHRvbiBMaW5rIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjI1IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjU7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImFiMDM2NmFhLTRlYzEtNGVkNy05MjA3LTdhZDY1MDE3N2NlYiI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYWIwMzY2YWEtNGVjMS00ZWQ3LTkyMDctN2FkNjUwMTc3Y2ViIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjMyOiJ0ZXh0IG9ubHkgLSBhY2NvcmRpb24gaW50cm8gdGV4dCI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiIyNyI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo3O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI2N2VkZTI1Yi0xNjViLTRjYTYtOWNhMy1iOTAzNGNiMTQ5Y2YiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjY3ZWRlMjViLTE2NWItNGNhNi05Y2EzLWI5MDM0Y2IxNDljZiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIyOiJpbmxpbmVfYmxvY2s6YWNjb3JkaW9uIjtzOjU6ImxhYmVsIjtzOjI3OiJ0ZXh0IG9ubHkgLSBhY2NvcmRpb24gYmxvY2siO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MjoiMjgiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6ODtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiYzkxZWI4ZjEtZjA0MC00ZGYzLTllMmUtOTM5MjhhMmM5N2JmIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJjOTFlYjhmMS1mMDQwLTRkZjMtOWUyZS05MzkyOGEyYzk3YmYiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoyMDoiaW5saW5lX2Jsb2NrOmRpdmlkZXIiO3M6NToibGFiZWwiO3M6NzoiZGl2aWRlciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiIzMyI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToxO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJjMDYxNjgzOS0yMDM5LTQ0ZDQtOTYyNS05YTQyNTUzZDJlYmIiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImMwNjE2ODM5LTIwMzktNDRkNC05NjI1LTlhNDI1NTNkMmViYiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIwOiJpbmxpbmVfYmxvY2s6ZGl2aWRlciI7czo1OiJsYWJlbCI7czo3OiJkaXZpZGVyIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjM0IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjM7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImJmMWFhNDEwLWNjNzYtNGE4Yy04Y2RiLTJiMThkOTlkNjliMyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYmYxYWE0MTAtY2M3Ni00YThjLThjZGItMmIxOGQ5OWQ2OWIzIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjA6ImlubGluZV9ibG9jazpkaXZpZGVyIjtzOjU6ImxhYmVsIjtzOjc6ImRpdmlkZXIiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MjoiMzUiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6NjtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319fXM6MjE6IgAqAHRoaXJkUGFydHlTZXR0aW5ncyI7YTowOnt9fQ==
+    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE2OiJ5c19sYXlvdXRfYmFubmVyIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE0OiJCYW5uZXIgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YTowOnt9czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjQ6e2k6NTtpOjU7aTo2O2k6NjtpOjc7aTo3O2k6ODtpOjg7fX19fXxPOjI5OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbiI6NDp7czoxMToiACoAbGF5b3V0SWQiO3M6MTk6InlzX2xheW91dF9wYWdlX21ldGEiO3M6MTc6IgAqAGxheW91dFNldHRpbmdzIjthOjI6e3M6NToibGFiZWwiO3M6MTg6IlRpdGxlIGFuZCBNZXRhZGF0YSI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiJiYjFkYWUwMy0xMDczLTRjOTktYTkxNC1hOGEyZjVmMGE4YzQiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImJiMWRhZTAzLTEwNzMtNGM5OS1hOTE0LWE4YTJmNWYwYThjNCI7czo5OiIAKgByZWdpb24iO3M6OToicGFnZV9tZXRhIjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjY6e3M6MjoiaWQiO3M6MTU6InBhZ2VfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNToiUGFnZSBNZXRhIEJsb2NrIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtzOjA6IiI7czo4OiJwcm92aWRlciI7czoxMDoieXNfbGF5b3V0cyI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e31zOjE4OiJwYWdlX3RpdGxlX2Rpc3BsYXkiO3M6NzoidmlzaWJsZSI7fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Nzp7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjk6e3M6MzY6ImZlYzFkYzIzLTcxMWQtNGVjOC05OTdjLTZlNTI0M2NhODg1YyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiZmVjMWRjMjMtNzExZC00ZWM4LTk5N2MtNmU1MjQzY2E4ODVjIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjIyOiJ0ZXh0IG9ubHkgLSBpbnRybyB0ZXh0IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjE1NSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI0MDIxNzY4OS01ZmE3LTRjZjItYWU0NC0yMmM3NGJjYjEzNGMiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjQwMjE3Njg5LTVmYTctNGNmMi1hZTQ0LTIyYzc0YmNiMTM0YyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dGV4dCI7czo1OiJsYWJlbCI7czozMjoidGV4dCBvbmx5IC0gYWJvdXQgdGhlIFRleHQgQmxvY2siO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTU2IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjI7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImNjZGVmMzk2LTM2OTUtNDAzYy04ODIzLTEyMWZlZjUxNjIyMyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiY2NkZWYzOTYtMzY5NS00MDNjLTg4MjMtMTIxZmVmNTE2MjIzIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjMxOiJ0ZXh0IG9ubHkgLSBjYWxsIHRvIGFjdGlvbiB0ZXh0IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjE1NyI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo0O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJjMzJiNGE1ZC01ZDRhLTRmYTQtYTM2Zi1mMGQ0MmJjZTA4NmIiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImMzMmI0YTVkLTVkNGEtNGZhNC1hMzZmLWYwZDQyYmNlMDg2YiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjI0OiJpbmxpbmVfYmxvY2s6YnV0dG9uX2xpbmsiO3M6NToibGFiZWwiO3M6MjM6InRleHQgb25seSAtIEJ1dHRvbiBMaW5rIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjE1OCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo1O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJhYjAzNjZhYS00ZWMxLTRlZDctOTIwNy03YWQ2NTAxNzdjZWIiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImFiMDM2NmFhLTRlYzEtNGVkNy05MjA3LTdhZDY1MDE3N2NlYiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dGV4dCI7czo1OiJsYWJlbCI7czozMjoidGV4dCBvbmx5IC0gYWNjb3JkaW9uIGludHJvIHRleHQiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTU5IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjc7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjY3ZWRlMjViLTE2NWItNGNhNi05Y2EzLWI5MDM0Y2IxNDljZiI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNjdlZGUyNWItMTY1Yi00Y2E2LTljYTMtYjkwMzRjYjE0OWNmIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjI6ImlubGluZV9ibG9jazphY2NvcmRpb24iO3M6NToibGFiZWwiO3M6Mjc6InRleHQgb25seSAtIGFjY29yZGlvbiBibG9jayI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxNjAiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6ODtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiYzkxZWI4ZjEtZjA0MC00ZGYzLTllMmUtOTM5MjhhMmM5N2JmIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJjOTFlYjhmMS1mMDQwLTRkZjMtOWUyZS05MzkyOGEyYzk3YmYiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoyMDoiaW5saW5lX2Jsb2NrOmRpdmlkZXIiO3M6NToibGFiZWwiO3M6NzoiZGl2aWRlciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxNjEiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MTtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiYzA2MTY4MzktMjAzOS00NGQ0LTk2MjUtOWE0MjU1M2QyZWJiIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJjMDYxNjgzOS0yMDM5LTQ0ZDQtOTYyNS05YTQyNTUzZDJlYmIiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoyMDoiaW5saW5lX2Jsb2NrOmRpdmlkZXIiO3M6NToibGFiZWwiO3M6NzoiZGl2aWRlciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxNjIiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MztzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiYmYxYWE0MTAtY2M3Ni00YThjLThjZGItMmIxOGQ5OWQ2OWIzIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJiZjFhYTQxMC1jYzc2LTRhOGMtOGNkYi0yYjE4ZDk5ZDY5YjMiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoyMDoiaW5saW5lX2Jsb2NrOmRpdmlkZXIiO3M6NToibGFiZWwiO3M6NzoiZGl2aWRlciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxNjMiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6NjtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319fXM6MjE6IgAqAHRoaXJkUGFydHlTZXR0aW5ncyI7YTowOnt9fQ==
     blocks:
       -
         uuid: 812247a6-8ecf-407c-8b53-4000a8d86c38
@@ -45,12 +47,15 @@ custom_fields:
           info: 'text only - intro text'
           reusable: false
           langcode: en
-          block_revision_id: '21'
+          block_revision_id: '155'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>Depending on your goals and users' needs, a text-only page may be the best choice for your content. We've crafted this example to demonstrate how YaleSites Blocks shine, whether you have multimedia assets or not.</p>\r\n"
@@ -63,12 +68,15 @@ custom_fields:
           info: 'text only - about the Text Block'
           reusable: false
           langcode: en
-          block_revision_id: '23'
+          block_revision_id: '156'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2>The Text Block</h2>\r\n\r\n<p>The <strong>Text Block</strong> uses a What You See Is What You Get (WYSIWYG) editor that allows you to enter and edit your text in a visual, user-friendly way. The WYSIWYG text editor behaves like word processing software. It will display your text as it appears on the website, so you can see what the formatting will look like as you work. You can easily <strong>bold</strong> and <em>italicize</em> your text, add headings, select text to create links, insert ordered and unordered lists, and insert a table.</p>\r\n\r\n<h3>Help your users with headings</h3>\r\n\r\n<p>Use headings to organize your content. This makes it easier for the reader to understand and navigate the information you share. To use headings effectively, consider your content's overall structure and hierarchy, and then divide it into sections and sub-sections using headings and nested subheadings.</p>\r\n"
@@ -81,12 +89,15 @@ custom_fields:
           info: 'text only - call to action text'
           reusable: false
           langcode: en
-          block_revision_id: '69'
+          block_revision_id: '157'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2 id=\"cta\">Highlight a primary call to action</h2>\r\n\r\n<p>The <strong>Button Link Block</strong> is an excellent choice when you need to emphasize the importance of a link on your page. Their visual nature grabs the attention of your audience, allowing them to determine how and where they can take action.</p>\r\n\r\n<p>However, this helpful visual distinction can quickly turn into visual noise when overused. Multiple, conflicting calls to action may leave your audience overwhelmed and confused.</p>\r\n\r\n<ul>\r\n\t<li>Reserve the <strong>Button Link Block</strong> for your most important calls to action</li>\r\n\t<li>Keep your text short, clear, and actionable</li>\r\n\t<li>Your calls to action should be related in some way when using paired Button Links</li>\r\n\t<li>Avoid vague link text like 'click here' or 'learn more'</li>\r\n</ul>"
@@ -99,7 +110,7 @@ custom_fields:
           info: 'text only - Button Link'
           reusable: false
           langcode: en
-          block_revision_id: '25'
+          block_revision_id: '158'
           enforce_new_revision: true
         custom_fields:
           field_button_link:
@@ -119,12 +130,15 @@ custom_fields:
           info: 'text only - accordion intro text'
           reusable: false
           langcode: en
-          block_revision_id: '27'
+          block_revision_id: '159'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2>The Accordion Block</h2>\r\n\r\n<p>The <strong>Accordion Block</strong> can make information processing and discovery more effective by allowing users to engage with content in a progressive manner. Accordions work best when your content falls into natural groupings that only some users will need to access. Since accordions are collapsed by default, it is essential to consider situations where users may not expand accordions or realize the information they need is contained within an accordion item. Use the <strong>Text Block</strong> and clear, descriptive headings when in doubt.</p>\r\n"
@@ -137,7 +151,7 @@ custom_fields:
           info: 'text only - accordion block'
           reusable: false
           langcode: en
-          block_revision_id: '28'
+          block_revision_id: '160'
           enforce_new_revision: true
         custom_fields:
           field_accordion_items:
@@ -149,6 +163,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1692023001'
+                behavior_settings: {  }
               custom_fields:
                 field_content:
                   -
@@ -159,6 +174,7 @@ custom_fields:
                       status: true
                       langcode: en
                       created: '1692023001'
+                      behavior_settings: {  }
                     custom_fields:
                       field_text:
                         -
@@ -176,6 +192,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1692023012'
+                behavior_settings: {  }
               custom_fields:
                 field_content:
                   -
@@ -186,6 +203,7 @@ custom_fields:
                       status: true
                       langcode: en
                       created: '1692023012'
+                      behavior_settings: {  }
                     custom_fields:
                       field_text:
                         -
@@ -203,6 +221,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1692023027'
+                behavior_settings: {  }
               custom_fields:
                 field_content:
                   -
@@ -213,6 +232,7 @@ custom_fields:
                       status: true
                       langcode: en
                       created: '1692023027'
+                      behavior_settings: {  }
                     custom_fields:
                       field_text:
                         -
@@ -234,7 +254,7 @@ custom_fields:
           info: divider
           reusable: false
           langcode: en
-          block_revision_id: '33'
+          block_revision_id: '161'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
@@ -254,7 +274,7 @@ custom_fields:
           info: divider
           reusable: false
           langcode: en
-          block_revision_id: '34'
+          block_revision_id: '162'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
@@ -274,7 +294,7 @@ custom_fields:
           info: divider
           reusable: false
           langcode: en
-          block_revision_id: '35'
+          block_revision_id: '163'
           enforce_new_revision: true
         custom_fields:
           field_instructions:

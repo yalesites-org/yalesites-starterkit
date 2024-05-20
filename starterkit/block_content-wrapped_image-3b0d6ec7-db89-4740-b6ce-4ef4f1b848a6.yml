@@ -6,7 +6,7 @@ base_fields:
   info: 'about page - building with blocks wrapped image'
   reusable: false
   langcode: en
-  block_revision_id: '10'
+  block_revision_id: '136'
   enforce_new_revision: true
 custom_fields:
   field_caption:

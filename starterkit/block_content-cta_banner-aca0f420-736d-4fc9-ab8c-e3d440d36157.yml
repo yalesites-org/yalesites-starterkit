@@ -6,7 +6,7 @@ base_fields:
   info: 'posts - action banner'
   reusable: false
   langcode: en
-  block_revision_id: '87'
+  block_revision_id: '142'
   enforce_new_revision: true
 custom_fields:
   field_heading:
@@ -22,6 +22,7 @@ custom_fields:
       uri: 'internal:/'
       title: 'Subscribe to our Newsletter'
       options: {  }
+  field_link_two: null
   field_media:
     -
       uuid: 7e2c62d5-400a-4168-8ab6-c8e6e408beb4

@@ -1,0 +1,41 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 9b79a070-e97b-4f8a-ac97-d5372d60d9bd
+entity_type: block_content
+bundle: grand_hero
+base_fields:
+  info: 'landing page - grand hero'
+  reusable: false
+  langcode: en
+  block_revision_id: '112'
+  enforce_new_revision: true
+custom_fields:
+  field_heading:
+    -
+      value: 'First impressions matter'
+      format: heading_html
+  field_heading_level: null
+  field_instructions:
+    -
+      markup: null
+  field_link: null
+  field_link_two: null
+  field_media:
+    -
+      uuid: f44332ab-7060-44cb-be9e-8960bc9a5e7c
+      entity_type: media
+      base_fields:
+        name: harkness-tower-dusk.jpg
+        created: '1691598171'
+        status: true
+        langcode: en
+      bundle: image
+  field_style_position:
+    -
+      value: contained
+  field_style_variation:
+    -
+      value: reduced
+  field_text:
+    -
+      value: "<p>Capture your users’ attention with the bold, visually engaging <strong>Grand Hero</strong>.</p>\r\n"
+      format: heading_html

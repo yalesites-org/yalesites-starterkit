@@ -1,0 +1,20 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 3e3e77fc-da09-4837-bd36-c633ece36d72
+entity_type: block_content
+bundle: button_link
+base_fields:
+  info: 'homepage more news and events button'
+  reusable: false
+  langcode: en
+  block_revision_id: '134'
+  enforce_new_revision: true
+custom_fields:
+  field_button_link:
+    -
+      uri: 'entity:node/9'
+      title: 'See all news'
+      options: {  }
+    -
+      uri: 'entity:node/10'
+      title: 'Upcoming events'
+      options: {  }

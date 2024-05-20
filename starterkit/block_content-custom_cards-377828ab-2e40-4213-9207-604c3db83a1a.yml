@@ -6,7 +6,7 @@ base_fields:
   info: 'homepage services pathways'
   reusable: false
   langcode: en
-  block_revision_id: '71'
+  block_revision_id: '119'
   enforce_new_revision: true
 custom_fields:
   field_cards:
@@ -18,6 +18,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1691700102'
+        behavior_settings: {  }
       custom_fields:
         field_heading:
           -
@@ -37,9 +38,10 @@ custom_fields:
               field_media_image:
                 -
                   uri: 'public://starterkit/central-campus-aerial-sunset_paul-coco.jpg'
-                  url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
-                  alt: 'Sprawling aerial view of Central Campus''s gothic architecture at sunset'
+                  url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
+                  alt: "Sprawling aerial view of Central Campus's gothic architecture at sunset"
                   title: ''
+              field_tags: null
         field_link:
           -
             uri: 'entity:node/8'
@@ -57,6 +59,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1691700226'
+        behavior_settings: {  }
       custom_fields:
         field_heading:
           -
@@ -76,8 +79,9 @@ custom_fields:
               field_media_image:
                 -
                   uri: 'public://starterkit/branford-windows-through-trees.jpg'
-                  url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/branford-windows-through-trees.jpg'
+                  url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/branford-windows-through-trees.jpg'
                   alt: 'The gothic windows of Branford peek through tree branches '
+              field_tags: null
         field_link:
           -
             uri: 'entity:node/12'
@@ -95,6 +99,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1692102352'
+        behavior_settings: {  }
       custom_fields:
         field_heading:
           -
@@ -114,8 +119,9 @@ custom_fields:
               field_media_image:
                 -
                   uri: 'public://starterkit/harkness-tower-clock_andrew-hurley.jpg'
-                  url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
+                  url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
                   alt: 'Detailed view of the beauty and grandeur of one of the clocks of Harkness Tower'
+              field_tags: null
         field_link:
           -
             uri: 'entity:node/13'
@@ -133,6 +139,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1691700425'
+        behavior_settings: {  }
       custom_fields:
         field_heading:
           -
@@ -152,9 +159,10 @@ custom_fields:
               field_media_image:
                 -
                   uri: 'public://2023-08/handsome-dan-ben-franklin.jpg'
-                  url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
-                  alt: 'Handsome Dan sitting next to Ben Franklin statue with paws on Franklin''s thigh'
+                  url: 'https://yalesites-platform.lndo.site/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
+                  alt: "Handsome Dan sitting next to Ben Franklin statue with paws on Franklin's thigh"
                   title: ''
+              field_tags: null
         field_link:
           -
             uri: 'entity:node/9'

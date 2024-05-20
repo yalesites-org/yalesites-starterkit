@@ -7,10 +7,11 @@ base_fields:
   status: true
   langcode: en
   created: '1692025076'
-  author: sebastianna.skalisky@yale.edu
+  author: null
   url: /posts/2023-08-14-example-post
   revision_log_message: null
-  revision_uid: '2'
+  revision_uid: '0'
+  moderation_state: published
 custom_fields:
   field_author:
     -
@@ -27,6 +28,7 @@ custom_fields:
         description: null
         parent: 0
       custom_fields: {  }
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -53,35 +55,38 @@ custom_fields:
     -
       value: 'Tell your story'
   layout_builder__layout:
-    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE4OiJUaXRsZSBhbmQgTWV0YWRhdGEiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6MTp7czozNjoiNmFiZjZhMGMtYWUzZC00N2Y4LWJmMzAtMDhlMzgyYzkwMTI0IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI2YWJmNmEwYy1hZTNkLTQ3ZjgtYmYzMC0wOGUzODJjOTAxMjQiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6NTp7czoyOiJpZCI7czoxNToicG9zdF9tZXRhX2Jsb2NrIjtzOjU6ImxhYmVsIjtzOjE1OiJQb3N0IE1ldGEgQmxvY2siO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO3M6MDoiIjtzOjg6InByb3ZpZGVyIjtzOjEwOiJ5c19sYXlvdXRzIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjg6e2k6MTtpOjE7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjY6e3M6MzY6ImJjNDBlNjE4LTJmOTAtNDZkZS1iYTA5LWRlODYzY2NmODJiOSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYmM0MGU2MTgtMmY5MC00NmRlLWJhMDktZGU4NjNjY2Y4MmI5IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjI1OiJleGFtcGxlIHBvc3QgLSBpbnRybyB0ZXh0IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjM3IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImZmNGE3NzEyLTJkMmItNDMyZC1hZjEzLTY3ODVhYTE4NzA5YyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiZmY0YTc3MTItMmQyYi00MzJkLWFmMTMtNjc4NWFhMTg3MDljIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTg6ImlubGluZV9ibG9jazppbWFnZSI7czo1OiJsYWJlbCI7czoyNjoiZXhhbXBsZSBwb3N0IC0gaW1hZ2UgYmxvY2siO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MjoiMzgiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MTtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiNjk5ZThhMjQtODhiYi00MzdiLWE3MjEtNzc3YWY2NGM5ZjJiIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI2OTllOGEyNC04OGJiLTQzN2ItYTcyMS03NzdhZjY0YzlmMmIiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MzU6ImV4YW1wbGUgcG9zdCAtIHRleHQgYmxvY2sgZXhwbGFpbmVyIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjM5IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjI7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImJhZDNlYWJiLWQ3MTgtNDljMC1hZWY3LWE4MmFhN2NhOGI3NyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYmFkM2VhYmItZDcxOC00OWMwLWFlZjctYTgyYWE3Y2E4Yjc3IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjM6ImlubGluZV9ibG9jazpwdWxsX3F1b3RlIjtzOjU6ImxhYmVsIjtzOjIwOiJleGFtcGxlIHBvc3QgLSBxdW90ZSI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI0MCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTozO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI0ZTM2ZjAzYi1jZjAxLTRiM2EtYWY2Yi0zNDAzNTcxZjdmYmIiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjRlMzZmMDNiLWNmMDEtNGIzYS1hZjZiLTM0MDM1NzFmN2ZiYiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dGV4dCI7czo1OiJsYWJlbCI7czozMjoiZXhhbXBsZSBwb3N0IC0gdGVhc2VycyBleHBsYWluZXIiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTA2IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjQ7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjkzMjg0NjM4LTkzMjktNDc3My1hZDJkLTFkNzlmZWI4NjIzOSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiOTMyODQ2MzgtOTMyOS00NzczLWFkMmQtMWQ3OWZlYjg2MjM5IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjY6ImlubGluZV9ibG9jazp3cmFwcGVkX2ltYWdlIjtzOjU6ImxhYmVsIjtzOjI4OiJleGFtcGxlIHBvc3QgLSB3cmFwcGVkIGltYWdlIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjQyIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjU7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Mjp7aTo2O2k6NjtpOjc7aTo3O319fX0=
+    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE4OiJUaXRsZSBhbmQgTWV0YWRhdGEiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6MTp7czozNjoiNmFiZjZhMGMtYWUzZC00N2Y4LWJmMzAtMDhlMzgyYzkwMTI0IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI2YWJmNmEwYy1hZTNkLTQ3ZjgtYmYzMC0wOGUzODJjOTAxMjQiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6NTp7czoyOiJpZCI7czoxNToicG9zdF9tZXRhX2Jsb2NrIjtzOjU6ImxhYmVsIjtzOjE1OiJQb3N0IE1ldGEgQmxvY2siO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO3M6MDoiIjtzOjg6InByb3ZpZGVyIjtzOjEwOiJ5c19sYXlvdXRzIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjg6e2k6MTtpOjE7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjY6e3M6MzY6ImJjNDBlNjE4LTJmOTAtNDZkZS1iYTA5LWRlODYzY2NmODJiOSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYmM0MGU2MTgtMmY5MC00NmRlLWJhMDktZGU4NjNjY2Y4MmI5IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjI1OiJleGFtcGxlIHBvc3QgLSBpbnRybyB0ZXh0IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjE3MCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJmZjRhNzcxMi0yZDJiLTQzMmQtYWYxMy02Nzg1YWExODcwOWMiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImZmNGE3NzEyLTJkMmItNDMyZC1hZjEzLTY3ODVhYTE4NzA5YyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE4OiJpbmxpbmVfYmxvY2s6aW1hZ2UiO3M6NToibGFiZWwiO3M6MjY6ImV4YW1wbGUgcG9zdCAtIGltYWdlIGJsb2NrIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjE3MSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToxO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI2OTllOGEyNC04OGJiLTQzN2ItYTcyMS03NzdhZjY0YzlmMmIiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjY5OWU4YTI0LTg4YmItNDM3Yi1hNzIxLTc3N2FmNjRjOWYyYiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dGV4dCI7czo1OiJsYWJlbCI7czozNToiZXhhbXBsZSBwb3N0IC0gdGV4dCBibG9jayBleHBsYWluZXIiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTcyIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjI7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImJhZDNlYWJiLWQ3MTgtNDljMC1hZWY3LWE4MmFhN2NhOGI3NyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYmFkM2VhYmItZDcxOC00OWMwLWFlZjctYTgyYWE3Y2E4Yjc3IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjM6ImlubGluZV9ibG9jazpwdWxsX3F1b3RlIjtzOjU6ImxhYmVsIjtzOjIwOiJleGFtcGxlIHBvc3QgLSBxdW90ZSI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxNzMiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MztzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiNGUzNmYwM2ItY2YwMS00YjNhLWFmNmItMzQwMzU3MWY3ZmJiIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI0ZTM2ZjAzYi1jZjAxLTRiM2EtYWY2Yi0zNDAzNTcxZjdmYmIiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MzI6ImV4YW1wbGUgcG9zdCAtIHRlYXNlcnMgZXhwbGFpbmVyIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjE3NCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo0O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI5MzI4NDYzOC05MzI5LTQ3NzMtYWQyZC0xZDc5ZmViODYyMzkiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjkzMjg0NjM4LTkzMjktNDc3My1hZDJkLTFkNzlmZWI4NjIzOSI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjI2OiJpbmxpbmVfYmxvY2s6d3JhcHBlZF9pbWFnZSI7czo1OiJsYWJlbCI7czoyODoiZXhhbXBsZSBwb3N0IC0gd3JhcHBlZCBpbWFnZSI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxNzUiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6NTtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319fXM6MjE6IgAqAHRoaXJkUGFydHlTZXR0aW5ncyI7YToxOntzOjE5OiJsYXlvdXRfYnVpbGRlcl9sb2NrIjthOjE6e3M6NDoibG9jayI7YToyOntpOjY7aTo2O2k6NztpOjc7fX19fQ==
     blocks:
       -
-        uuid: af259a87-968f-4952-b973-b61851a78756
+        uuid: f55ed4da-a991-4ca4-9488-811a773a31a5
         entity_type: block_content
         bundle: text
         base_fields:
           info: 'example post - intro text'
           reusable: false
           langcode: en
-          block_revision_id: '37'
+          block_revision_id: '170'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>The <strong>Post Content Type</strong> provides content creators with a flexible, feature-rich approach to composing editorial pieces. Posts are versatile enough to support sharing everything from simple, text-only announcements to crafting visually engaging, full-length magazine-style articles.</p>\r\n"
               format: basic_html
       -
-        uuid: 1073623f-7baa-4d20-a86d-c0ad14b8638c
+        uuid: 1e367fac-f1e5-44e0-aa06-954d525de4c7
         entity_type: block_content
         bundle: image
         base_fields:
           info: 'example post - image block'
           reusable: false
           langcode: en
-          block_revision_id: '38'
+          block_revision_id: '171'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
@@ -91,50 +96,46 @@ custom_fields:
             -
               uuid: b9065fb6-1886-4612-91f2-589c3695793b
               entity_type: media
-              bundle: image
               base_fields:
                 name: illuminated-stacks-sterling-memorial-library_jack-devlin.jpg
                 created: '1691598171'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
-                    alt: 'the setting sun spills through an arched window into a dark aisle, illuminating the library stacks'
-                    title: ''
+              bundle: image
           field_text:
             -
               value: "<p>Use the <strong>Image Block</strong> to add media to your Post and <strong>Teaser Media</strong> to include a thumbnail within your Post Feeds.</p>\r\n"
               format: restricted_html
       -
-        uuid: a0250164-b988-4fdf-9b31-a16c8e6d8e3c
+        uuid: 772996c7-9e33-4896-9411-500b53946258
         entity_type: block_content
         bundle: text
         base_fields:
           info: 'example post - text block explainer'
           reusable: false
           langcode: en
-          block_revision_id: '39'
+          block_revision_id: '172'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>The <strong>Text Block</strong> simplifies the authoring experience by providing a What You See Is What You Get (WYSIWYG) editor that allows you to enter and edit your text in a visual, user-friendly way. The WYSIWYG editor behaves like word processing software, simplifying the most common formatting tasks, such as inserting headings, lists, and links, bolding text, applying italics, or adding a table.</p>\r\n"
               format: basic_html
       -
-        uuid: b1c708fe-e233-4ef5-9dee-ea0d33fac4c2
+        uuid: 39bee0c5-06e3-49be-a312-4244514ab80d
         entity_type: block_content
         bundle: pull_quote
         base_fields:
           info: 'example post - quote'
           reusable: false
           langcode: en
-          block_revision_id: '40'
+          block_revision_id: '173'
           enforce_new_revision: true
         custom_fields:
           field_caption:
@@ -152,32 +153,35 @@ custom_fields:
               value: "<p>Use the <strong>Quote Block</strong> to highlight a memorable phrase or key point from your article. Quotes are perfect for interviews or lengthy articles, as they help break up long blocks of text and guide the reader down the page.</p>\r\n"
               format: heading_html
       -
-        uuid: e21e92ef-442b-4ade-9073-f65e24ac3994
+        uuid: 5da9410f-51fb-48ae-8e23-49edd0334bb6
         entity_type: block_content
         bundle: text
         base_fields:
           info: 'example post - teasers explainer'
           reusable: false
           langcode: en
-          block_revision_id: '106'
+          block_revision_id: '174'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2>Tease out the details</h2>\r\n\r\n<p>Published Posts can be dynamically added to your site using either the <strong>Post Feed</strong> or <strong>View Block</strong>. At a minimum, your feed will display an article's publish date and title, which is perfectly suited to sharing simple announcements and updates.</p>\r\n\r\n<p>Your <strong>Teaser details</strong> display in feeds, Views, search engine result pages, and social sharing cards. By including Teaser details, you increase the chances of capturing your audience's attention so they engage with your content.</p>\r\n\r\n<ul>\r\n\t<li><strong>Teaser Title:</strong> a succinct, scannable version of your title. The full title will be shown when someone views this content.</li>\r\n\t<li><strong>Teaser Text: </strong>summary text to pique your audience’s interest so they want to know more. Avoid repeating details that are included in your title.</li>\r\n\t<li><strong>Teaser Media:</strong> a supporting thumbnail image that helps illustrate the main idea or topic of your content.</li>\r\n</ul>\r\n"
               format: basic_html
       -
-        uuid: 3da873da-e4d6-47df-9bcf-b78733ce8820
+        uuid: c20a2a2a-5060-4d10-a864-b04c9ff9c6ef
         entity_type: block_content
         bundle: wrapped_image
         base_fields:
           info: 'example post - wrapped image'
           reusable: false
           langcode: en
-          block_revision_id: '42'
+          block_revision_id: '175'
           enforce_new_revision: true
         custom_fields:
           field_caption:
@@ -191,19 +195,12 @@ custom_fields:
             -
               uuid: b53c2c3a-a820-411f-9a11-0980f973863e
               entity_type: media
-              bundle: image
               base_fields:
                 name: gargoyle-old-campus_andrew-hurley.jpg
                 created: '1691598171'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://starterkit/gargoyle-old-campus_andrew-hurley.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/gargoyle-old-campus_andrew-hurley.jpg'
-                    alt: 'A lion-headed gargoyle watches over Old Campus'
-                    title: ''
+              bundle: image
           field_style_position:
             -
               value: right

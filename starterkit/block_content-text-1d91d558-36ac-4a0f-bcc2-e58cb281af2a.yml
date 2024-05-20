@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 1d91d558-36ac-4a0f-bcc2-e58cb281af2a
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'text post - copy'
+  reusable: false
+  langcode: en
+  block_revision_id: '182'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: default
+  field_text:
+    -
+      value: "<p>YaleSites' <strong>Posts</strong> present content creators with a flexible, feature-rich approach to composing editorial pieces. Posts are versatile enough to support everything from sharing simple, text-only announcements to crafting visually engaging, magazine-style articles.</p>\r\n\r\n<h2>No photos? No problem!</h2>\r\n\r\n<p>Though Posts support including media-rich content like videos, galleries, and banners, there are times when simple text is the better choice for your website. By leveraging Yale's typographical legacy, we've built a design system that ensures your text-only pages, posts, and events shine when you use the platform.</p>\r\n\r\n<h3>Help your users with headings</h3>\r\n\r\n<p>Whether including media or relying on text alone, the structure of your content will significantly impact whether users can find what they're looking for and accomplish tasks.</p>\r\n\r\n<p>Use headings to organize your content. This makes it easier for the reader to understand and navigate the information you share. To use headings effectively, consider your content's overall structure and hierarchy, and then divide it into sections and sub-sections using headings and nested subheadings.</p>\r\n\r\n<p>Do not skip heading ranks. For example, heading 2 should not be followed directly by heading 4. That being said, it is appropriate to skip ranks when \"closing\" subsections; heading 2 logically follows heading 4 when you're beginning a new section.</p>\r\n"
+      format: basic_html

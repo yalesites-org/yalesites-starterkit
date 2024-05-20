@@ -1,0 +1,28 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 30a3a50a-348e-4b46-8120-c4cb3f5f4144
+entity_type: block_content
+bundle: image
+base_fields:
+  info: 'example event - image'
+  reusable: false
+  langcode: en
+  block_revision_id: '152'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_media:
+    -
+      uuid: 02f24af5-88b3-485c-a37c-f93e977067e4
+      entity_type: media
+      base_fields:
+        name: yale-university-art-gallery-interior_elizabeth-felicella.jpg
+        created: '1691598171'
+        status: true
+        langcode: en
+      bundle: image
+  field_text:
+    -
+      value: "<p>Provide users with a window into what they can expect at your event by using the<strong> Image block</strong>.</p>\r\n"
+      format: restricted_html

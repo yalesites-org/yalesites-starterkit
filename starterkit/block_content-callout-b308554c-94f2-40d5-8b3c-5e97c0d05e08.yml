@@ -6,7 +6,7 @@ base_fields:
   info: 'centering inclusivity post callout'
   reusable: false
   langcode: en
-  block_revision_id: '104'
+  block_revision_id: '190'
   enforce_new_revision: true
 custom_fields:
   field_callout:
@@ -18,6 +18,7 @@ custom_fields:
         status: true
         langcode: en
         created: '1694016109'
+        behavior_settings: {  }
       custom_fields:
         field_heading:
           -
@@ -35,6 +36,7 @@ custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_alignment: null
   field_style_color:
     -
       value: one

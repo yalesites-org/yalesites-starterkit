@@ -6,12 +6,15 @@ base_fields:
   info: 'homepage posts view intro text'
   reusable: false
   langcode: en
-  block_revision_id: '6'
+  block_revision_id: '121'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<h2>Share your stories</h2>\r\n\r\n<p>You can use the <strong>View Block</strong> to curate a feed of <strong>Posts</strong> on your website. We adjusted our View to show only our most recent Post to ensure our homepage's content remains focused.</p>\r\n"

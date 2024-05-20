@@ -6,12 +6,15 @@ base_fields:
   info: 'example post - intro text'
   reusable: false
   langcode: en
-  block_revision_id: '37'
+  block_revision_id: '164'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<p>The <strong>Post Content Type</strong> provides content creators with a flexible, feature-rich approach to composing editorial pieces. Posts are versatile enough to support sharing everything from simple, text-only announcements to crafting visually engaging, full-length magazine-style articles.</p>\r\n"

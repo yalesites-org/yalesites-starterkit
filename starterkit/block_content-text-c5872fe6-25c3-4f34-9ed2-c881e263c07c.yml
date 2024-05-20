@@ -6,12 +6,15 @@ base_fields:
   info: 'homepage introduction copy'
   reusable: false
   langcode: en
-  block_revision_id: '2'
+  block_revision_id: '118'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<p>Powered by a flexible design system and our intuitive Block editor, YaleSites makes it easy to create accessible, high-quality, on-brand websites in a fast, fun, and efficient way.</p>\r\n\r\n<p>Looking to connect with prospective students, highlight your department’s research and scholarship, or promote an event? Whatever your objectives, YaleSites gives you the building blocks you need to create content that supports your users and helps you achieve your goals.</p>\r\n"

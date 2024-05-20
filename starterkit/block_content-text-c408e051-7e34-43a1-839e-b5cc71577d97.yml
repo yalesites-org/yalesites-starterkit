@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: c408e051-7e34-43a1-839e-b5cc71577d97
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'posts - intro text'
+  reusable: false
+  langcode: en
+  block_revision_id: '80'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: default
+  field_text:
+    -
+      value: "<p>YaleSites simplifies featuring news articles, blog posts, or announcements on your site in an easy-to-scan, visually engaging way.</p>\r\n\r\n<p>Use the <strong>Post Feed Block</strong> to create a dynamic feed with the push of a button. Your feed will automatically update whenever you publish a new Post, and your visitors can use the built-in category filter to engage with ease.</p>\r\n\r\n<p>When creating your Posts, use <strong>Teaser details </strong>to add a thumbnail image and summary text to give your listings more flair.</p>\r\n"
+      format: basic_html

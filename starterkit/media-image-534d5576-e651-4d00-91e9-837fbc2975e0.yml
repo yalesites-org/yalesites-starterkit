@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/yale-motto-carving_dan-renzetti.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/yale-motto-carving_dan-renzetti.jpg'
-      alt: 'Exterior of Sheffield-Sterling-Strathcona Hall featuring a stone carving of Yale''s coat of arms and motto'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/yale-motto-carving_dan-renzetti.jpg'
+      alt: "Exterior of Sheffield-Sterling-Strathcona Hall featuring a stone carving of Yale's coat of arms and motto"
+  field_tags: null

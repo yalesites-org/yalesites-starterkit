@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/harkness-tower-clock_andrew-hurley.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
       alt: 'Detailed view of the beauty and grandeur of one of the clocks of Harkness Tower'
+  field_tags: null

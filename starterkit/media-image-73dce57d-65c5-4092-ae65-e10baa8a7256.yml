@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
-      alt: 'Dramatic view of the towers on Yale University''s historic Dwight Hall'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
+      alt: "Dramatic view of the towers on Yale University's historic Dwight Hall"
+  field_tags: null

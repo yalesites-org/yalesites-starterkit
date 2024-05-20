@@ -6,7 +6,7 @@ base_fields:
   info: 'homepage action banner'
   reusable: false
   langcode: en
-  block_revision_id: '91'
+  block_revision_id: '117'
   enforce_new_revision: true
 custom_fields:
   field_heading:
@@ -22,6 +22,7 @@ custom_fields:
       uri: 'internal:/text-only-page#cta'
       title: 'Call to Action'
       options: {  }
+  field_link_two: null
   field_media:
     -
       uuid: b7103556-2f77-429a-b2f9-159617684731
@@ -36,9 +37,10 @@ custom_fields:
         field_media_image:
           -
             uri: 'public://2023-09/students-cross-campus_anna-zhang.jpg'
-            url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-cross-campus_anna-zhang.jpg'
-            alt: 'students enjoy the vibrancy of Yale''s campus scenery'
+            url: 'https://yalesites-platform.lndo.site/sites/default/files/2023-09/students-cross-campus_anna-zhang.jpg'
+            alt: "students enjoy the vibrancy of Yale's campus scenery"
             title: ''
+        field_tags: null
   field_style_color:
     -
       value: one

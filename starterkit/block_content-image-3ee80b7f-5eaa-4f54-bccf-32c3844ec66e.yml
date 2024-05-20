@@ -6,7 +6,7 @@ base_fields:
   info: 'example event - image'
   reusable: false
   langcode: en
-  block_revision_id: '78'
+  block_revision_id: '149'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
@@ -26,8 +26,9 @@ custom_fields:
         field_media_image:
           -
             uri: 'public://starterkit/yale-university-art-gallery-interior_elizabeth-felicella.jpg'
-            url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/yale-university-art-gallery-interior_elizabeth-felicella.jpg'
+            url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/yale-university-art-gallery-interior_elizabeth-felicella.jpg'
             alt: 'A collection of sculptures from the ancient Mediterranean world on display in the Yale University Art Gallery'
+        field_tags: null
   field_text:
     -
       value: "<p>Provide users with a window into what they can expect at your event by using the<strong> Image block</strong>.</p>\r\n"

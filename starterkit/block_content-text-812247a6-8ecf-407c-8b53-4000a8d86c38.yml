@@ -6,12 +6,15 @@ base_fields:
   info: 'text only - intro text'
   reusable: false
   langcode: en
-  block_revision_id: '21'
+  block_revision_id: '155'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<p>Depending on your goals and users' needs, a text-only page may be the best choice for your content. We've crafted this example to demonstrate how YaleSites Blocks shine, whether you have multimedia assets or not.</p>\r\n"

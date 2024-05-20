@@ -6,7 +6,7 @@ base_fields:
   info: 'homepage building with blocks spotlight'
   reusable: false
   langcode: en
-  block_revision_id: '45'
+  block_revision_id: '120'
   enforce_new_revision: true
 custom_fields:
   field_heading:
@@ -35,9 +35,11 @@ custom_fields:
         field_media_image:
           -
             uri: 'public://2023-08/yale-brick-in-wall-detail.jpg'
-            url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/yale-brick-in-wall-detail.jpg'
+            url: 'https://yalesites-platform.lndo.site/sites/default/files/2023-08/yale-brick-in-wall-detail.jpg'
             alt: 'brick wall with YALE carved into one of the bricks'
             title: ''
+        field_tags: null
+  field_style_color: null
   field_style_position:
     -
       value: image-left

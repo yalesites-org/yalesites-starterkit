@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 772996c7-9e33-4896-9411-500b53946258
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'example post - text block explainer'
+  reusable: false
+  langcode: en
+  block_revision_id: '172'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: default
+  field_text:
+    -
+      value: "<p>The <strong>Text Block</strong> simplifies the authoring experience by providing a What You See Is What You Get (WYSIWYG) editor that allows you to enter and edit your text in a visual, user-friendly way. The WYSIWYG editor behaves like word processing software, simplifying the most common formatting tasks, such as inserting headings, lists, and links, bolding text, applying italics, or adding a table.</p>\r\n"
+      format: basic_html

@@ -7,10 +7,11 @@ base_fields:
   status: true
   langcode: en
   created: '1693938894'
-  author: sebastianna.skalisky@yale.edu
+  author: null
   url: /events/2026-08-01-revitalize-past-events
   revision_log_message: null
-  revision_uid: '2'
+  revision_uid: '0'
+  moderation_state: published
 custom_fields:
   field_category:
     -
@@ -46,6 +47,7 @@ custom_fields:
         description: null
         parent: 0
       custom_fields: {  }
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -67,53 +69,59 @@ custom_fields:
       format: heading_html
   field_teaser_title: null
   layout_builder__layout:
-    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE4OiJUaXRsZSBhbmQgTWV0YWRhdGEiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6MTp7czozNjoiYzkyODc1NjYtNTg3NS00NDNmLThiNmMtN2M3NmRkMWE2MGQ0IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJjOTI4NzU2Ni01ODc1LTQ0M2YtOGI2Yy03Yzc2ZGQxYTYwZDQiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6NTp7czoyOiJpZCI7czoxNjoiZXZlbnRfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNjoiRXZlbnQgTWV0YSBCbG9jayI7czoxMzoibGFiZWxfZGlzcGxheSI7czowOiIiO3M6ODoicHJvdmlkZXIiO3M6MTA6InlzX2xheW91dHMiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6ODp7aToxO2k6MTtpOjI7aToyO2k6MztpOjM7aTo0O2k6NDtpOjU7aTo1O2k6NjtpOjY7aTo3O2k6NztpOjg7aTo4O319fX18TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToxOntzOjU6ImxhYmVsIjtzOjA6IiI7fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6Mzp7czozNjoiNjcxYjdjMjMtYmJkMi00NWY1LTg0YTEtOWNkMTk3ODBlYzdlIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI2NzFiN2MyMy1iYmQyLTQ1ZjUtODRhMS05Y2QxOTc4MGVjN2UiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MjE6InBhc3QgZXZlbnRzIGV4cGxhaW5lciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI5NSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI0NGQwZmZjNS01MjQ0LTQ4ZGUtYjBkMS0zMWM3NzQ0OTk4NmIiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjQ0ZDBmZmM1LTUyNDQtNDhkZS1iMGQxLTMxYzc3NDQ5OTg2YiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dGV4dCI7czo1OiJsYWJlbCI7czozNDoicGFzdCBldmVudHMgZXhwbGFpbmVyIC0gdXNpbmcgdmlldyI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI5OSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToyO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJjYjQxNmMyOS0xNzExLTQ4ZDMtYTc5Mi03Y2M5M2MyYzkyNDciO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImNiNDE2YzI5LTE3MTEtNDhkMy1hNzkyLTdjYzkzYzJjOTI0NyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIzOiJpbmxpbmVfYmxvY2s6bWVkaWFfZ3JpZCI7czo1OiJsYWJlbCI7czoyNDoicGFzdCBldmVudHMgLSBtZWRpYSBncmlkIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6Ijk4IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjE7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Mjp7aTo2O2k6NjtpOjc7aTo3O319fX0=
+    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE4OiJUaXRsZSBhbmQgTWV0YWRhdGEiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6MTp7czozNjoiYzkyODc1NjYtNTg3NS00NDNmLThiNmMtN2M3NmRkMWE2MGQ0IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJjOTI4NzU2Ni01ODc1LTQ0M2YtOGI2Yy03Yzc2ZGQxYTYwZDQiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6NTp7czoyOiJpZCI7czoxNjoiZXZlbnRfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNjoiRXZlbnQgTWV0YSBCbG9jayI7czoxMzoibGFiZWxfZGlzcGxheSI7czowOiIiO3M6ODoicHJvdmlkZXIiO3M6MTA6InlzX2xheW91dHMiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6ODp7aToxO2k6MTtpOjI7aToyO2k6MztpOjM7aTo0O2k6NDtpOjU7aTo1O2k6NjtpOjY7aTo3O2k6NztpOjg7aTo4O319fX18TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToxOntzOjU6ImxhYmVsIjtzOjA6IiI7fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6Mzp7czozNjoiNjcxYjdjMjMtYmJkMi00NWY1LTg0YTEtOWNkMTk3ODBlYzdlIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI2NzFiN2MyMy1iYmQyLTQ1ZjUtODRhMS05Y2QxOTc4MGVjN2UiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MjE6InBhc3QgZXZlbnRzIGV4cGxhaW5lciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxODYiO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6MDtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiNDRkMGZmYzUtNTI0NC00OGRlLWIwZDEtMzFjNzc0NDk5ODZiIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI0NGQwZmZjNS01MjQ0LTQ4ZGUtYjBkMS0zMWM3NzQ0OTk4NmIiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MzQ6InBhc3QgZXZlbnRzIGV4cGxhaW5lciAtIHVzaW5nIHZpZXciO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTg3IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjI7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImNiNDE2YzI5LTE3MTEtNDhkMy1hNzkyLTdjYzkzYzJjOTI0NyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiY2I0MTZjMjktMTcxMS00OGQzLWE3OTItN2NjOTNjMmM5MjQ3IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjM6ImlubGluZV9ibG9jazptZWRpYV9ncmlkIjtzOjU6ImxhYmVsIjtzOjI0OiJwYXN0IGV2ZW50cyAtIG1lZGlhIGdyaWQiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MzoiMTg4IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjE7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Mjp7aTo2O2k6NjtpOjc7aTo3O319fX0=
     blocks:
       -
-        uuid: 72ac2feb-a9df-470d-bfed-6731dacbb067
+        uuid: db48811a-3c45-4bea-aa44-7b325a138e3b
         entity_type: block_content
         bundle: text
         base_fields:
           info: 'past events explainer'
           reusable: false
           langcode: en
-          block_revision_id: '95'
+          block_revision_id: '186'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>If including past events is part of your strategy, consider revisiting your content to ensure it continues to provide value. By offering potential attendees a glimpse into what they missed while showing them what they can expect from your events, you can generate excitement and encourage visitors to attend in the future.</p>\r\n\r\n<p>You might add a video, update your summary, share a collection of images, or include a call to action that connects visitors to an article or blog post recap.</p>\r\n\r\n<p>Whatever your approach, we encourage you to maintain your content in a way that supports your goals as well as your audience's needs.</p>\r\n"
               format: basic_html
       -
-        uuid: 2966e9ed-65ae-41ec-95e1-7f7f56b9f608
+        uuid: 69fdbc80-2959-4f84-9460-db56146f7bb9
         entity_type: block_content
         bundle: text
         base_fields:
           info: 'past events explainer - using view'
           reusable: false
           langcode: en
-          block_revision_id: '99'
+          block_revision_id: '187'
           enforce_new_revision: true
         custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2>Create an events archive</h2>\r\n\r\n<p>Use the <strong>View Block</strong> to create an events archive for your site. By adjusting the \"Event Time Period,\" you can display all events in a View or create a View dedicated to Past Events. Select the option that best aligns with your goals and objectives.</p>\r\n"
               format: basic_html
       -
-        uuid: d99925bd-56dc-44dd-b89a-6292247f04fb
+        uuid: 57cda10d-0705-43d7-945e-6fd88fbbbb49
         entity_type: block_content
         bundle: media_grid
         base_fields:
           info: 'past events - media grid'
           reusable: false
           langcode: en
-          block_revision_id: '98'
+          block_revision_id: '188'
           enforce_new_revision: true
         custom_fields:
           field_heading: null
@@ -129,6 +137,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1693940156'
+                behavior_settings: {  }
               custom_fields:
                 field_media:
                   -
@@ -144,8 +153,9 @@ custom_fields:
                       field_media_image:
                         -
                           uri: 'public://starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
+                          url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/stone-carving-sterling-memorial-library_michael-marsland.jpg'
                           alt: 'Stone carving of a mythical man-bull with wings'
+                      field_tags: null
             -
               uuid: 53a13999-9ae7-4769-8643-21a1e8d8658e
               entity_type: paragraph
@@ -154,6 +164,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1693940030'
+                behavior_settings: {  }
               custom_fields:
                 field_media:
                   -

@@ -6,12 +6,15 @@ base_fields:
   info: 'example post - text block explainer'
   reusable: false
   langcode: en
-  block_revision_id: '39'
+  block_revision_id: '166'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<p>The <strong>Text Block</strong> simplifies the authoring experience by providing a What You See Is What You Get (WYSIWYG) editor that allows you to enter and edit your text in a visual, user-friendly way. The WYSIWYG editor behaves like word processing software, simplifying the most common formatting tasks, such as inserting headings, lists, and links, bolding text, applying italics, or adding a table.</p>\r\n"

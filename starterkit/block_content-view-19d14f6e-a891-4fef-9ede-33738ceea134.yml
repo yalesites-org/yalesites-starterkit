@@ -1,0 +1,18 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 19d14f6e-a891-4fef-9ede-33738ceea134
+entity_type: block_content
+bundle: view
+base_fields:
+  info: 'homepage posts view'
+  reusable: false
+  langcode: en
+  block_revision_id: '131'
+  enforce_new_revision: true
+custom_fields:
+  field_heading: null
+  field_instructions:
+    -
+      markup: null
+  field_view_params:
+    -
+      params: '{"view_mode":"list_item","filters":{"types":["post"],"terms_include":null,"terms_exclude":null,"event_time_period":"future"},"operator":"+","sort_by":"field_publish_date:DESC","display":"limit","limit":1}'

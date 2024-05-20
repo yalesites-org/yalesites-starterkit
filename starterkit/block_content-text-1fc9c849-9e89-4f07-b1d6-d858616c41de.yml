@@ -6,12 +6,15 @@ base_fields:
   info: 'text only - accordion intro text'
   reusable: false
   langcode: en
-  block_revision_id: '27'
+  block_revision_id: '159'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<h2>The Accordion Block</h2>\r\n\r\n<p>The <strong>Accordion Block</strong> can make information processing and discovery more effective by allowing users to engage with content in a progressive manner. Accordions work best when your content falls into natural groupings that only some users will need to access. Since accordions are collapsed by default, it is essential to consider situations where users may not expand accordions or realize the information they need is contained within an accordion item. Use the <strong>Text Block</strong> and clear, descriptive headings when in doubt.</p>\r\n"

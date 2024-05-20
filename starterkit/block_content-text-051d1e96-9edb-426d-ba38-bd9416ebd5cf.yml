@@ -1,0 +1,21 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 051d1e96-9edb-426d-ba38-bd9416ebd5cf
+entity_type: block_content
+bundle: text
+base_fields:
+  info: 'text only - call to action text'
+  reusable: false
+  langcode: en
+  block_revision_id: '100'
+  enforce_new_revision: true
+custom_fields:
+  field_instructions:
+    -
+      markup: null
+  field_style_variation:
+    -
+      value: default
+  field_text:
+    -
+      value: "<h2 id=\"cta\">Highlight a primary call to action</h2>\r\n\r\n<p>The <strong>Button Link Block</strong> is an excellent choice when you need to emphasize the importance of a link on your page. Their visual nature grabs the attention of your audience, allowing them to determine how and where they can take action.</p>\r\n\r\n<p>However, this helpful visual distinction can quickly turn into visual noise when overused. Multiple, conflicting calls to action may leave your audience overwhelmed and confused.</p>\r\n\r\n<ul>\r\n\t<li>Reserve the <strong>Button Link Block</strong> for your most important calls to action</li>\r\n\t<li>Keep your text short, clear, and actionable</li>\r\n\t<li>Your calls to action should be related in some way when using paired Button Links</li>\r\n\t<li>Avoid vague link text like 'click here' or 'learn more'</li>\r\n</ul>"
+      format: basic_html

@@ -1,0 +1,15 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 218e5243-86f5-476c-9530-5d747365ff6c
+entity_type: block_content
+bundle: post_list
+base_fields:
+  info: 'posts - posts feed'
+  reusable: false
+  langcode: en
+  block_revision_id: '79'
+  enforce_new_revision: true
+custom_fields:
+  field_heading: null
+  field_instructions:
+    -
+      markup: null

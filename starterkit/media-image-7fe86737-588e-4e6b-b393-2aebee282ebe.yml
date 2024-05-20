@@ -11,5 +11,6 @@ custom_fields:
   field_media_image:
     -
       uri: 'public://starterkit/branford-windows-through-trees.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/branford-windows-through-trees.jpg'
+      url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/branford-windows-through-trees.jpg'
       alt: 'The gothic windows of Branford peek through tree branches '
+  field_tags: null

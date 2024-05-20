@@ -6,7 +6,7 @@ base_fields:
   info: 'example post - wrapped image'
   reusable: false
   langcode: en
-  block_revision_id: '42'
+  block_revision_id: '169'
   enforce_new_revision: true
 custom_fields:
   field_caption:
@@ -30,9 +30,10 @@ custom_fields:
         field_media_image:
           -
             uri: 'public://starterkit/gargoyle-old-campus_andrew-hurley.jpg'
-            url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/gargoyle-old-campus_andrew-hurley.jpg'
+            url: 'https://yalesites-platform.lndo.site/sites/default/files/starterkit/gargoyle-old-campus_andrew-hurley.jpg'
             alt: 'A lion-headed gargoyle watches over Old Campus'
             title: ''
+        field_tags: null
   field_style_position:
     -
       value: right

@@ -6,12 +6,15 @@ base_fields:
   info: 'past events explainer - using view'
   reusable: false
   langcode: en
-  block_revision_id: '99'
+  block_revision_id: '184'
   enforce_new_revision: true
 custom_fields:
   field_instructions:
     -
       markup: null
+  field_style_variation:
+    -
+      value: default
   field_text:
     -
       value: "<h2>Create an events archive</h2>\r\n\r\n<p>Use the <strong>View Block</strong> to create an events archive for your site. By adjusting the \"Event Time Period,\" you can display all events in a View or create a View dedicated to Past Events. Select the option that best aligns with your goals and objectives.</p>\r\n"
