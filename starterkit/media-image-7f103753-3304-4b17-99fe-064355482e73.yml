@@ -13,3 +13,4 @@ custom_fields:
       uri: 'public://starterkit/gothic-windows-spring.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/gothic-windows-spring.jpg'
       alt: 'Intricate gothic windows in spring'
+  field_tags: null

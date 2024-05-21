@@ -11,6 +11,7 @@ base_fields:
   url: /posts/2023-08-01-centering-inclusivity
   revision_log_message: null
   revision_uid: '2'
+  moderation_state: published
 custom_fields:
   field_author:
     -
@@ -27,6 +28,7 @@ custom_fields:
         description: null
         parent: 0
       custom_fields: {  }
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -67,6 +69,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>As part of Yale's mission, we are committed to \"the free exchange of ideas in an ethical, interdependent, and diverse community.\" That diversity includes all people regardless of ability or disability.</p>\r\n\r\n<p>We took great care to ensure YaleSites is a robust platform that empowers you to create, publish, and maintain federally accessible and compliant websites with confidence and ease.</p>\r\n\r\n<h2>Introducing Editoria11y</h2>\r\n\r\n<p>When you save your page, Editoria11y will analyze your content, identify potential issues, and provide suggestions for improvements.</p>\r\n\r\n<p>The most common issues introduced by content creators include:</p>\r\n\r\n<ul>\r\n\t<li>Neglecting to provide alternative text (\"alt text\") for images.</li>\r\n\t<li>Using vague and uninformative link text, such as \"click here.\"</li>\r\n\t<li>Applying headings out of order or neglecting to include headings.</li>\r\n\t<li>Adding tables without including headers.</li>\r\n</ul>\r\n\r\n<p>While Editora11y will catch these errors and guide you through correcting any mistakes, the best way to ensure your content is accessible is to learn about web accessibility best practices so you can head off problems before they arise.</p>\r\n\r\n<p>Review our <a href=\"https://usability.yale.edu/web-accessibility/articles\">accessibility best practice articles</a> to learn more about how you can help ensure Yale fulfills its commitment to providing equal access to all individuals.</p>\r\n"
@@ -91,6 +96,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1694016109'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -108,6 +114,7 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_alignment: null
           field_style_color:
             -
               value: one

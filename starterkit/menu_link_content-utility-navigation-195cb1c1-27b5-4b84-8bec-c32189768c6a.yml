@@ -27,7 +27,9 @@ base_fields:
           url: /contact-us
           revision_log_message: null
           revision_uid: '2'
+          moderation_state: published
         custom_fields:
+          field_external_source: null
           field_login_required:
             -
               value: '0'
@@ -67,6 +69,9 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_variation:
+                    -
+                      value: default
                   field_text:
                     -
                       value: "<p>Your <strong>Contact page</strong> is an essential tool for audience engagement. It provides visitors with a clear pathway for connection, whether to ask a question or share some feedback.</p>\r\n\r\n<h2>General Inquiries</h2>\r\n\r\n<p><strong>Yale University</strong><br />\r\nNew Haven, CT 06520</p>\r\n\r\n<p>Phone: 203-432-4771<br />\r\nEmail: <a href=\"mailto:handsome.dan@yale.edu\">handsome.dan@yale.edu</a></p>\r\n\r\n<p>At a minimum, include a contact name, email address, and phone number. Once you've addressed the basics, consider any other pertinent information your audience might need, such as your office hours, physical address, a campus map link, and so forth.</p>\r\n"

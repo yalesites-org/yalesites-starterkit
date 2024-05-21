@@ -27,7 +27,9 @@ base_fields:
           url: /text-only-page
           revision_log_message: null
           revision_uid: '2'
+          moderation_state: published
         custom_fields:
+          field_external_source: null
           field_login_required:
             -
               value: '0'
@@ -67,6 +69,9 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_variation:
+                    -
+                      value: default
                   field_text:
                     -
                       value: "<p>Depending on your goals and users' needs, a text-only page may be the best choice for your content. We've crafted this example to demonstrate how YaleSites Blocks shine, whether you have multimedia assets or not.</p>\r\n"
@@ -85,6 +90,9 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_variation:
+                    -
+                      value: default
                   field_text:
                     -
                       value: "<h2>The Text Block</h2>\r\n\r\n<p>The <strong>Text Block</strong> uses a What You See Is What You Get (WYSIWYG) editor that allows you to enter and edit your text in a visual, user-friendly way. The WYSIWYG text editor behaves like word processing software. It will display your text as it appears on the website, so you can see what the formatting will look like as you work. You can easily <strong>bold</strong> and <em>italicize</em> your text, add headings, select text to create links, insert ordered and unordered lists, and insert a table.</p>\r\n\r\n<h3>Help your users with headings</h3>\r\n\r\n<p>Use headings to organize your content. This makes it easier for the reader to understand and navigate the information you share. To use headings effectively, consider your content's overall structure and hierarchy, and then divide it into sections and sub-sections using headings and nested subheadings.</p>\r\n"
@@ -103,6 +111,9 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_variation:
+                    -
+                      value: default
                   field_text:
                     -
                       value: "<h2 id=\"cta\">Highlight a primary call to action</h2>\r\n\r\n<p>The <strong>Button Link Block</strong> is an excellent choice when you need to emphasize the importance of a link on your page. Their visual nature grabs the attention of your audience, allowing them to determine how and where they can take action.</p>\r\n\r\n<p>However, this helpful visual distinction can quickly turn into visual noise when overused. Multiple, conflicting calls to action may leave your audience overwhelmed and confused.</p>\r\n\r\n<ul>\r\n\t<li>Reserve the <strong>Button Link Block</strong> for your most important calls to action</li>\r\n\t<li>Keep your text short, clear, and actionable</li>\r\n\t<li>Your calls to action should be related in some way when using paired Button Links</li>\r\n\t<li>Avoid vague link text like 'click here' or 'learn more'</li>\r\n</ul>"
@@ -141,6 +152,9 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_variation:
+                    -
+                      value: default
                   field_text:
                     -
                       value: "<h2>The Accordion Block</h2>\r\n\r\n<p>The <strong>Accordion Block</strong> can make information processing and discovery more effective by allowing users to engage with content in a progressive manner. Accordions work best when your content falls into natural groupings that only some users will need to access. Since accordions are collapsed by default, it is essential to consider situations where users may not expand accordions or realize the information they need is contained within an accordion item. Use the <strong>Text Block</strong> and clear, descriptive headings when in doubt.</p>\r\n"
@@ -165,6 +179,7 @@ base_fields:
                         status: true
                         langcode: en
                         created: '1692023001'
+                        behavior_settings: {  }
                       custom_fields:
                         field_content:
                           -
@@ -175,6 +190,7 @@ base_fields:
                               status: true
                               langcode: en
                               created: '1692023001'
+                              behavior_settings: {  }
                             custom_fields:
                               field_text:
                                 -
@@ -192,6 +208,7 @@ base_fields:
                         status: true
                         langcode: en
                         created: '1692023012'
+                        behavior_settings: {  }
                       custom_fields:
                         field_content:
                           -
@@ -202,6 +219,7 @@ base_fields:
                               status: true
                               langcode: en
                               created: '1692023012'
+                              behavior_settings: {  }
                             custom_fields:
                               field_text:
                                 -
@@ -219,6 +237,7 @@ base_fields:
                         status: true
                         langcode: en
                         created: '1692023027'
+                        behavior_settings: {  }
                       custom_fields:
                         field_content:
                           -
@@ -229,6 +248,7 @@ base_fields:
                               status: true
                               langcode: en
                               created: '1692023027'
+                              behavior_settings: {  }
                             custom_fields:
                               field_text:
                                 -

@@ -12,4 +12,5 @@ custom_fields:
     -
       uri: 'public://starterkit/rose-walk-cross-campus_dan-renzetti.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/rose-walk-cross-campus_dan-renzetti.jpg'
-      alt: 'Sunlight pours through a canopy of trees along the Rose Walk on Yale''s campus'
+      alt: "Sunlight pours through a canopy of trees along the Rose Walk on Yale's campus"
+  field_tags: null

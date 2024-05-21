@@ -12,4 +12,5 @@ custom_fields:
     -
       uri: 'public://starterkit/harkness-tower-light-pole_nune-garipian.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-light-pole_nune-garipian.jpg'
-      alt: 'A lamp shines in the darkness as the sun sets on Yale''s campus'
+      alt: "A lamp shines in the darkness as the sun sets on Yale's campus"
+  field_tags: null

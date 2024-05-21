@@ -11,7 +11,9 @@ base_fields:
   url: /posts
   revision_log_message: null
   revision_uid: '2'
+  moderation_state: published
 custom_fields:
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -61,6 +63,7 @@ custom_fields:
               uri: 'internal:/'
               title: 'Subscribe to our Newsletter'
               options: {  }
+          field_link_two: null
           field_media:
             -
               uuid: 7e2c62d5-400a-4168-8ab6-c8e6e408beb4
@@ -110,6 +113,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>YaleSites simplifies featuring news articles, blog posts, or announcements on your site in an easy-to-scan, visually engaging way.</p>\r\n\r\n<p>Use the <strong>Post Feed Block</strong> to create a dynamic feed with the push of a button. Your feed will automatically update whenever you publish a new Post, and your visitors can use the built-in category filter to engage with ease.</p>\r\n\r\n<p>When creating your Posts, use <strong>Teaser details </strong>to add a thumbnail image and summary text to give your listings more flair.</p>\r\n"

@@ -27,7 +27,9 @@ base_fields:
           url: /about
           revision_log_message: null
           revision_uid: '2'
+          moderation_state: published
         custom_fields:
+          field_external_source: null
           field_login_required:
             -
               value: '0'
@@ -67,6 +69,9 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_variation:
+                    -
+                      value: default
                   field_text:
                     -
                       value: "<p>Your About page provides an opportunity for your audience to learn more about you and what your YaleSite has to offer. This is the perfect space to summarize your history, highlight your mission statement, or reinforce the services you provide to the Yale community.</p>\r\n\r\n<p>Before building your About page, determine what purpose this page should serve for your users and how it will support your goals. This, in turn, helps you make appropriate choices when selecting the <strong>Blocks</strong> you use to build the page. Ensuring you have useful, usable, well-structured content is vital to creating a good user experience on your website.</p>\r\n"
@@ -123,6 +128,9 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_variation:
+                    -
+                      value: default
                   field_text:
                     -
                       value: "<h2>Create at a faster pace</h2>\r\n\r\n<p>Duplicate your Pages, Posts, and other content types using the <strong>Clone option</strong>. This time-saving feature is a great way to experiment with different layouts or compare Block choices. If one of our example pages fits your content needs, we encourage you to clone and customize it to jump-start your creation process.</p>\r\n\r\n<p>An easy way to speed up your build process is to review and outline your content in advance. Knowing what your content needs to accomplish will help you select the best Block for the task.</p>\r\n\r\n<p>You should also consider where to break your materials down into individual Blocks. For example, we've used multiple Text Blocks on this page. This means our content is structured to support adding new Blocks between sections of text, like <strong>Buttons</strong> or a <strong>Divider</strong>. We can also rearrange our page by moving Blocks around without worry.</p>\r\n"
@@ -147,6 +155,7 @@ base_fields:
                         status: true
                         langcode: en
                         created: '1692028051'
+                        behavior_settings: {  }
                       custom_fields:
                         field_heading:
                           -
@@ -169,6 +178,7 @@ base_fields:
                         status: true
                         langcode: en
                         created: '1692028107'
+                        behavior_settings: {  }
                       custom_fields:
                         field_heading:
                           -
@@ -186,6 +196,7 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_alignment: null
                   field_style_color:
                     -
                       value: one
@@ -203,6 +214,9 @@ base_fields:
                   field_instructions:
                     -
                       markup: null
+                  field_style_variation:
+                    -
+                      value: default
                   field_text:
                     -
                       value: "<h2>Prompt your users to take action</h2>\r\n\r\n<p>Research shows that people are more likely to complete an action when prompted to do so. This prompt is referred to as a <strong>call to action</strong>. Calls to action can take many forms, from a simple text link to a full-width banner. Whatever your approach, you dramatically increase the likelihood of your audience understanding what next steps you'd like them to take when the process is easy and obvious.</p>\r\n\r\n<p>We designed YaleSites' Blocks to make adding and maintaining visually engaging calls to action as easy as possible, whether you have images or not. In fact, the <strong>Callout Block</strong> used on this page is an excellent text-based approach for promoting your page's call to action.</p>\r\n"

@@ -11,6 +11,7 @@ base_fields:
   url: /posts/2023-08-14-example-post
   revision_log_message: null
   revision_uid: '2'
+  moderation_state: published
 custom_fields:
   field_author:
     -
@@ -27,6 +28,7 @@ custom_fields:
         description: null
         parent: 0
       custom_fields: {  }
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -69,6 +71,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>The <strong>Post Content Type</strong> provides content creators with a flexible, feature-rich approach to composing editorial pieces. Posts are versatile enough to support sharing everything from simple, text-only announcements to crafting visually engaging, full-length magazine-style articles.</p>\r\n"
@@ -91,19 +96,12 @@ custom_fields:
             -
               uuid: b9065fb6-1886-4612-91f2-589c3695793b
               entity_type: media
-              bundle: image
               base_fields:
                 name: illuminated-stacks-sterling-memorial-library_jack-devlin.jpg
                 created: '1691598171'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
-                    alt: 'the setting sun spills through an arched window into a dark aisle, illuminating the library stacks'
-                    title: ''
+              bundle: image
           field_text:
             -
               value: "<p>Use the <strong>Image Block</strong> to add media to your Post and <strong>Teaser Media</strong> to include a thumbnail within your Post Feeds.</p>\r\n"
@@ -122,6 +120,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>The <strong>Text Block</strong> simplifies the authoring experience by providing a What You See Is What You Get (WYSIWYG) editor that allows you to enter and edit your text in a visual, user-friendly way. The WYSIWYG editor behaves like word processing software, simplifying the most common formatting tasks, such as inserting headings, lists, and links, bolding text, applying italics, or adding a table.</p>\r\n"
@@ -165,6 +166,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2>Tease out the details</h2>\r\n\r\n<p>Published Posts can be dynamically added to your site using either the <strong>Post Feed</strong> or <strong>View Block</strong>. At a minimum, your feed will display an article's publish date and title, which is perfectly suited to sharing simple announcements and updates.</p>\r\n\r\n<p>Your <strong>Teaser details</strong> display in feeds, Views, search engine result pages, and social sharing cards. By including Teaser details, you increase the chances of capturing your audience's attention so they engage with your content.</p>\r\n\r\n<ul>\r\n\t<li><strong>Teaser Title:</strong> a succinct, scannable version of your title. The full title will be shown when someone views this content.</li>\r\n\t<li><strong>Teaser Text: </strong>summary text to pique your audience’s interest so they want to know more. Avoid repeating details that are included in your title.</li>\r\n\t<li><strong>Teaser Media:</strong> a supporting thumbnail image that helps illustrate the main idea or topic of your content.</li>\r\n</ul>\r\n"
@@ -191,19 +195,12 @@ custom_fields:
             -
               uuid: b53c2c3a-a820-411f-9a11-0980f973863e
               entity_type: media
-              bundle: image
               base_fields:
                 name: gargoyle-old-campus_andrew-hurley.jpg
                 created: '1691598171'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://starterkit/gargoyle-old-campus_andrew-hurley.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/gargoyle-old-campus_andrew-hurley.jpg'
-                    alt: 'A lion-headed gargoyle watches over Old Campus'
-                    title: ''
+              bundle: image
           field_style_position:
             -
               value: right

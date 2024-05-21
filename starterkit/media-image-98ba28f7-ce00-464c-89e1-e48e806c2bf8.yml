@@ -12,5 +12,6 @@ custom_fields:
     -
       uri: 'public://2023-09/students-relaxing-cross-campus_anna-zhang.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-relaxing-cross-campus_anna-zhang.jpg'
-      alt: 'students gather outside to enjoy the beauty of Yale''s campus'
+      alt: "students gather outside to enjoy the beauty of Yale's campus"
       title: ''
+  field_tags: null

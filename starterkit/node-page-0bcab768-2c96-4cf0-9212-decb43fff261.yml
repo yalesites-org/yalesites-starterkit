@@ -11,7 +11,9 @@ base_fields:
   url: /example-landing-page
   revision_log_message: null
   revision_uid: '2'
+  moderation_state: published
 custom_fields:
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -66,22 +68,17 @@ custom_fields:
             -
               markup: null
           field_link: null
+          field_link_two: null
           field_media:
             -
               uuid: f44332ab-7060-44cb-be9e-8960bc9a5e7c
               entity_type: media
-              bundle: image
               base_fields:
                 name: harkness-tower-dusk.jpg
                 created: '1691598171'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://starterkit/harkness-tower-dusk.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-dusk.jpg'
-                    alt: 'Harkness Tower rises dramatically into the darkening sky at dusk'
+              bundle: image
           field_style_position:
             -
               value: contained
@@ -127,6 +124,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>Quickly build dynamic landing pages to help your users navigate and engage with sections of your website by using the <strong>View Block</strong>.</p>\r\n"
@@ -145,6 +145,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2>How it works</h2>\r\n\r\n<p>Say you're creating an Academics section on your website that contains several sub-pages. Add an 'academics' tag to each of your pages. Then, place a View of Pages on your landing page and set it to only include content that uses the term 'academics.' Your View will automatically update whenever you publish or unpublish a page tagged 'academics.'</p>\r\n\r\n<p>Conversely, you can build a View by excluding terms, as we've done here. Our homepage and landing page are tagged 'example' to remove them from our View. Try editing the example View Block's settings so you can see how it works.</p>\r\n\r\n<p>This approach can be used to curate any published content type. For example, you can make a featured news area on your homepage, highlight marquee events or create a custom Profile directory.</p>\r\n"
@@ -169,6 +172,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1692102212'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -186,6 +190,7 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_alignment: null
           field_style_color:
             -
               value: two
