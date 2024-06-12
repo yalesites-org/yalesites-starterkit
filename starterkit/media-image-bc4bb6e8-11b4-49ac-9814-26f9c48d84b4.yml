@@ -12,4 +12,5 @@ custom_fields:
     -
       uri: 'public://starterkit/yale-outdoor-education-center_andrew-hurley.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/yale-outdoor-education-center_andrew-hurley.jpg'
-      alt: 'Sunshine glimmers across a lake framed by the lush greenery of Yale''s Outdoor Education Center'
+      alt: "Sunshine glimmers across a lake framed by the lush greenery of Yale's Outdoor Education Center"
+  field_tags: null

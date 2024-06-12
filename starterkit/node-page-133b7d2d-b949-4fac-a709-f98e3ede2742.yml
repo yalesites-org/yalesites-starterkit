@@ -11,7 +11,9 @@ base_fields:
   url: /homepage
   revision_log_message: null
   revision_uid: '2'
+  moderation_state: published
 custom_fields:
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -71,23 +73,17 @@ custom_fields:
               uri: 'internal:/text-only-page#cta'
               title: 'Call to Action'
               options: {  }
+          field_link_two: null
           field_media:
             -
               uuid: b7103556-2f77-429a-b2f9-159617684731
               entity_type: media
-              bundle: image
               base_fields:
                 name: students-cross-campus_anna-zhang.jpg
                 created: '1693934413'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://2023-09/students-cross-campus_anna-zhang.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-cross-campus_anna-zhang.jpg'
-                    alt: 'students enjoy the vibrancy of Yale''s campus scenery'
-                    title: ''
+              bundle: image
           field_style_color:
             -
               value: one
@@ -112,6 +108,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>Powered by a flexible design system and our intuitive Block editor, YaleSites makes it easy to create accessible, high-quality, on-brand websites in a fast, fun, and efficient way.</p>\r\n\r\n<p>Looking to connect with prospective students, highlight your department’s research and scholarship, or promote an event? Whatever your objectives, YaleSites gives you the building blocks you need to create content that supports your users and helps you achieve your goals.</p>\r\n"
@@ -136,6 +135,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1691700102'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -145,19 +145,12 @@ custom_fields:
                   -
                     uuid: a0a9f93c-1400-40c8-8b95-ac0591944f39
                     entity_type: media
-                    bundle: image
                     base_fields:
                       name: central-campus-aerial-sunset_paul-coco.jpg
                       created: '1691598171'
                       status: true
                       langcode: en
-                    custom_fields:
-                      field_media_image:
-                        -
-                          uri: 'public://starterkit/central-campus-aerial-sunset_paul-coco.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
-                          alt: 'Sprawling aerial view of Central Campus''s gothic architecture at sunset'
-                          title: ''
+                    bundle: image
                 field_link:
                   -
                     uri: 'entity:node/8'
@@ -175,6 +168,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1691700226'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -184,18 +178,12 @@ custom_fields:
                   -
                     uuid: 7fe86737-588e-4e6b-b393-2aebee282ebe
                     entity_type: media
-                    bundle: image
                     base_fields:
                       name: branford-windows-through-trees.jpg
                       created: '1691598171'
                       status: true
                       langcode: en
-                    custom_fields:
-                      field_media_image:
-                        -
-                          uri: 'public://starterkit/branford-windows-through-trees.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/branford-windows-through-trees.jpg'
-                          alt: 'The gothic windows of Branford peek through tree branches '
+                    bundle: image
                 field_link:
                   -
                     uri: 'entity:node/12'
@@ -213,6 +201,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1692102352'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -222,18 +211,12 @@ custom_fields:
                   -
                     uuid: 152bcfe8-3914-4d8d-94ac-9cc343a256a6
                     entity_type: media
-                    bundle: image
                     base_fields:
                       name: harkness-tower-clock_andrew-hurley.jpg
                       created: '1691598171'
                       status: true
                       langcode: en
-                    custom_fields:
-                      field_media_image:
-                        -
-                          uri: 'public://starterkit/harkness-tower-clock_andrew-hurley.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
-                          alt: 'Detailed view of the beauty and grandeur of one of the clocks of Harkness Tower'
+                    bundle: image
                 field_link:
                   -
                     uri: 'entity:node/13'
@@ -251,6 +234,7 @@ custom_fields:
                 status: true
                 langcode: en
                 created: '1691700425'
+                behavior_settings: {  }
               custom_fields:
                 field_heading:
                   -
@@ -260,19 +244,12 @@ custom_fields:
                   -
                     uuid: 7e2c62d5-400a-4168-8ab6-c8e6e408beb4
                     entity_type: media
-                    bundle: image
                     base_fields:
                       name: handsome-dan-ben-franklin.jpg
                       created: '1691755440'
                       status: true
                       langcode: en
-                    custom_fields:
-                      field_media_image:
-                        -
-                          uri: 'public://2023-08/handsome-dan-ben-franklin.jpg'
-                          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
-                          alt: 'Handsome Dan sitting next to Ben Franklin statue with paws on Franklin''s thigh'
-                          title: ''
+                    bundle: image
                 field_link:
                   -
                     uri: 'entity:node/9'
@@ -316,19 +293,13 @@ custom_fields:
             -
               uuid: cae04706-21ac-41aa-9dd6-8f2e509ddb3a
               entity_type: media
-              bundle: image
               base_fields:
                 name: yale-brick-in-wall-detail.jpg
                 created: '1691755627'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://2023-08/yale-brick-in-wall-detail.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/yale-brick-in-wall-detail.jpg'
-                    alt: 'brick wall with YALE carved into one of the bricks'
-                    title: ''
+              bundle: image
+          field_style_color: null
           field_style_position:
             -
               value: image-left
@@ -360,6 +331,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<h2>Share your stories</h2>\r\n\r\n<p>You can use the <strong>View Block</strong> to curate a feed of <strong>Posts</strong> on your website. We adjusted our View to show only our most recent Post to ensure our homepage's content remains focused.</p>\r\n"

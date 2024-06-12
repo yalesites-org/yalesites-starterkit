@@ -12,5 +12,6 @@ custom_fields:
     -
       uri: 'public://starterkit/central-campus-aerial-sunset_paul-coco.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
-      alt: 'Sprawling aerial view of Central Campus''s gothic architecture at sunset'
+      alt: "Sprawling aerial view of Central Campus's gothic architecture at sunset"
       title: ''
+  field_tags: null

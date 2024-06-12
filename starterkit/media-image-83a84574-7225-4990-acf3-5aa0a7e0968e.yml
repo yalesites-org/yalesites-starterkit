@@ -12,4 +12,5 @@ custom_fields:
     -
       uri: 'public://starterkit/sterling-memorial-library-stained-glass_jack-devlin.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/sterling-memorial-library-stained-glass_jack-devlin.jpg'
-      alt: 'Dramatically backlit medieval figures depicted in Sterling Memorial Library''s stained glass windows'
+      alt: "Dramatically backlit medieval figures depicted in Sterling Memorial Library's stained glass windows"
+  field_tags: null

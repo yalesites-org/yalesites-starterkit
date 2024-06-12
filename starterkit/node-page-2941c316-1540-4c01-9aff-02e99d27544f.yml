@@ -11,7 +11,9 @@ base_fields:
   url: /events
   revision_log_message: null
   revision_uid: '2'
+  moderation_state: published
 custom_fields:
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -51,6 +53,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>Use the <strong>Calendar List Block</strong> to add a dynamic events feed to your site with the push of a button. Once an event ends, it's automatically removed from your feed. By categorizing your events, visitors can quickly filter your feed to find what they're looking for.</p>\r\n\r\n<p>If maintaining an events archive is part of your content strategy, you can add a <strong>View Block</strong> to your page and opt to show past events.</p>\r\n"

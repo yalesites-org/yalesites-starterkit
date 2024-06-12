@@ -12,4 +12,5 @@ custom_fields:
     -
       uri: 'public://starterkit/maya-lin-womens-table-close-up.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/maya-lin-womens-table-close-up.jpg'
-      alt: 'Detail of numbers carved into Maya Lin''s Women''s Table sculpture'
+      alt: "Detail of numbers carved into Maya Lin's Women's Table sculpture"
+  field_tags: null

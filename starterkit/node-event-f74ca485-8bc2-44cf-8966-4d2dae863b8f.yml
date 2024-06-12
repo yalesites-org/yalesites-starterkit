@@ -11,6 +11,7 @@ base_fields:
   url: /events/2025-01-01-promote-your-events
   revision_log_message: null
   revision_uid: '2'
+  moderation_state: published
 custom_fields:
   field_category:
     -
@@ -50,6 +51,7 @@ custom_fields:
         description: null
         parent: 0
       custom_fields: {  }
+  field_external_source: null
   field_login_required:
     -
       value: '0'
@@ -87,6 +89,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>Published events can be dynamically fed into your site using the <strong>Calendar List</strong> or <strong>View Block</strong>. At a minimum, these feeds will display your event's date and title, but by including Teaser Details, you can add a thumbnail image and summary text to help your audience understand what your event is and why they should attend.</p>\r\n"
@@ -105,6 +110,9 @@ custom_fields:
           field_instructions:
             -
               markup: null
+          field_style_variation:
+            -
+              value: default
           field_text:
             -
               value: "<p>Once you've added essential details, consider which Blocks would be best suited to showcasing your event. For example, a succinct speaker bio in a <strong>Content Spotlight</strong> or <strong>Wrapped Image Block </strong>could make your listing more appealing and help potential attendees get a better sense of what your event will be like.</p>\r\n\r\n<p>If you need to share a collection of images, like when promoting an exhibition, use <strong>Image Grid Block</strong> or <strong>Gallery Block</strong>. Select the Gallery block when you'd like visitors to be able to view larger versions of your images or when you need to provide captions and image attribution.</p>\r\n"
@@ -127,18 +135,12 @@ custom_fields:
             -
               uuid: 02f24af5-88b3-485c-a37c-f93e977067e4
               entity_type: media
-              bundle: image
               base_fields:
                 name: yale-university-art-gallery-interior_elizabeth-felicella.jpg
                 created: '1691598171'
                 status: true
                 langcode: en
-              custom_fields:
-                field_media_image:
-                  -
-                    uri: 'public://starterkit/yale-university-art-gallery-interior_elizabeth-felicella.jpg'
-                    url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/yale-university-art-gallery-interior_elizabeth-felicella.jpg'
-                    alt: 'A collection of sculptures from the ancient Mediterranean world on display in the Yale University Art Gallery'
+              bundle: image
           field_text:
             -
               value: "<p>Provide users with a window into what they can expect at your event by using the<strong> Image block</strong>.</p>\r\n"
