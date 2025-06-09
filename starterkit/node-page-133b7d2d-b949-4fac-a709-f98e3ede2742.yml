@@ -8,11 +8,14 @@ base_fields:
   langcode: en
   created: '1691612683'
   author: sebastianna.skalisky@yale.edu
-  url: /homepage
   revision_log_message: null
-  revision_uid: '2'
+  revision_uid: '5'
   moderation_state: published
+  url: /homepage
 custom_fields:
+  field_audience: null
+  field_category: null
+  field_custom_vocab: null
   field_external_source: null
   field_login_required:
     -
@@ -28,6 +31,7 @@ custom_fields:
         langcode: en
         description: null
         parent: 0
+        url: null
       bundle: tags
   field_teaser_media:
     -
@@ -38,16 +42,201 @@ custom_fields:
         created: '1691598171'
         status: true
         langcode: en
+        url: null
       bundle: image
   field_teaser_text:
     -
       value: "<p>Entice users to follow your links by adding <strong>Teaser Details</strong> that describe what they’ll find when visiting your website.</p>\r\n"
       format: heading_html
+      embed_entities: {  }
   field_teaser_title:
     -
       value: 'Example Homepage'
   layout_builder__layout:
-    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjE2OiJ5c19sYXlvdXRfYmFubmVyIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE0OiJCYW5uZXIgU2VjdGlvbiI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiI4NzE3N2U5YS04NWUyLTQyNTYtOWIzOS05ZWU3ZmNjZjdjYTMiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6Ijg3MTc3ZTlhLTg1ZTItNDI1Ni05YjM5LTllZTdmY2NmN2NhMyI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIzOiJpbmxpbmVfYmxvY2s6Y3RhX2Jhbm5lciI7czo1OiJsYWJlbCI7czoyMjoiaG9tZXBhZ2UgYWN0aW9uIGJhbm5lciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI5MSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTowO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjQ6e2k6NTtpOjU7aTo2O2k6NjtpOjc7aTo3O2k6ODtpOjg7fX19fXxPOjI5OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbiI6NDp7czoxMToiACoAbGF5b3V0SWQiO3M6MTk6InlzX2xheW91dF9wYWdlX21ldGEiO3M6MTc6IgAqAGxheW91dFNldHRpbmdzIjthOjI6e3M6NToibGFiZWwiO3M6MTg6IlRpdGxlIGFuZCBNZXRhZGF0YSI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czoxMzoiACoAY29tcG9uZW50cyI7YToxOntzOjM2OiJiYjFkYWUwMy0xMDczLTRjOTktYTkxNC1hOGEyZjVmMGE4YzQiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImJiMWRhZTAzLTEwNzMtNGM5OS1hOTE0LWE4YTJmNWYwYThjNCI7czo5OiIAKgByZWdpb24iO3M6OToicGFnZV9tZXRhIjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjY6e3M6MjoiaWQiO3M6MTU6InBhZ2VfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNToiUGFnZSBNZXRhIEJsb2NrIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtzOjA6IiI7czo4OiJwcm92aWRlciI7czoxMDoieXNfbGF5b3V0cyI7czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e31zOjE4OiJwYWdlX3RpdGxlX2Rpc3BsYXkiO3M6NzoidmlzaWJsZSI7fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6Nzp7aToyO2k6MjtpOjM7aTozO2k6NDtpOjQ7aTo1O2k6NTtpOjY7aTo2O2k6NztpOjc7aTo4O2k6ODt9fX19fE86Mjk6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uIjo0OntzOjExOiIAKgBsYXlvdXRJZCI7czoxMzoibGF5b3V0X29uZWNvbCI7czoxNzoiACoAbGF5b3V0U2V0dGluZ3MiO2E6Mjp7czo1OiJsYWJlbCI7czoxNToiQ29udGVudCBTZWN0aW9uIjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjEzOiIAKgBjb21wb25lbnRzIjthOjg6e3M6MzY6IjdkZjdkN2M2LWM4ZWUtNGFhMy04MDY2LTcyMzU4ZjYwNWVmZSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiN2RmN2Q3YzYtYzhlZS00YWEzLTgwNjYtNzIzNThmNjA1ZWZlIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjI2OiJob21lcGFnZSBpbnRyb2R1Y3Rpb24gY29weSI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoxOiIyIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjZiNDk1YjIzLTc5ZDctNDVmZi05M2MzLTUwZjE1N2ZkYWZiMyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNmI0OTViMjMtNzlkNy00NWZmLTkzYzMtNTBmMTU3ZmRhZmIzIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjU6ImlubGluZV9ibG9jazpjdXN0b21fY2FyZHMiO3M6NToibGFiZWwiO3M6MjY6ImhvbWVwYWdlIHNlcnZpY2VzIHBhdGh3YXlzIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjcxIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjE7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6Ijc2ZDExNDdlLTJjOWQtNDlmZi05ZDhhLTE4MGVjZDk0MDVlZSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNzZkMTE0N2UtMmM5ZC00OWZmLTlkOGEtMTgwZWNkOTQwNWVlIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MzA6ImlubGluZV9ibG9jazpjb250ZW50X3Nwb3RsaWdodCI7czo1OiJsYWJlbCI7czozOToiaG9tZXBhZ2UgYnVpbGRpbmcgd2l0aCBibG9ja3Mgc3BvdGxpZ2h0IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjQ1IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjM7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjVmMzZmZTI4LWU2NDItNDFiNC1hMmE0LTZhMWY0N2Y1NmY5NyI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNWYzNmZlMjgtZTY0Mi00MWI0LWEyYTQtNmExZjQ3ZjU2Zjk3IjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjMwOiJob21lcGFnZSBwb3N0cyB2aWV3IGludHJvIHRleHQiO3M6MTM6ImxhYmVsX2Rpc3BsYXkiO2I6MDtzOjg6InByb3ZpZGVyIjtzOjE0OiJsYXlvdXRfYnVpbGRlciI7czo5OiJ2aWV3X21vZGUiO3M6NDoiZnVsbCI7czoxNzoiYmxvY2tfcmV2aXNpb25faWQiO3M6MToiNiI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo1O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI2ZjE5MWViYy05MGUzLTQ2NTUtOTFhMS1lZWNjNzkzNjE3ZDEiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjZmMTkxZWJjLTkwZTMtNDY1NS05MWExLWVlY2M3OTM2MTdkMSI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE3OiJpbmxpbmVfYmxvY2s6dmlldyI7czo1OiJsYWJlbCI7czoxOToiaG9tZXBhZ2UgcG9zdHMgdmlldyI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czozOiIxMDciO3M6MTY6ImJsb2NrX3NlcmlhbGl6ZWQiO047czoxNToiY29udGV4dF9tYXBwaW5nIjthOjA6e319czo5OiIAKgB3ZWlnaHQiO2k6NjtzOjEzOiIAKgBhZGRpdGlvbmFsIjthOjA6e319czozNjoiODhiYjVjMzItMWM2NS00NjlhLTkzZmEtYWJkZmJiM2IzYTg1IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI4OGJiNWMzMi0xYzY1LTQ2OWEtOTNmYS1hYmRmYmIzYjNhODUiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoyMDoiaW5saW5lX2Jsb2NrOmRpdmlkZXIiO3M6NToibGFiZWwiO3M6NzoiZGl2aWRlciI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI0MyI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo0O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiJiMjNkNjNkOS1jZjE4LTQ1YjAtYjdhMi00MWNhOGFiMzFjMTgiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6ImIyM2Q2M2Q5LWNmMTgtNDViMC1iN2EyLTQxY2E4YWIzMWMxOCI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjIwOiJpbmxpbmVfYmxvY2s6ZGl2aWRlciI7czo1OiJsYWJlbCI7czo3OiJkaXZpZGVyIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjQ0IjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjI7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6IjRiNGY5YTgxLTQ0NjYtNDE0Yy05YTRjLWEyYjQ2OWFmOWFhMiI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiNGI0ZjlhODEtNDQ2Ni00MTRjLTlhNGMtYTJiNDY5YWY5YWEyIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MjQ6ImlubGluZV9ibG9jazpidXR0b25fbGluayI7czo1OiJsYWJlbCI7czozNjoiaG9tZXBhZ2UgbW9yZSBuZXdzIGFuZCBldmVudHMgYnV0dG9uIjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjM6IjEwMSI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aTo3O3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjA6e319
+    sections:
+      -
+        layout_id: ys_layout_banner
+        layout_settings:
+          label: 'Banner Section'
+          context_mapping: {  }
+        components:
+          87177e9a-85e2-4256-9b39-9ee7fccf7ca3:
+            uuid: 87177e9a-85e2-4256-9b39-9ee7fccf7ca3
+            region: content
+            configuration:
+              id: 'inline_block:cta_banner'
+              label: 'homepage action banner'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '91'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              2: 2
+              5: 5
+              6: 6
+              7: 7
+              8: 8
+      -
+        layout_id: ys_layout_page_meta
+        layout_settings:
+          label: 'Title and Metadata'
+          context_mapping: {  }
+        components:
+          bb1dae03-1073-4c99-a914-a8a2f5f0a8c4:
+            uuid: bb1dae03-1073-4c99-a914-a8a2f5f0a8c4
+            region: page_meta
+            configuration:
+              id: page_meta_block
+              label: 'Page Meta Block'
+              label_display: ''
+              provider: ys_layouts
+              context_mapping: {  }
+              page_title_display: visible
+            weight: 0
+            additional: {  }
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              2: 2
+              3: 3
+              4: 4
+              5: 5
+              6: 6
+              8: 8
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Content Section'
+          context_mapping: {  }
+        components:
+          7df7d7c6-c8ee-4aa3-8066-72358f605efe:
+            uuid: 7df7d7c6-c8ee-4aa3-8066-72358f605efe
+            region: content
+            configuration:
+              id: 'inline_block:text'
+              label: 'homepage introduction copy'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '2'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+          6b495b23-79d7-45ff-93c3-50f157fdafb3:
+            uuid: 6b495b23-79d7-45ff-93c3-50f157fdafb3
+            region: content
+            configuration:
+              id: 'inline_block:custom_cards'
+              label: 'homepage services pathways'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '71'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 1
+            additional: {  }
+          76d1147e-2c9d-49ff-9d8a-180ecd9405ee:
+            uuid: 76d1147e-2c9d-49ff-9d8a-180ecd9405ee
+            region: content
+            configuration:
+              id: 'inline_block:content_spotlight'
+              label: 'homepage building with blocks spotlight'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '45'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 3
+            additional: {  }
+          5f36fe28-e642-41b4-a2a4-6a1f47f56f97:
+            uuid: 5f36fe28-e642-41b4-a2a4-6a1f47f56f97
+            region: content
+            configuration:
+              id: 'inline_block:text'
+              label: 'homepage posts view intro text'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '6'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 5
+            additional: {  }
+          6f191ebc-90e3-4655-91a1-eecc793617d1:
+            uuid: 6f191ebc-90e3-4655-91a1-eecc793617d1
+            region: content
+            configuration:
+              id: 'inline_block:view'
+              label: 'homepage posts view'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '107'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 6
+            additional: {  }
+          88bb5c32-1c65-469a-93fa-abdfbb3b3a85:
+            uuid: 88bb5c32-1c65-469a-93fa-abdfbb3b3a85
+            region: content
+            configuration:
+              id: 'inline_block:divider'
+              label: divider
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '43'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 4
+            additional: {  }
+          b23d63d9-cf18-45b0-b7a2-41ca8ab31c18:
+            uuid: b23d63d9-cf18-45b0-b7a2-41ca8ab31c18
+            region: content
+            configuration:
+              id: 'inline_block:divider'
+              label: divider
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '44'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 2
+            additional: {  }
+          4b4f9a81-4466-414c-9a4c-a2b469af9aa2:
+            uuid: 4b4f9a81-4466-414c-9a4c-a2b469af9aa2
+            region: content
+            configuration:
+              id: 'inline_block:button_link'
+              label: 'homepage more news and events button'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_id: null
+              block_revision_id: '101'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 7
+            additional: {  }
+        third_party_settings: {  }
     blocks:
       -
         uuid: bb053080-f7af-4cb7-a34a-8b5d11041264
@@ -83,6 +272,7 @@ custom_fields:
                 created: '1693934413'
                 status: true
                 langcode: en
+                url: null
               bundle: image
           field_style_color:
             -
@@ -94,6 +284,7 @@ custom_fields:
             -
               value: "<p>Feature your most important call to action in an eye-catching banner.</p>\r\n"
               format: heading_html
+              embed_entities: {  }
       -
         uuid: c5872fe6-25c3-4f34-9ed2-c881e263c07c
         entity_type: block_content
@@ -115,6 +306,7 @@ custom_fields:
             -
               value: "<p>Powered by a flexible design system and our intuitive Block editor, YaleSites makes it easy to create accessible, high-quality, on-brand websites in a fast, fun, and efficient way.</p>\r\n\r\n<p>Looking to connect with prospective students, highlight your department’s research and scholarship, or promote an event? Whatever your objectives, YaleSites gives you the building blocks you need to create content that supports your users and helps you achieve your goals.</p>\r\n"
               format: basic_html
+              embed_entities: {  }
       -
         uuid: 377828ab-2e40-4213-9207-604c3db83a1a
         entity_type: block_content
@@ -150,16 +342,32 @@ custom_fields:
                       created: '1691598171'
                       status: true
                       langcode: en
+                      url: null
                     bundle: image
                 field_link:
                   -
                     uri: 'entity:node/8'
                     title: ''
                     options: {  }
+                    linked_entity:
+                      uuid: 05a7cfd3-833a-4576-b454-8fbae0e8e237
+                      entity_type: node
+                      base_fields:
+                        title: About
+                        status: true
+                        langcode: en
+                        created: '1691757101'
+                        author: sebastianna.skalisky@yale.edu
+                        revision_log_message: null
+                        revision_uid: '2'
+                        moderation_state: published
+                        url: /about
+                      bundle: page
                 field_text:
                   -
                     value: "<p>An <strong>About page</strong> is perfect for expanding your mission, summarizing your history, or reinforcing your services.</p>\r\n"
                     format: heading_html
+                    embed_entities: {  }
             -
               uuid: 6493ca9a-1d3b-4b85-b47e-260733f5c04b
               entity_type: paragraph
@@ -183,16 +391,32 @@ custom_fields:
                       created: '1691598171'
                       status: true
                       langcode: en
+                      url: null
                     bundle: image
                 field_link:
                   -
                     uri: 'entity:node/12'
                     title: ''
                     options: {  }
+                    linked_entity:
+                      uuid: 87756783-eb26-4450-b140-6b6c43b3ce78
+                      entity_type: node
+                      base_fields:
+                        title: 'Contact Us'
+                        status: true
+                        langcode: en
+                        created: '1692019001'
+                        author: sebastianna.skalisky@yale.edu
+                        revision_log_message: null
+                        revision_uid: '2'
+                        moderation_state: published
+                        url: /contact-us
+                      bundle: page
                 field_text:
                   -
                     value: "<p>Make it easy for visitors to connect with their questions or feedback by including a <strong>Contact page</strong> on your website.</p>\r\n"
                     format: heading_html
+                    embed_entities: {  }
             -
               uuid: e6be7713-040f-4666-a9bd-7ef9f188915d
               entity_type: paragraph
@@ -216,16 +440,32 @@ custom_fields:
                       created: '1691598171'
                       status: true
                       langcode: en
+                      url: null
                     bundle: image
                 field_link:
                   -
                     uri: 'entity:node/13'
                     title: ''
                     options: {  }
+                    linked_entity:
+                      uuid: 9a3610fb-e6aa-488c-93cd-73e03c7e162c
+                      entity_type: node
+                      base_fields:
+                        title: 'Text-Only Page'
+                        status: true
+                        langcode: en
+                        created: '1692019851'
+                        author: sebastianna.skalisky@yale.edu
+                        revision_log_message: null
+                        revision_uid: '2'
+                        moderation_state: published
+                        url: /text-only-page
+                      bundle: page
                 field_text:
                   -
                     value: "<p>You can be confident that even your \"plain\" text pages will be compelling, thanks to the beauty of Yale's typography.</p>\r\n"
                     format: heading_html
+                    embed_entities: {  }
             -
               uuid: e41f542e-75f8-4b98-8c74-f701a47f43ac
               entity_type: paragraph
@@ -249,16 +489,32 @@ custom_fields:
                       created: '1691755440'
                       status: true
                       langcode: en
+                      url: null
                     bundle: image
                 field_link:
                   -
                     uri: 'entity:node/9'
                     title: ''
                     options: {  }
+                    linked_entity:
+                      uuid: 2f4616ff-a955-43c2-8bab-e3a51ac9b30a
+                      entity_type: node
+                      base_fields:
+                        title: Posts
+                        status: true
+                        langcode: en
+                        created: '1691763640'
+                        author: sebastianna.skalisky@yale.edu
+                        revision_log_message: null
+                        revision_uid: '2'
+                        moderation_state: published
+                        url: /posts
+                      bundle: page
                 field_text:
                   -
                     value: "<p>Use <strong>Posts</strong> to share everything from simple text announcements to full-length magazine-style articles.</p>\r\n"
                     format: heading_html
+                    embed_entities: {  }
           field_heading:
             -
               value: 'Explore our services'
@@ -277,10 +533,14 @@ custom_fields:
           block_revision_id: '45'
           enforce_new_revision: true
         custom_fields:
+          field_focus:
+            -
+              value: equal
           field_heading:
             -
               value: 'Start Building with Blocks'
               format: heading_html
+          field_heading_level: null
           field_instructions:
             -
               markup: null
@@ -289,6 +549,7 @@ custom_fields:
               uri: 'internal:/about-us#blocks'
               title: 'Building with Blocks'
               options: {  }
+          field_link_two: null
           field_media:
             -
               uuid: cae04706-21ac-41aa-9dd6-8f2e509ddb3a
@@ -298,8 +559,12 @@ custom_fields:
                 created: '1691755627'
                 status: true
                 langcode: en
+                url: null
               bundle: image
-          field_style_color: null
+          field_style_alignment: null
+          field_style_color:
+            -
+              value: default
           field_style_position:
             -
               value: image-left
@@ -316,7 +581,8 @@ custom_fields:
           field_text:
             -
               value: "<p><strong>Blocks</strong> are like specialized content \"bricks\" you'll use to build a solid, well-designed site. Beautifully branded and accessible by default, Blocks are precoded, so you can focus on perfecting your content.</p>\r\n\r\n<p>The <strong>Content Spotlight Block</strong> in this example pairs a call-to-action with a supporting image, making it an ideal combination for a homepage feature. Keep and customize it for your own site, or swap in another Block that better supports your content goals.</p>\r\n"
-              format: restricted_html
+              format: basic_html
+              embed_entities: {  }
       -
         uuid: f676d3d3-0bc3-43b2-ae02-eb4801ab5137
         entity_type: block_content
@@ -338,6 +604,7 @@ custom_fields:
             -
               value: "<h2>Share your stories</h2>\r\n\r\n<p>You can use the <strong>View Block</strong> to curate a feed of <strong>Posts</strong> on your website. We adjusted our View to show only our most recent Post to ensure our homepage's content remains focused.</p>\r\n"
               format: basic_html
+              embed_entities: {  }
       -
         uuid: fcbb5f94-5348-4e3a-91cb-5edff5b2c773
         entity_type: block_content
@@ -350,6 +617,7 @@ custom_fields:
           enforce_new_revision: true
         custom_fields:
           field_heading: null
+          field_heading_links: null
           field_instructions:
             -
               markup: null
@@ -412,7 +680,36 @@ custom_fields:
               uri: 'entity:node/9'
               title: 'See all news'
               options: {  }
+              linked_entity:
+                uuid: 2f4616ff-a955-43c2-8bab-e3a51ac9b30a
+                entity_type: node
+                base_fields:
+                  title: Posts
+                  status: true
+                  langcode: en
+                  created: '1691763640'
+                  author: sebastianna.skalisky@yale.edu
+                  revision_log_message: null
+                  revision_uid: '2'
+                  moderation_state: published
+                  url: /posts
+                bundle: page
             -
               uri: 'entity:node/10'
               title: 'Upcoming events'
               options: {  }
+              linked_entity:
+                uuid: 2941c316-1540-4c01-9aff-02e99d27544f
+                entity_type: node
+                base_fields:
+                  title: Events
+                  status: true
+                  langcode: en
+                  created: '1691766541'
+                  author: sebastianna.skalisky@yale.edu
+                  revision_log_message: null
+                  revision_uid: '2'
+                  moderation_state: published
+                  url: /events
+                bundle: page
+          field_instructions: {  }

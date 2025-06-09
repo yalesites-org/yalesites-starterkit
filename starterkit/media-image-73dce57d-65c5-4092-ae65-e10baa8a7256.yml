@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
       alt: "Dramatic view of the towers on Yale University's historic Dwight Hall"
+      target_entity:
+        uuid: c3ed59b1-cbee-49ae-b154-30ce0dcbb836
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: dwight-hall-memorial-chapel-rooftop-towers.jpg
+          uri: 'public://starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
+          url: 'http://default/sites/default/files/starterkit/dwight-hall-memorial-chapel-rooftop-towers.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

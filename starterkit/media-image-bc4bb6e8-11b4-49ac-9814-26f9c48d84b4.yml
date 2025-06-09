@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/yale-outdoor-education-center_andrew-hurley.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/yale-outdoor-education-center_andrew-hurley.jpg'
       alt: "Sunshine glimmers across a lake framed by the lush greenery of Yale's Outdoor Education Center"
+      target_entity:
+        uuid: 867ea9df-e4fa-4806-b5ae-9978948b94a6
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: yale-outdoor-education-center_andrew-hurley.jpg
+          uri: 'public://starterkit/yale-outdoor-education-center_andrew-hurley.jpg'
+          url: 'http://default/sites/default/files/starterkit/yale-outdoor-education-center_andrew-hurley.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

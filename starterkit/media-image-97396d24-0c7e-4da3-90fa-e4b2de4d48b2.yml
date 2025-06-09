@@ -7,11 +7,23 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/sterling-memorial-library-stacks_jack-devlin.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/sterling-memorial-library-stacks_jack-devlin.jpg'
       alt: 'two wooden chairs in an aisle between shelves of books in Sterling Memorial Library'
       title: ''
+      target_entity:
+        uuid: 73439630-55d6-4f56-bf4c-2dca2dae60c3
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: sterling-memorial-library-stacks_jack-devlin.jpg
+          uri: 'public://2023-09/sterling-memorial-library-stacks_jack-devlin.jpg'
+          url: 'http://default/sites/default/files/2023-09/sterling-memorial-library-stacks_jack-devlin.jpg'
+          status: '1'
+          created: 1694190234
+          changed: 1694190253
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

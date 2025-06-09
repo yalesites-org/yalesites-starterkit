@@ -7,11 +7,23 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/sculpture-covered-in-snow_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/sculpture-covered-in-snow_michael-marsland.jpg'
       alt: 'red, yellow, and white sculpture against a wintery background'
       title: ''
+      target_entity:
+        uuid: a47626ea-5e50-466e-ba30-4615dfcb4b25
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: sculpture-covered-in-snow_michael-marsland.jpg
+          uri: 'public://2023-09/sculpture-covered-in-snow_michael-marsland.jpg'
+          url: 'http://default/sites/default/files/2023-09/sculpture-covered-in-snow_michael-marsland.jpg'
+          status: '1'
+          created: 1694191136
+          changed: 1694191142
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

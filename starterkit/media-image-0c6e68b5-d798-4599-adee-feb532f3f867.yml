@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/maya-lin-womens-table-close-up.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/maya-lin-womens-table-close-up.jpg'
       alt: "Detail of numbers carved into Maya Lin's Women's Table sculpture"
+      target_entity:
+        uuid: 17284ec1-466e-45dd-b3ba-3f8aa289ae3c
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: maya-lin-womens-table-close-up.jpg
+          uri: 'public://starterkit/maya-lin-womens-table-close-up.jpg'
+          url: 'http://default/sites/default/files/starterkit/maya-lin-womens-table-close-up.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

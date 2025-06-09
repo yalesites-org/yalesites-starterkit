@@ -7,11 +7,28 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/central-campus-aerial-sunset_paul-coco.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
       alt: "Sprawling aerial view of Central Campus's gothic architecture at sunset"
       title: ''
+      target_entity:
+        uuid: d36dd26e-8596-494b-b020-950239219828
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: central-campus-aerial-sunset_paul-coco.jpg
+          uri: 'public://starterkit/central-campus-aerial-sunset_paul-coco.jpg'
+          url: 'http://default/sites/default/files/starterkit/central-campus-aerial-sunset_paul-coco.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: 0
+            'y': 0
+        custom_fields: {  }
   field_tags: null

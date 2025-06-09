@@ -7,11 +7,28 @@ base_fields:
   created: '1691755440'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-08/handsome-dan-ben-franklin.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
       alt: "Handsome Dan sitting next to Ben Franklin statue with paws on Franklin's thigh"
       title: ''
+      target_entity:
+        uuid: cabbbee5-98f7-4ad6-8ddb-ec5dc666018b
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: handsome-dan-ben-franklin.jpg
+          uri: 'public://2023-08/handsome-dan-ben-franklin.jpg'
+          url: 'http://default/sites/default/files/2023-08/handsome-dan-ben-franklin.jpg'
+          status: '1'
+          created: 1691755440
+          changed: 1691755494
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: 0
+            'y': 0
+        custom_fields: {  }
   field_tags: null

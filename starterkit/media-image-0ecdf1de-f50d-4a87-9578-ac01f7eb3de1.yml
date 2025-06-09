@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/stained-glass-linsly-chittenden-hall_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stained-glass-linsly-chittenden-hall_michael-marsland.jpg'
       alt: 'Detail of the Mary Hartwell Lusk Memorial Window'
+      target_entity:
+        uuid: 001655f5-7215-45cb-949e-82b3173f20f8
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: stained-glass-linsly-chittenden-hall_michael-marsland.jpg
+          uri: 'public://starterkit/stained-glass-linsly-chittenden-hall_michael-marsland.jpg'
+          url: 'http://default/sites/default/files/starterkit/stained-glass-linsly-chittenden-hall_michael-marsland.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

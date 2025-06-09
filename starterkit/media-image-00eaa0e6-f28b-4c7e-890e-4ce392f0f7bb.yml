@@ -7,11 +7,23 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/maya-lin-womens-table-reflections_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/maya-lin-womens-table-reflections_michael-marsland.jpg'
       alt: 'the sky and Yale’s buildings reflected in a pool of water'
       title: ''
+      target_entity:
+        uuid: 392a51e7-b2c1-4d59-933b-3fac2cf16505
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: maya-lin-womens-table-reflections_michael-marsland.jpg
+          uri: 'public://2023-09/maya-lin-womens-table-reflections_michael-marsland.jpg'
+          url: 'http://default/sites/default/files/2023-09/maya-lin-womens-table-reflections_michael-marsland.jpg'
+          status: '1'
+          created: 1694190958
+          changed: 1694190975
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

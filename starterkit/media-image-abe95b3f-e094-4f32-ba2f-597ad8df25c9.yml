@@ -7,11 +7,23 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/aerial-schwarzman-center_dan-renzetti.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/aerial-schwarzman-center_dan-renzetti.jpg'
       alt: 'aerial view of Yale University’s Schwarzman Center'
       title: ''
+      target_entity:
+        uuid: 9e2f87c3-84a2-483a-8168-9dd7afc90fc6
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: aerial-schwarzman-center_dan-renzetti.jpg
+          uri: 'public://2023-09/aerial-schwarzman-center_dan-renzetti.jpg'
+          url: 'http://default/sites/default/files/2023-09/aerial-schwarzman-center_dan-renzetti.jpg'
+          status: '1'
+          created: 1694189592
+          changed: 1694189604
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

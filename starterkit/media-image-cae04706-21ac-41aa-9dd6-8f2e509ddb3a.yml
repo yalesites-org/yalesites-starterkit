@@ -7,11 +7,23 @@ base_fields:
   created: '1691755627'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-08/yale-brick-in-wall-detail.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-08/yale-brick-in-wall-detail.jpg'
       alt: 'brick wall with YALE carved into one of the bricks'
       title: ''
+      target_entity:
+        uuid: 7d912bca-cdc0-47ad-bb42-3874f4f8eca1
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: yale-brick-in-wall-detail.jpg
+          uri: 'public://2023-08/yale-brick-in-wall-detail.jpg'
+          url: 'http://default/sites/default/files/2023-08/yale-brick-in-wall-detail.jpg'
+          status: '1'
+          created: 1691755627
+          changed: 1691755644
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

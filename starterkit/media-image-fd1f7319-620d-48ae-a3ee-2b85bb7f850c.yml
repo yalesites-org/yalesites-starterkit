@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/stained-glass-don-quixote-hall-graduate-studies_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/stained-glass-don-quixote-hall-graduate-studies_michael-marsland.jpg'
       alt: 'Detailed and dramatic stained glass depiction of Don Quixote'
+      target_entity:
+        uuid: 47a160e2-f66b-4449-83bc-16f519b01a7a
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: stained-glass-don-quixote-hall-graduate-studies_michael-marsland.jpg
+          uri: 'public://starterkit/stained-glass-don-quixote-hall-graduate-studies_michael-marsland.jpg'
+          url: 'http://default/sites/default/files/starterkit/stained-glass-don-quixote-hall-graduate-studies_michael-marsland.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

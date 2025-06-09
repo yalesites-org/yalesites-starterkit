@@ -7,11 +7,23 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
       alt: 'the setting sun spills through an arched window into a dark aisle, illuminating the library stacks'
       title: ''
+      target_entity:
+        uuid: 7867d879-05f3-4d3b-906c-7c8d1e2bc985
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: illuminated-stacks-sterling-memorial-library_jack-devlin.jpg
+          uri: 'public://2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
+          url: 'http://default/sites/default/files/2023-09/illuminated-stacks-sterling-memorial-library_jack-devlin.jpg'
+          status: '1'
+          created: 1694190648
+          changed: 1694190655
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

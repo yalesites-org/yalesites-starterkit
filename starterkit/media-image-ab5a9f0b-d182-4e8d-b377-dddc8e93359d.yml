@@ -7,11 +7,23 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/aerial-yale-divinity-school_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/aerial-yale-divinity-school_michael-marsland.jpg'
       alt: 'aerial view of the Yale Divinty School'
       title: ''
+      target_entity:
+        uuid: 4b3d7e4d-239c-4904-b585-2b59beeffef9
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: aerial-yale-divinity-school_michael-marsland.jpg
+          uri: 'public://2023-09/aerial-yale-divinity-school_michael-marsland.jpg'
+          url: 'http://default/sites/default/files/2023-09/aerial-yale-divinity-school_michael-marsland.jpg'
+          status: '1'
+          created: 1694189869
+          changed: 1694189882
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

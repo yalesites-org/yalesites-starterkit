@@ -7,11 +7,28 @@ base_fields:
   created: '1693930847'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/students-relaxing-cross-campus_anna-zhang.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-relaxing-cross-campus_anna-zhang.jpg'
       alt: "students gather outside to enjoy the beauty of Yale's campus"
       title: ''
+      target_entity:
+        uuid: e51872a5-8014-4014-ba1d-0aeb9e8f38c7
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: students-relaxing-cross-campus_anna-zhang.jpg
+          uri: 'public://2023-09/students-relaxing-cross-campus_anna-zhang.jpg'
+          url: 'http://default/sites/default/files/2023-09/students-relaxing-cross-campus_anna-zhang.jpg'
+          status: '1'
+          created: 1693930847
+          changed: 1693930949
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: 0
+            'y': 0
+        custom_fields: {  }
   field_tags: null

@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/harkness-tower-dusk.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-dusk.jpg'
       alt: 'Harkness Tower rises dramatically into the darkening sky at dusk'
+      target_entity:
+        uuid: b1346ab8-a74f-4200-9ee1-9368bc1e3187
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: harkness-tower-dusk.jpg
+          uri: 'public://starterkit/harkness-tower-dusk.jpg'
+          url: 'http://default/sites/default/files/starterkit/harkness-tower-dusk.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

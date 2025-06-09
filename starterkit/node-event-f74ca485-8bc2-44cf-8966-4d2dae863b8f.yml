@@ -8,11 +8,12 @@ base_fields:
   langcode: en
   created: '1691768141'
   author: sebastianna.skalisky@yale.edu
-  url: /events/2025-01-01-promote-your-events
   revision_log_message: null
   revision_uid: '2'
   moderation_state: published
+  url: /events/promote-your-events
 custom_fields:
+  field_audience: null
   field_category:
     -
       uuid: c1ca8647-857f-4c46-82bd-7edba0947522
@@ -24,7 +25,10 @@ custom_fields:
         langcode: en
         description: null
         parent: 0
+        url: null
       custom_fields: {  }
+  field_custom_vocab: null
+  field_event_audience: null
   field_event_cta:
     -
       uri: 'internal:/'
@@ -38,7 +42,15 @@ custom_fields:
       rrule: null
       rrule_index: null
       timezone: ''
+  field_event_description: null
   field_event_format: null
+  field_event_id: null
+  field_event_place: null
+  field_event_recurring: null
+  field_event_room: null
+  field_event_source: null
+  field_event_status: null
+  field_event_topics: null
   field_event_type:
     -
       uuid: d22299b1-d122-4294-84f8-295b3f69c7f5
@@ -50,12 +62,25 @@ custom_fields:
         langcode: en
         description: null
         parent: 0
+        url: null
       custom_fields: {  }
   field_external_source: null
+  field_localist_event_experience: null
+  field_localist_event_image_alt: null
+  field_localist_event_image_url: null
+  field_localist_event_type: null
+  field_localist_event_url: null
+  field_localist_group: null
+  field_localist_ics_url: null
+  field_localist_id: null
+  field_localist_info: {  }
+  field_localist_register_enabled: null
   field_login_required:
     -
       value: '0'
   field_metatags: null
+  field_stream_embed_code: null
+  field_stream_url: null
   field_tags: null
   field_teaser_media:
     -
@@ -66,14 +91,92 @@ custom_fields:
         created: '1691598171'
         status: true
         langcode: en
+        url: null
       bundle: image
   field_teaser_text:
     -
       value: "<p>YaleSites makes it easy to publish and promote your in-person, virtual, or hybrid events in style.</p>\r\n"
       format: heading_html
+      embed_entities: {  }
   field_teaser_title: null
+  field_ticket_cost: null
+  field_ticket_registration_url: null
   layout_builder__layout:
-    sections: TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToyOntzOjU6ImxhYmVsIjtzOjE4OiJUaXRsZSBhbmQgTWV0YWRhdGEiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6MTp7czozNjoiYzkyODc1NjYtNTg3NS00NDNmLThiNmMtN2M3NmRkMWE2MGQ0IjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiJjOTI4NzU2Ni01ODc1LTQ0M2YtOGI2Yy03Yzc2ZGQxYTYwZDQiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6NTp7czoyOiJpZCI7czoxNjoiZXZlbnRfbWV0YV9ibG9jayI7czo1OiJsYWJlbCI7czoxNjoiRXZlbnQgTWV0YSBCbG9jayI7czoxMzoibGFiZWxfZGlzcGxheSI7czowOiIiO3M6ODoicHJvdmlkZXIiO3M6MTA6InlzX2xheW91dHMiO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fX1zOjIxOiIAKgB0aGlyZFBhcnR5U2V0dGluZ3MiO2E6MTp7czoxOToibGF5b3V0X2J1aWxkZXJfbG9jayI7YToxOntzOjQ6ImxvY2siO2E6ODp7aToxO2k6MTtpOjI7aToyO2k6MztpOjM7aTo0O2k6NDtpOjU7aTo1O2k6NjtpOjY7aTo3O2k6NztpOjg7aTo4O319fX18TzoyOToiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb24iOjQ6e3M6MTE6IgAqAGxheW91dElkIjtzOjEzOiJsYXlvdXRfb25lY29sIjtzOjE3OiIAKgBsYXlvdXRTZXR0aW5ncyI7YToxOntzOjU6ImxhYmVsIjtzOjA6IiI7fXM6MTM6IgAqAGNvbXBvbmVudHMiO2E6Mzp7czozNjoiNDA0ZTMzYzEtYThlZC00MTQ1LThlY2YtY2M2NDZhNzRlZWJlIjtPOjM4OiJEcnVwYWxcbGF5b3V0X2J1aWxkZXJcU2VjdGlvbkNvbXBvbmVudCI6NTp7czo3OiIAKgB1dWlkIjtzOjM2OiI0MDRlMzNjMS1hOGVkLTQxNDUtOGVjZi1jYzY0NmE3NGVlYmUiO3M6OToiACoAcmVnaW9uIjtzOjc6ImNvbnRlbnQiO3M6MTY6IgAqAGNvbmZpZ3VyYXRpb24iO2E6ODp7czoyOiJpZCI7czoxNzoiaW5saW5lX2Jsb2NrOnRleHQiO3M6NToibGFiZWwiO3M6MjY6ImV4YW1wbGUgZXZlbnQgLSBpbnRybyB0ZXh0IjtzOjEzOiJsYWJlbF9kaXNwbGF5IjtiOjA7czo4OiJwcm92aWRlciI7czoxNDoibGF5b3V0X2J1aWxkZXIiO3M6OToidmlld19tb2RlIjtzOjQ6ImZ1bGwiO3M6MTc6ImJsb2NrX3JldmlzaW9uX2lkIjtzOjI6IjgxIjtzOjE2OiJibG9ja19zZXJpYWxpemVkIjtOO3M6MTU6ImNvbnRleHRfbWFwcGluZyI7YTowOnt9fXM6OToiACoAd2VpZ2h0IjtpOjA7czoxMzoiACoAYWRkaXRpb25hbCI7YTowOnt9fXM6MzY6ImJjZTA1ODYwLTkwMDAtNDlmYi04ZDkzLWIwZDZlZDIyZGVjMSI7TzozODoiRHJ1cGFsXGxheW91dF9idWlsZGVyXFNlY3Rpb25Db21wb25lbnQiOjU6e3M6NzoiACoAdXVpZCI7czozNjoiYmNlMDU4NjAtOTAwMC00OWZiLThkOTMtYjBkNmVkMjJkZWMxIjtzOjk6IgAqAHJlZ2lvbiI7czo3OiJjb250ZW50IjtzOjE2OiIAKgBjb25maWd1cmF0aW9uIjthOjg6e3M6MjoiaWQiO3M6MTc6ImlubGluZV9ibG9jazp0ZXh0IjtzOjU6ImxhYmVsIjtzOjMyOiJleGFtcGxlIGV2ZW50IC0gc2VsZWN0aW5nIGJsb2NrcyI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI4MiI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToyO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX1zOjM2OiI1ODQ2OTg4My0zZWZiLTRlNjItOTkyMy0xYTQ4YTNiNjE2NjYiO086Mzg6IkRydXBhbFxsYXlvdXRfYnVpbGRlclxTZWN0aW9uQ29tcG9uZW50Ijo1OntzOjc6IgAqAHV1aWQiO3M6MzY6IjU4NDY5ODgzLTNlZmItNGU2Mi05OTIzLTFhNDhhM2I2MTY2NiI7czo5OiIAKgByZWdpb24iO3M6NzoiY29udGVudCI7czoxNjoiACoAY29uZmlndXJhdGlvbiI7YTo4OntzOjI6ImlkIjtzOjE4OiJpbmxpbmVfYmxvY2s6aW1hZ2UiO3M6NToibGFiZWwiO3M6MjE6ImV4YW1wbGUgZXZlbnQgLSBpbWFnZSI7czoxMzoibGFiZWxfZGlzcGxheSI7YjowO3M6ODoicHJvdmlkZXIiO3M6MTQ6ImxheW91dF9idWlsZGVyIjtzOjk6InZpZXdfbW9kZSI7czo0OiJmdWxsIjtzOjE3OiJibG9ja19yZXZpc2lvbl9pZCI7czoyOiI3OCI7czoxNjoiYmxvY2tfc2VyaWFsaXplZCI7TjtzOjE1OiJjb250ZXh0X21hcHBpbmciO2E6MDp7fX1zOjk6IgAqAHdlaWdodCI7aToxO3M6MTM6IgAqAGFkZGl0aW9uYWwiO2E6MDp7fX19czoyMToiACoAdGhpcmRQYXJ0eVNldHRpbmdzIjthOjE6e3M6MTk6ImxheW91dF9idWlsZGVyX2xvY2siO2E6MTp7czo0OiJsb2NrIjthOjI6e2k6NjtpOjY7aTo3O2k6Nzt9fX19
+    sections:
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: 'Title and Metadata'
+          context_mapping: {  }
+        components:
+          c9287566-5875-443f-8b6c-7c76dd1a60d4:
+            uuid: c9287566-5875-443f-8b6c-7c76dd1a60d4
+            region: content
+            configuration:
+              id: event_meta_block
+              label: 'Event Meta Block'
+              label_display: ''
+              provider: ys_layouts
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              6: 6
+              7: 7
+      -
+        layout_id: layout_onecol
+        layout_settings:
+          label: ''
+        components:
+          404e33c1-a8ed-4145-8ecf-cc646a74eebe:
+            uuid: 404e33c1-a8ed-4145-8ecf-cc646a74eebe
+            region: content
+            configuration:
+              id: 'inline_block:text'
+              label: 'example event - intro text'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '81'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 0
+            additional: {  }
+          bce05860-9000-49fb-8d93-b0d6ed22dec1:
+            uuid: bce05860-9000-49fb-8d93-b0d6ed22dec1
+            region: content
+            configuration:
+              id: 'inline_block:text'
+              label: 'example event - selecting blocks'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '82'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 2
+            additional: {  }
+          58469883-3efb-4e62-9923-1a48a3b61666:
+            uuid: 58469883-3efb-4e62-9923-1a48a3b61666
+            region: content
+            configuration:
+              id: 'inline_block:image'
+              label: 'example event - image'
+              label_display: false
+              provider: layout_builder
+              view_mode: full
+              block_revision_id: '78'
+              block_serialized: null
+              context_mapping: {  }
+            weight: 1
+            additional: {  }
+        third_party_settings:
+          layout_builder_lock:
+            lock:
+              6: 6
+              7: 7
     blocks:
       -
         uuid: 9fc207e9-68a7-47b0-9c1c-320b6c95150c
@@ -96,6 +199,7 @@ custom_fields:
             -
               value: "<p>Published events can be dynamically fed into your site using the <strong>Calendar List</strong> or <strong>View Block</strong>. At a minimum, these feeds will display your event's date and title, but by including Teaser Details, you can add a thumbnail image and summary text to help your audience understand what your event is and why they should attend.</p>\r\n"
               format: basic_html
+              embed_entities: {  }
       -
         uuid: 2572fd6e-14da-4f35-a2ad-4a8134bd3eaa
         entity_type: block_content
@@ -117,6 +221,7 @@ custom_fields:
             -
               value: "<p>Once you've added essential details, consider which Blocks would be best suited to showcasing your event. For example, a succinct speaker bio in a <strong>Content Spotlight</strong> or <strong>Wrapped Image Block </strong>could make your listing more appealing and help potential attendees get a better sense of what your event will be like.</p>\r\n\r\n<p>If you need to share a collection of images, like when promoting an exhibition, use <strong>Image Grid Block</strong> or <strong>Gallery Block</strong>. Select the Gallery block when you'd like visitors to be able to view larger versions of your images or when you need to provide captions and image attribution.</p>\r\n"
               format: basic_html
+              embed_entities: {  }
       -
         uuid: 3ee80b7f-5eaa-4f54-bccf-32c3844ec66e
         entity_type: block_content
@@ -140,8 +245,10 @@ custom_fields:
                 created: '1691598171'
                 status: true
                 langcode: en
+                url: null
               bundle: image
           field_text:
             -
               value: "<p>Provide users with a window into what they can expect at your event by using the<strong> Image block</strong>.</p>\r\n"
               format: restricted_html
+              embed_entities: {  }

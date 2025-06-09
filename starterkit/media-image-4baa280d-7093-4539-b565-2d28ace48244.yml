@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
       alt: 'Overhead shot of the Woolsey Hall marble staircase'
+      target_entity:
+        uuid: 0a8c7451-b0a4-40a5-b0e7-3117f7a029cf
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: woolsey-hall-interior-staricase_nune-garipian.jpg
+          uri: 'public://starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
+          url: 'http://default/sites/default/files/starterkit/woolsey-hall-interior-staricase_nune-garipian.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

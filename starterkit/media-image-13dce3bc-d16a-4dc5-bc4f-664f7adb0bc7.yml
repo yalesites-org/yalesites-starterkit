@@ -7,11 +7,23 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/biking-paths-yale-campus_jack-devlin.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/biking-paths-yale-campus_jack-devlin.jpg'
       alt: 'pathway on Yale campus amongst bushes, fall trees, and a bike path'
       title: ''
+      target_entity:
+        uuid: 814dbab7-0a34-4b02-9823-3ca30d457da7
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: biking-paths-yale-campus_jack-devlin.jpg
+          uri: 'public://2023-09/biking-paths-yale-campus_jack-devlin.jpg'
+          url: 'http://default/sites/default/files/2023-09/biking-paths-yale-campus_jack-devlin.jpg'
+          status: '1'
+          created: 1694191207
+          changed: 1694191214
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

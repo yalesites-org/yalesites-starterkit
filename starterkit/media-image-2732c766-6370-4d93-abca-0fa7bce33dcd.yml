@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/yale-motto-carving-detail_andrew-hurley.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/yale-motto-carving-detail_andrew-hurley.jpg'
       alt: "Close up of a stone carving of Yale's coat of arms features an open book and Yale's motto, Lux et Veritas"
+      target_entity:
+        uuid: 3f6116b3-0140-4dec-9f29-adcdd70090e1
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: yale-motto-carving-detail_andrew-hurley.jpg
+          uri: 'public://starterkit/yale-motto-carving-detail_andrew-hurley.jpg'
+          url: 'http://default/sites/default/files/starterkit/yale-motto-carving-detail_andrew-hurley.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/harkness-tower-light-pole_nune-garipian.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-light-pole_nune-garipian.jpg'
       alt: "A lamp shines in the darkness as the sun sets on Yale's campus"
+      target_entity:
+        uuid: 6f645560-8ebf-4967-8841-44da7e55c4b0
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: harkness-tower-light-pole_nune-garipian.jpg
+          uri: 'public://starterkit/harkness-tower-light-pole_nune-garipian.jpg'
+          url: 'http://default/sites/default/files/starterkit/harkness-tower-light-pole_nune-garipian.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

@@ -1,9 +1,9 @@
 site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
-uuid: b1e19674-f4ff-44f8-93de-8c1b20865c79
+uuid: e8d229a6-60b6-48e6-a700-1b368ef62c7f
 entity_type: taxonomy_term
-bundle: event_category
+bundle: event_type
 base_fields:
-  name: 'Yale & New Haven'
+  name: Hybrid
   weight: 0
   langcode: en
   description: null

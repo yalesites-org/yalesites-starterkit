@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/harkness-tower-clock_andrew-hurley.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
       alt: 'Detailed view of the beauty and grandeur of one of the clocks of Harkness Tower'
+      target_entity:
+        uuid: dc6b2e5a-a467-477a-923f-15febd3acece
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: harkness-tower-clock_andrew-hurley.jpg
+          uri: 'public://starterkit/harkness-tower-clock_andrew-hurley.jpg'
+          url: 'http://default/sites/default/files/starterkit/harkness-tower-clock_andrew-hurley.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

@@ -7,11 +7,23 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/staircase-street-hall_michael-marsland.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/staircase-street-hall_michael-marsland.jpg'
       alt: 'looking down on a spiral staircase with students walking up'
       title: ''
+      target_entity:
+        uuid: 39da8c16-d226-4dcb-9d8d-93621c203b48
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: staircase-street-hall_michael-marsland.jpg
+          uri: 'public://2023-09/staircase-street-hall_michael-marsland.jpg'
+          url: 'http://default/sites/default/files/2023-09/staircase-street-hall_michael-marsland.jpg'
+          status: '1'
+          created: 1694191034
+          changed: 1694191045
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

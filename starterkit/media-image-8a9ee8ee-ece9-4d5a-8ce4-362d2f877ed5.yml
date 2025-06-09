@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/humanities-quadrangle-night.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/humanities-quadrangle-night.jpg'
       alt: 'Shadowy and dramatically low lit stone archways of the Humanities Quadrangle at night'
+      target_entity:
+        uuid: cfc58a8b-9a4f-45c8-84e8-54199331deea
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: humanities-quadrangle-night.jpg
+          uri: 'public://starterkit/humanities-quadrangle-night.jpg'
+          url: 'http://default/sites/default/files/starterkit/humanities-quadrangle-night.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

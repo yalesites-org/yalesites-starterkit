@@ -7,11 +7,28 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/gargoyle-old-campus_andrew-hurley.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/gargoyle-old-campus_andrew-hurley.jpg'
       alt: 'A lion-headed gargoyle watches over Old Campus'
       title: ''
+      target_entity:
+        uuid: d42cc8b2-9fa7-4659-bdb1-6f9d09f925f9
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: gargoyle-old-campus_andrew-hurley.jpg
+          uri: 'public://starterkit/gargoyle-old-campus_andrew-hurley.jpg'
+          url: 'http://default/sites/default/files/starterkit/gargoyle-old-campus_andrew-hurley.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: 0
+            'y': 0
+        custom_fields: {  }
   field_tags: null

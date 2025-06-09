@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/harkness-tower-through-trees_andrew-hurley.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/harkness-tower-through-trees_andrew-hurley.jpg'
       alt: 'The dramatic and gothic Harkness Tower, as seen through treetops, rises into the vibrant blue sky'
+      target_entity:
+        uuid: 953ed073-6be1-4734-b35f-b9802273b332
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: harkness-tower-through-trees_andrew-hurley.jpg
+          uri: 'public://starterkit/harkness-tower-through-trees_andrew-hurley.jpg'
+          url: 'http://default/sites/default/files/starterkit/harkness-tower-through-trees_andrew-hurley.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

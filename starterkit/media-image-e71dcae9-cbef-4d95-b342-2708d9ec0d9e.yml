@@ -7,10 +7,22 @@ base_fields:
   created: '1691598171'
   status: true
   langcode: en
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/rose-walk-cross-campus_dan-renzetti.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/rose-walk-cross-campus_dan-renzetti.jpg'
       alt: "Sunlight pours through a canopy of trees along the Rose Walk on Yale's campus"
+      target_entity:
+        uuid: 96c3e84d-b915-4eae-a5e7-a68a1213d028
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: rose-walk-cross-campus_dan-renzetti.jpg
+          uri: 'public://starterkit/rose-walk-cross-campus_dan-renzetti.jpg'
+          url: 'http://default/sites/default/files/starterkit/rose-walk-cross-campus_dan-renzetti.jpg'
+          status: '1'
+          created: 1691598171
+          changed: 1691598171
+          mimetype: image/jpeg
+        custom_fields: {  }
   field_tags: null

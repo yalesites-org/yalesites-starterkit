@@ -1,9 +1,9 @@
 site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
-uuid: b1e19674-f4ff-44f8-93de-8c1b20865c79
+uuid: 43fcbf07-cca3-4a16-8411-61d6e6460a1f
 entity_type: taxonomy_term
-bundle: event_category
+bundle: audience
 base_fields:
-  name: 'Yale & New Haven'
+  name: Staff
   weight: 0
   langcode: en
   description: null
