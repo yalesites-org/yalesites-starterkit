@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: fbf8bbed-eca6-42df-a5e8-4bec7f98ec08
+entity_type: media
+bundle: image
+base_fields:
+  name: "Three students sitting on swinging bench on campus (OPAC 85155)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-85155.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-85155.jpg'
+      alt: "Three students sitting on swinging bench on campus"
+      title: ''
+  field_tags: null

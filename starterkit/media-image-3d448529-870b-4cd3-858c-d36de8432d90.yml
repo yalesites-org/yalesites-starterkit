@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 3d448529-870b-4cd3-858c-d36de8432d90
+entity_type: media
+bundle: image
+base_fields:
+  name: "Two students on Cross Campus lounging, laughing, and enjoying the warmth of Spring (OPAC 74296)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-74296.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-74296.jpg'
+      alt: "Two students on Cross Campus lounging, laughing, and enjoying the warmth of Spring"
+      title: ''
+  field_tags: null

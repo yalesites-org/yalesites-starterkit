@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: d2e253b1-c01e-48fa-9348-0d4fc59d566e
+entity_type: media
+bundle: image
+base_fields:
+  name: "One student walking across Silliman College courtyard with sun setting (OPAC 85723)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-85723.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-85723.jpg'
+      alt: "One student walking across Silliman College courtyard with sun setting"
+      title: ''
+  field_tags: null

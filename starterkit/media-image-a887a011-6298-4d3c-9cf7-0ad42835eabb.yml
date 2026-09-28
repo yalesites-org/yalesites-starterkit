@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: a887a011-6298-4d3c-9cf7-0ad42835eabb
+entity_type: media
+bundle: image
+base_fields:
+  name: "Exterior of residential college on a sunny day (OPAC 90512)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-90512.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90512.jpg'
+      alt: "Exterior of residential college on a sunny day"
+      title: ''
+  field_tags: null

@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: ed3b3e9e-c816-40e4-95df-aab36a6da3d3
+entity_type: media
+bundle: image
+base_fields:
+  name: "Large group of Yale students gathering across Cross Campus during sunny day (OPAC 66121)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-66121.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-66121.jpg'
+      alt: "Large group of Yale students gathering across Cross Campus during sunny day"
+      title: ''
+  field_tags: null

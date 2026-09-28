@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 6829051a-ceab-4088-bbde-8bceb0abc8e9
+entity_type: media
+bundle: image
+base_fields:
+  name: "Two students walking across campus with other groups of students in the background (OPAC 90452)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-90452.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90452.jpg'
+      alt: "Two students walking across campus with other groups of students in the background"
+      title: ''
+  field_tags: null

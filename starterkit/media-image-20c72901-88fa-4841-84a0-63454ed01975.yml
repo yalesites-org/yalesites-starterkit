@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 20c72901-88fa-4841-84a0-63454ed01975
+entity_type: media
+bundle: image
+base_fields:
+  name: "Close-up of Schwarzman Center Dome during Celestial Gardens exhibition (OPAC 92383)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-92383.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-92383.jpg'
+      alt: "Close-up of Schwarzman Center Dome during Celestial Gardens exhibition"
+      title: ''
+  field_tags: null
