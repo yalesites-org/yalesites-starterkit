@@ -3,7 +3,7 @@ uuid: 9414f01e-e77b-4cdb-8816-36deb6001e81
 entity_type: media
 bundle: image
 base_fields:
-  name: "Close-up of Tiffany-stained glass window in Linsley Chittenden Hall (OPAC 95442)"
+  name: "Close-up of Tiffany stained glass window in Linsly-Chittenden Hall (OPAC 95442)"
   created: '1790614532'
   status: true
   langcode: en
@@ -12,6 +12,6 @@ custom_fields:
     -
       uri: 'public://starterkit/opac-95442.jpg'
       url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-95442.jpg'
-      alt: "Close-up of Tiffany-stained glass window in Linsley Chittenden Hall"
+      alt: "Close-up of Tiffany stained glass window in Linsly-Chittenden Hall"
       title: ''
   field_tags: null
