@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 2535b69d-835a-4430-a80b-bed3355021ae
+entity_type: media
+bundle: image
+base_fields:
+  name: "Star trails at night over the Sheffield-Sterling-Strathcona Hall tower (OPAC 87491)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-87491.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-87491.jpg'
+      alt: "Star trails at night over the Sheffield-Sterling-Strathcona Hall tower"
+      title: ''
+  field_tags: null

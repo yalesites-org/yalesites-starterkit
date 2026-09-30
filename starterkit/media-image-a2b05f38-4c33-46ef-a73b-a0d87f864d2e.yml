@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: a2b05f38-4c33-46ef-a73b-a0d87f864d2e
+entity_type: media
+bundle: image
+base_fields:
+  name: "Students' legs and feet standing indoors in a dark room (OPAC 90241)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-90241.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90241.jpg'
+      alt: "Students' legs and feet standing indoors in a dark room"
+      title: ''
+  field_tags: null

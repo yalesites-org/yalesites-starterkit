@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 8b5f05e0-0ee1-45c4-9c13-0b4fe978f634
+entity_type: media
+bundle: image
+base_fields:
+  name: "Two students chatting outside Hewitt Quadrangle (OPAC 88695)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-88695.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-88695.jpg'
+      alt: "Two students chatting outside Hewitt Quadrangle"
+      title: ''
+  field_tags: null

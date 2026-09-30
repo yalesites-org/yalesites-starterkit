@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 092a5545-c04c-4d28-b9f5-7b9e417800b1
+entity_type: media
+bundle: image
+base_fields:
+  name: "Cherry Blossom trees blooming across Cross Campus (OPAC 90483)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-90483.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90483.jpg'
+      alt: "Cherry Blossom trees blooming across Cross Campus"
+      title: ''
+  field_tags: null

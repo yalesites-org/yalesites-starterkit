@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: e112ad41-3e0d-4dc9-96b4-07407d4bce8f
+entity_type: media
+bundle: image
+base_fields:
+  name: "Small group of students dining atop Yale Science Building (OPAC 84160)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-84160.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-84160.jpg'
+      alt: "Small group of students dining atop Yale Science Building"
+      title: ''
+  field_tags: null
