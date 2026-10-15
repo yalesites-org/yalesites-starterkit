@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 161c25b6-7f53-4884-9776-ea17601120f0
+entity_type: media
+bundle: image
+base_fields:
+  name: "Group of Yale students relaxing, playing games, and gathering on Cross Campus during sunny day (OPAC 78845)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-78845.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-78845.jpg'
+      alt: "Group of Yale students relaxing, playing games, and gathering on Cross Campus during sunny day"
+      title: ''
+  field_tags: null

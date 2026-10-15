@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 79cd82de-0a4a-4ca7-83f7-113fb3c1e521
+entity_type: media
+bundle: image
+base_fields:
+  name: "Four students lounging on Cross Campus with one student playing acoustic guitar (OPAC 90453)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-90453.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90453.jpg'
+      alt: "Four students lounging on Cross Campus with one student playing acoustic guitar"
+      title: ''
+  field_tags: null

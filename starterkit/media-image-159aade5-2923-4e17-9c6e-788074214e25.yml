@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 159aade5-2923-4e17-9c6e-788074214e25
+entity_type: media
+bundle: image
+base_fields:
+  name: "Small group of students on Cross Campus playing a game outdoors (OPAC 90451)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-90451.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90451.jpg'
+      alt: "Small group of students on Cross Campus playing a game outdoors"
+      title: ''
+  field_tags: null

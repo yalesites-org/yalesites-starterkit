@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 6e963ee5-043d-4637-bd09-b75f0b1681c5
+entity_type: media
+bundle: image
+base_fields:
+  name: "Small group of students playing games on Silliman College courtyard (OPAC 86187)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-86187.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-86187.jpg'
+      alt: "Small group of students playing games on Silliman College courtyard"
+      title: ''
+  field_tags: null

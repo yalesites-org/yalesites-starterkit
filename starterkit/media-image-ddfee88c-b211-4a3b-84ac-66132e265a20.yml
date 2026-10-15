@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: ddfee88c-b211-4a3b-84ac-66132e265a20
+entity_type: media
+bundle: image
+base_fields:
+  name: "Exterior of campus building with tree during fall (OPAC 93641)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-93641.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-93641.jpg'
+      alt: "Exterior of campus building with tree during fall"
+      title: ''
+  field_tags: null

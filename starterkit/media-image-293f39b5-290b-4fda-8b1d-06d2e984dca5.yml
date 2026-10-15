@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 293f39b5-290b-4fda-8b1d-06d2e984dca5
+entity_type: media
+bundle: image
+base_fields:
+  name: "Small group of students gathering outdoors on campus with spring blooms (OPAC 90496)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-90496.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90496.jpg'
+      alt: "Small group of students gathering outdoors on campus with spring blooms"
+      title: ''
+  field_tags: null

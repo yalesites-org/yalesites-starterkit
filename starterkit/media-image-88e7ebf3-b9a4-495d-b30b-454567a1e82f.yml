@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 88e7ebf3-b9a4-495d-b30b-454567a1e82f
+entity_type: media
+bundle: image
+base_fields:
+  name: "Two students playing football on a sunny day in the Morse College courtyard (OPAC 81410)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-81410.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-81410.jpg'
+      alt: "Two students playing football on a sunny day in the Morse College courtyard"
+      title: ''
+  field_tags: null

@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 4abd007f-45f6-491a-b2b5-7188cbedf76e
+entity_type: media
+bundle: image
+base_fields:
+  name: "Close-up of campus building exterior with ivy leaves draped across (OPAC 93654)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-93654.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-93654.jpg'
+      alt: "Close-up of campus building exterior with ivy leaves draped across"
+      title: ''
+  field_tags: null

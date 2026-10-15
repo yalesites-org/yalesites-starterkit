@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 7423e36d-adde-4772-918c-79800e93331c
+entity_type: media
+bundle: image
+base_fields:
+  name: "Large group of students on Cross Campus enjoying outdoors (OPAC 90449)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-90449.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90449.jpg'
+      alt: "Large group of students on Cross Campus enjoying outdoors"
+      title: ''
+  field_tags: null

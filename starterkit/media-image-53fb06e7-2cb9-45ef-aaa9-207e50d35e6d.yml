@@ -1,0 +1,17 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 53fb06e7-2cb9-45ef-aaa9-207e50d35e6d
+entity_type: media
+bundle: image
+base_fields:
+  name: "Group of students gathering on Cross Campus for an outdoor picnic with one holding a puppy (OPAC 82175)"
+  created: '1790614532'
+  status: true
+  langcode: en
+custom_fields:
+  field_media_image:
+    -
+      uri: 'public://starterkit/opac-82175.jpg'
+      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-82175.jpg'
+      alt: "Group of students gathering on Cross Campus for an outdoor picnic with one holding a puppy"
+      title: ''
+  field_tags: null
