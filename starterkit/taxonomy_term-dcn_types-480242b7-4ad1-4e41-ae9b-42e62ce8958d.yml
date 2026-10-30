@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 480242b7-4ad1-4e41-ae9b-42e62ce8958d
+entity_type: taxonomy_term
+bundle: dcn_types
+base_fields:
+  name: 'Report Number'
+  weight: 3
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

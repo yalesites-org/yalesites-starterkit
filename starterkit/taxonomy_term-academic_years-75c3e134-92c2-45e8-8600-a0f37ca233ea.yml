@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 75c3e134-92c2-45e8-8600-a0f37ca233ea
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2012-2013
+  weight: 14
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

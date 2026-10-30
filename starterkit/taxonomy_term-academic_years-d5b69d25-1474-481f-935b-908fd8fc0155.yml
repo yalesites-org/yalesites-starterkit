@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: d5b69d25-1474-481f-935b-908fd8fc0155
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2005-2006
+  weight: 21
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

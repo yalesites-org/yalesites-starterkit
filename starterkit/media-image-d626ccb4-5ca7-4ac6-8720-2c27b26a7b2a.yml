@@ -3,15 +3,33 @@ uuid: d626ccb4-5ca7-4ac6-8720-2c27b26a7b2a
 entity_type: media
 bundle: image
 base_fields:
-  name: "Small group of students tossing Frisbee during fall with Sterling Memorial Library in background (OPAC 79478)"
+  name: 'Small group of students tossing Frisbee during fall with Sterling Memorial Library in background (OPAC 79478)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-79478.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-79478.jpg'
-      alt: "Small group of students tossing Frisbee during fall with Sterling Memorial Library in background"
+      alt: 'Small group of students tossing Frisbee during fall with Sterling Memorial Library in background'
       title: ''
+      target_entity:
+        uuid: 1612dcbd-67a5-48b3-87ca-89e58e234a66
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-79478.jpg
+          uri: 'public://starterkit/opac-79478.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-79478.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1107'
+        custom_fields: {  }
   field_tags: null

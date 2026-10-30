@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: f9c6d430-7674-4aa3-be7d-5fd0b8a28bfb
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2019-2020
+  weight: 7
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

@@ -3,15 +3,33 @@ uuid: 0aa436c9-0f33-48b1-affd-1e0b8c8c5734
 entity_type: media
 bundle: image
 base_fields:
-  name: "Outdoor scene of fall on Old Campus with leaf in foreground (OPAC 86575)"
+  name: 'Outdoor scene of fall on Old Campus with leaf in foreground (OPAC 86575)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-86575.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-86575.jpg'
-      alt: "Outdoor scene of fall on Old Campus with leaf in foreground"
+      alt: 'Outdoor scene of fall on Old Campus with leaf in foreground'
       title: ''
+      target_entity:
+        uuid: 2412ea05-6898-4c45-b572-6f302ede1b84
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-86575.jpg
+          uri: 'public://starterkit/opac-86575.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-86575.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1000'
+        custom_fields: {  }
   field_tags: null

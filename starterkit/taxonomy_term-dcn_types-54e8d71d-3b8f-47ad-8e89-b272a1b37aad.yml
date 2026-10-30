@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 54e8d71d-3b8f-47ad-8e89-b272a1b37aad
+entity_type: taxonomy_term
+bundle: dcn_types
+base_fields:
+  name: DOI
+  weight: 0
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

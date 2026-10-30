@@ -3,15 +3,33 @@ uuid: 161c25b6-7f53-4884-9776-ea17601120f0
 entity_type: media
 bundle: image
 base_fields:
-  name: "Group of Yale students relaxing, playing games, and gathering on Cross Campus during sunny day (OPAC 78845)"
+  name: 'Group of Yale students relaxing, playing games, and gathering on Cross Campus during sunny day (OPAC 78845)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-78845.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-78845.jpg'
-      alt: "Group of Yale students relaxing, playing games, and gathering on Cross Campus during sunny day"
+      alt: 'Group of Yale students relaxing, playing games, and gathering on Cross Campus during sunny day'
       title: ''
+      target_entity:
+        uuid: 4caff5d3-7e18-4dab-a2e0-ba007466241c
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-78845.jpg
+          uri: 'public://starterkit/opac-78845.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-78845.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1000'
+        custom_fields: {  }
   field_tags: null

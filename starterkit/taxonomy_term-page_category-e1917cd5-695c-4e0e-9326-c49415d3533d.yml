@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: e1917cd5-695c-4e0e-9326-c49415d3533d
+entity_type: taxonomy_term
+bundle: page_category
+base_fields:
+  name: About
+  weight: 1
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1789649936'
+  url: null
+custom_fields: {  }

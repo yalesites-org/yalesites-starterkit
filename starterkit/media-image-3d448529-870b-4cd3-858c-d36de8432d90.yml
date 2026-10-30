@@ -3,15 +3,33 @@ uuid: 3d448529-870b-4cd3-858c-d36de8432d90
 entity_type: media
 bundle: image
 base_fields:
-  name: "Two students on Cross Campus lounging, laughing, and enjoying the warmth of Spring (OPAC 74296)"
+  name: 'Two students on Cross Campus lounging, laughing, and enjoying the warmth of Spring (OPAC 74296)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-74296.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-74296.jpg'
-      alt: "Two students on Cross Campus lounging, laughing, and enjoying the warmth of Spring"
+      alt: 'Two students on Cross Campus lounging, laughing, and enjoying the warmth of Spring'
       title: ''
+      target_entity:
+        uuid: 2339df77-a394-4641-87c3-b6e7ffee6641
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-74296.jpg
+          uri: 'public://starterkit/opac-74296.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-74296.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1000'
+        custom_fields: {  }
   field_tags: null

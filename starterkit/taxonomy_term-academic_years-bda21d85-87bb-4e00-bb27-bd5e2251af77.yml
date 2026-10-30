@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: bda21d85-87bb-4e00-bb27-bd5e2251af77
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2024-2025
+  weight: 2
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

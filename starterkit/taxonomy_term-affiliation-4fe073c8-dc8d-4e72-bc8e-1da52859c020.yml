@@ -8,4 +8,6 @@ base_fields:
   langcode: en
   description: null
   parent: 0
+  changed: '1695742445'
+  url: null
 custom_fields: {  }
