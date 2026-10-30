@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: a43daff2-f021-4d22-b2c4-fbd6290b917a
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2003-2004
+  weight: 23
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

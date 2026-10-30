@@ -3,15 +3,33 @@ uuid: ddfee88c-b211-4a3b-84ac-66132e265a20
 entity_type: media
 bundle: image
 base_fields:
-  name: "Exterior of campus building with tree during fall (OPAC 93641)"
+  name: 'Exterior of campus building with tree during fall (OPAC 93641)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-93641.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-93641.jpg'
-      alt: "Exterior of campus building with tree during fall"
+      alt: 'Exterior of campus building with tree during fall'
       title: ''
+      target_entity:
+        uuid: cae191fd-b2b0-454a-adb5-a42ba83daf91
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-93641.jpg
+          uri: 'public://starterkit/opac-93641.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-93641.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1001'
+        custom_fields: {  }
   field_tags: null

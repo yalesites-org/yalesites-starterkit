@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 4faf632a-2ae8-43b2-85ae-a557ce276f59
+entity_type: taxonomy_term
+bundle: page_category
+base_fields:
+  name: Contact
+  weight: 4
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1789649936'
+  url: null
+custom_fields: {  }

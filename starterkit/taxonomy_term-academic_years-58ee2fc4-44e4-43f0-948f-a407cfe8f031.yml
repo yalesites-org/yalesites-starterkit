@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 58ee2fc4-44e4-43f0-948f-a407cfe8f031
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2008-2009
+  weight: 18
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

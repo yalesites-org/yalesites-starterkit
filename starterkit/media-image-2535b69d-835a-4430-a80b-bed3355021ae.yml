@@ -3,15 +3,33 @@ uuid: 2535b69d-835a-4430-a80b-bed3355021ae
 entity_type: media
 bundle: image
 base_fields:
-  name: "Star trails at night over the Sheffield-Sterling-Strathcona Hall tower (OPAC 87491)"
+  name: 'Star trails at night over the Sheffield-Sterling-Strathcona Hall tower (OPAC 87491)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-87491.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-87491.jpg'
-      alt: "Star trails at night over the Sheffield-Sterling-Strathcona Hall tower"
+      alt: 'Star trails at night over the Sheffield-Sterling-Strathcona Hall tower'
       title: ''
+      target_entity:
+        uuid: 7609743e-7759-4179-8fed-fca0a82d6d4b
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-87491.jpg
+          uri: 'public://starterkit/opac-87491.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-87491.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1000'
+        custom_fields: {  }
   field_tags: null

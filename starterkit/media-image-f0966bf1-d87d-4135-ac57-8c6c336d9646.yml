@@ -3,15 +3,33 @@ uuid: f0966bf1-d87d-4135-ac57-8c6c336d9646
 entity_type: media
 bundle: image
 base_fields:
-  name: "Back of Nathan Hale statue on Old Campus during the fall (OPAC 86581)"
+  name: 'Back of Nathan Hale statue on Old Campus during the fall (OPAC 86581)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-86581.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-86581.jpg'
-      alt: "Back of Nathan Hale statue on Old Campus during the fall"
+      alt: 'Back of Nathan Hale statue on Old Campus during the fall'
       title: ''
+      target_entity:
+        uuid: df810a56-ef99-4f22-b5a9-847bd1b82603
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-86581.jpg
+          uri: 'public://starterkit/opac-86581.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-86581.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1000'
+        custom_fields: {  }
   field_tags: null

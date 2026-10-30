@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 4851f63f-5495-4158-9913-0611459ca5ad
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2010-2011
+  weight: 16
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

@@ -3,15 +3,33 @@ uuid: d2e253b1-c01e-48fa-9348-0d4fc59d566e
 entity_type: media
 bundle: image
 base_fields:
-  name: "One student walking across Silliman College courtyard with sun setting (OPAC 85723)"
+  name: 'One student walking across Silliman College courtyard with sun setting (OPAC 85723)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-85723.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-85723.jpg'
-      alt: "One student walking across Silliman College courtyard with sun setting"
+      alt: 'One student walking across Silliman College courtyard with sun setting'
       title: ''
+      target_entity:
+        uuid: 63ff8729-7356-430e-9af4-ffff5d57abd6
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-85723.jpg
+          uri: 'public://starterkit/opac-85723.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-85723.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1177'
+        custom_fields: {  }
   field_tags: null

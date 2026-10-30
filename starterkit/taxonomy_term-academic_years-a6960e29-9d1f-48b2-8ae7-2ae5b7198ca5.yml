@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: a6960e29-9d1f-48b2-8ae7-2ae5b7198ca5
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2021-2022
+  weight: 5
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

@@ -7,11 +7,29 @@ base_fields:
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-93816.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-93816.jpg'
       alt: "Bird's-eye view of Woolsey Hall street intersection"
       title: ''
+      target_entity:
+        uuid: 636c37f7-1e8b-4deb-a608-3f8afaa25d10
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-93816.jpg
+          uri: 'public://starterkit/opac-93816.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-93816.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '843'
+        custom_fields: {  }
   field_tags: null

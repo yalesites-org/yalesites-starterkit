@@ -3,15 +3,33 @@ uuid: 53fb06e7-2cb9-45ef-aaa9-207e50d35e6d
 entity_type: media
 bundle: image
 base_fields:
-  name: "Group of students gathering on Cross Campus for an outdoor picnic with one holding a puppy (OPAC 82175)"
+  name: 'Group of students gathering on Cross Campus for an outdoor picnic with one holding a puppy (OPAC 82175)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-82175.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-82175.jpg'
-      alt: "Group of students gathering on Cross Campus for an outdoor picnic with one holding a puppy"
+      alt: 'Group of students gathering on Cross Campus for an outdoor picnic with one holding a puppy'
       title: ''
+      target_entity:
+        uuid: 3d3ee784-8ea3-437b-a870-7b128ef54970
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-82175.jpg
+          uri: 'public://starterkit/opac-82175.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-82175.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1001'
+        custom_fields: {  }
   field_tags: null

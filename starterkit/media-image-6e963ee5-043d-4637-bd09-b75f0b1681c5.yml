@@ -3,15 +3,33 @@ uuid: 6e963ee5-043d-4637-bd09-b75f0b1681c5
 entity_type: media
 bundle: image
 base_fields:
-  name: "Small group of students playing games on Silliman College courtyard (OPAC 86187)"
+  name: 'Small group of students playing games on Silliman College courtyard (OPAC 86187)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-86187.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-86187.jpg'
-      alt: "Small group of students playing games on Silliman College courtyard"
+      alt: 'Small group of students playing games on Silliman College courtyard'
       title: ''
+      target_entity:
+        uuid: d557c606-5a3f-4a32-a786-574ce544ee29
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-86187.jpg
+          uri: 'public://starterkit/opac-86187.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-86187.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1000'
+        custom_fields: {  }
   field_tags: null

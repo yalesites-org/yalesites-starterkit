@@ -3,15 +3,33 @@ uuid: 159aade5-2923-4e17-9c6e-788074214e25
 entity_type: media
 bundle: image
 base_fields:
-  name: "Small group of students on Cross Campus playing a game outdoors (OPAC 90451)"
+  name: 'Small group of students on Cross Campus playing a game outdoors (OPAC 90451)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-90451.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90451.jpg'
-      alt: "Small group of students on Cross Campus playing a game outdoors"
+      alt: 'Small group of students on Cross Campus playing a game outdoors'
       title: ''
+      target_entity:
+        uuid: 29bb7ee6-deb0-4341-86c3-e62912c4558d
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-90451.jpg
+          uri: 'public://starterkit/opac-90451.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90451.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1080'
+        custom_fields: {  }
   field_tags: null

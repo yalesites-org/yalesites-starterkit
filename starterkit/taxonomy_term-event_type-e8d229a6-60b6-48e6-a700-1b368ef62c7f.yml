@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: e8d229a6-60b6-48e6-a700-1b368ef62c7f
+entity_type: taxonomy_term
+bundle: event_type
+base_fields:
+  name: Hybrid
+  weight: 0
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1723661284'
+  url: null
+custom_fields: {  }

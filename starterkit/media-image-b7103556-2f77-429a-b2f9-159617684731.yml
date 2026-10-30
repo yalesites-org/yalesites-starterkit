@@ -7,11 +7,29 @@ base_fields:
   created: '1693934413'
   status: true
   langcode: en
+  changed: '1693934625'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://2023-09/students-cross-campus_anna-zhang.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-cross-campus_anna-zhang.jpg'
       alt: "students enjoy the vibrancy of Yale's campus scenery"
       title: ''
+      target_entity:
+        uuid: 77bf4379-9701-4a19-8ceb-640297e44ec1
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: students-cross-campus_anna-zhang.jpg
+          uri: 'public://2023-09/students-cross-campus_anna-zhang.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/2023-09/students-cross-campus_anna-zhang.jpg'
+          status: '1'
+          created: 1693934413
+          changed: 1693934578
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1249'
+            'y': '1101'
+        custom_fields: {  }
   field_tags: null

@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: a8d6d6f7-0feb-4064-ab9e-99e1fed35ae5
+entity_type: taxonomy_term
+bundle: academic_years
+base_fields:
+  name: 2016-2017
+  weight: 10
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1778595027'
+  url: null
+custom_fields: {  }

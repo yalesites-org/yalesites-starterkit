@@ -3,15 +3,33 @@ uuid: 462506a8-bae3-4f7f-8bfe-2a9dd476ea64
 entity_type: media
 bundle: image
 base_fields:
-  name: "Yale University welcome sign (OPAC 95058)"
+  name: 'Yale University welcome sign (OPAC 95058)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-95058.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-95058.jpg'
-      alt: "Yale University welcome sign"
+      alt: 'Yale University welcome sign'
       title: ''
+      target_entity:
+        uuid: 50e36b90-1318-4540-b14a-44d865b4ad2b
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-95058.jpg
+          uri: 'public://starterkit/opac-95058.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-95058.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1002'
+        custom_fields: {  }
   field_tags: null

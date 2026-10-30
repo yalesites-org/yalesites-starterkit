@@ -1,0 +1,13 @@
+site_uuid: 3be7d457-cc13-4e03-bde2-d004a9e0f46e
+uuid: 7cebf92f-f0ec-45a4-8bc7-08646f964123
+entity_type: taxonomy_term
+bundle: page_category
+base_fields:
+  name: 'Landing Page'
+  weight: 5
+  langcode: en
+  description: null
+  parent: 0
+  changed: '1789649936'
+  url: null
+custom_fields: {  }

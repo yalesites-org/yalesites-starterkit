@@ -3,15 +3,33 @@ uuid: 6f72dd69-3ea6-4e84-9bd4-b580279d262e
 entity_type: media
 bundle: image
 base_fields:
-  name: "Small group of students gathered around table on Cross Campus with Sterling Memorial Library in background (OPAC 78851)"
+  name: 'Small group of students gathered around table on Cross Campus with Sterling Memorial Library in background (OPAC 78851)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-78851.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-78851.jpg'
-      alt: "Small group of students gathered around table on Cross Campus with Sterling Memorial Library in background"
+      alt: 'Small group of students gathered around table on Cross Campus with Sterling Memorial Library in background'
       title: ''
+      target_entity:
+        uuid: 7f48154a-c937-4f3a-a417-de567ae0f209
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-78851.jpg
+          uri: 'public://starterkit/opac-78851.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-78851.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1000'
+        custom_fields: {  }
   field_tags: null

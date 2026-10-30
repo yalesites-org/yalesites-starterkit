@@ -3,15 +3,33 @@ uuid: 092a5545-c04c-4d28-b9f5-7b9e417800b1
 entity_type: media
 bundle: image
 base_fields:
-  name: "Cherry Blossom trees blooming across Cross Campus (OPAC 90483)"
+  name: 'Cherry Blossom trees blooming across Cross Campus (OPAC 90483)'
   created: '1790614532'
   status: true
   langcode: en
+  changed: '1792086656'
+  url: null
 custom_fields:
   field_media_image:
     -
-      uri: 'public://starterkit/opac-90483.jpg'
-      url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90483.jpg'
-      alt: "Cherry Blossom trees blooming across Cross Campus"
+      alt: 'Cherry Blossom trees blooming across Cross Campus'
       title: ''
+      target_entity:
+        uuid: 9ac60c31-1d73-4099-bc80-e7ab312dbc88
+        entity_type: file
+        bundle: file
+        base_fields:
+          name: opac-90483.jpg
+          uri: 'public://starterkit/opac-90483.jpg'
+          url: 'http://dev-ys-starterkit.pantheonsite.io/sites/default/files/starterkit/opac-90483.jpg'
+          status: '1'
+          created: 1792086656
+          changed: 1792086656
+          mimetype: image/jpeg
+          crop:
+            width: 0
+            height: 0
+            x: '1500'
+            'y': '1000'
+        custom_fields: {  }
   field_tags: null
